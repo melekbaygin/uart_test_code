@@ -1,0 +1,182 @@
+\hypertarget{uart__test__code_8c}{}\doxysection{uart\+\_\+test\+\_\+code.\+c Dosya ReferansÄ±}
+\label{uart__test__code_8c}\index{uart\_test\_code.c@{uart\_test\_code.c}}
+{\ttfamily \#include \char`\"{}project.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}uart\+\_\+test.\+h\char`\"{}}\newline
+\doxysubsection*{Makrolar}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{uart__test__code_8c_a8babe8b37acd7b4b8c9b4aef99f767ef}{T\+A\+S\+K\+S\+T\+A\+C\+K\+S\+I\+ZE}}~512
+\item 
+\#define \mbox{\hyperlink{uart__test__code_8c_a058b1d8343c11c690822eee069a1c98a}{uart\+\_\+buffersize}}~8
+\end{DoxyCompactItemize}
+\doxysubsection*{Fonksiyonlar}
+\begin{DoxyCompactItemize}
+\item 
+Void \mbox{\hyperlink{uart__test__code_8c_a422c1d260c214fe11b7d9f7e75d6f86a}{task\+\_\+init}} (U\+Arg arg0, U\+Arg arg1)
+\item 
+Void \mbox{\hyperlink{uart__test__code_8c_a2d0bf0403e4c3e9caac777213bce3cbf}{task\+\_\+uart}} (U\+Arg arg0, U\+Arg arg1)
+\item 
+Int \mbox{\hyperlink{uart__test__code_8c_a74005dc4185dc640795ff7724cb0272b}{main}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{DeÄŸiÅŸkenler}
+\begin{DoxyCompactItemize}
+\item 
+U\+Int32 \mbox{\hyperlink{uart__test__code_8c_a73ff819b14ad4ebf0260b273bada04e5}{sleep\+Tick\+Count}}
+\item 
+Task\+\_\+\+Struct \mbox{\hyperlink{uart__test__code_8c_add430fef18f591940285828f03ed9402}{task1\+Struct}}
+\item 
+Task\+\_\+\+Struct \mbox{\hyperlink{uart__test__code_8c_aa3813524351f1196d72568bad6d2eb5b}{task2\+Struct}}
+\item 
+Char \mbox{\hyperlink{uart__test__code_8c_a95cb54b1146290d9c7e4e21f63d4fdb2}{task1\+Stack}} \mbox{[}\mbox{\hyperlink{uart__test__code_8c_a8babe8b37acd7b4b8c9b4aef99f767ef}{T\+A\+S\+K\+S\+T\+A\+C\+K\+S\+I\+ZE}}\mbox{]}
+\item 
+Char \mbox{\hyperlink{uart__test__code_8c_a84206c4e2a50daf9d77bd310210bd3ed}{task2\+Stack}} \mbox{[}\mbox{\hyperlink{uart__test__code_8c_a8babe8b37acd7b4b8c9b4aef99f767ef}{T\+A\+S\+K\+S\+T\+A\+C\+K\+S\+I\+ZE}}\mbox{]}
+\item 
+Semaphore\+\_\+\+Struct \mbox{\hyperlink{uart__test__code_8c_a331b4ba17e1a4282463ffeb02b36b3de}{uart\+\_\+sem\+Struct}}
+\item 
+Semaphore\+\_\+\+Handle \mbox{\hyperlink{uart__test__code_8c_a271fd14781bcfca337e7142068d067b1}{uart\+\_\+sem\+Handle}}
+\item 
+Semaphore\+\_\+\+Struct \mbox{\hyperlink{uart__test__code_8c_a371ce57b71a5c9c07c30fdbe5371449e}{init\+\_\+sem\+Struct}}
+\item 
+Semaphore\+\_\+\+Handle \mbox{\hyperlink{uart__test__code_8c_a5fa6a3816d15ab9ab477aa071df8a308}{init\+\_\+sem\+Handle}}
+\item 
+U\+A\+R\+T\+\_\+\+Handle \mbox{\hyperlink{uart__test__code_8c_a9152c6bde9e4acc690ec14f8be3d6e11}{uart}}
+\item 
+U\+A\+R\+T\+\_\+\+Params \mbox{\hyperlink{uart__test__code_8c_a6ec5e4b29cc55a16a370cdf1d603d8d5}{uart\+Params}}
+\item 
+unsigned char \mbox{\hyperlink{uart__test__code_8c_a3cdc8c7b7b7ed260d0eae1c02f1c1933}{pc\+Buffer}} \mbox{[}128\mbox{]}
+\item 
+unsigned char \mbox{\hyperlink{uart__test__code_8c_a48850bc4d39148b702c37809e066c1dd}{uart\+Buf}} \mbox{[}\mbox{\hyperlink{uart__test__code_8c_a058b1d8343c11c690822eee069a1c98a}{uart\+\_\+buffersize}}\mbox{]}
+\item 
+unsigned char \mbox{\hyperlink{uart__test__code_8c_ab72cb52c79611e9e6c38fac29a4723d4}{pc\+Data}} \mbox{[}$\,$\mbox{]}
+\item 
+unsigned char \mbox{\hyperlink{uart__test__code_8c_a35d8b8b42a9f28791a07e2f3b8191d07}{uart\+Data}} \mbox{[}128\mbox{]}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Makro DokÃ¼mantasyonu}
+\mbox{\Hypertarget{uart__test__code_8c_a8babe8b37acd7b4b8c9b4aef99f767ef}\label{uart__test__code_8c_a8babe8b37acd7b4b8c9b4aef99f767ef}} 
+\index{uart\_test\_code.c@{uart\_test\_code.c}!TASKSTACKSIZE@{TASKSTACKSIZE}}
+\index{TASKSTACKSIZE@{TASKSTACKSIZE}!uart\_test\_code.c@{uart\_test\_code.c}}
+\doxysubsubsection{\texorpdfstring{TASKSTACKSIZE}{TASKSTACKSIZE}}
+{\footnotesize\ttfamily \#define T\+A\+S\+K\+S\+T\+A\+C\+K\+S\+I\+ZE~512}
+
+\mbox{\Hypertarget{uart__test__code_8c_a058b1d8343c11c690822eee069a1c98a}\label{uart__test__code_8c_a058b1d8343c11c690822eee069a1c98a}} 
+\index{uart\_test\_code.c@{uart\_test\_code.c}!uart\_buffersize@{uart\_buffersize}}
+\index{uart\_buffersize@{uart\_buffersize}!uart\_test\_code.c@{uart\_test\_code.c}}
+\doxysubsubsection{\texorpdfstring{uart\_buffersize}{uart\_buffersize}}
+{\footnotesize\ttfamily \#define uart\+\_\+buffersize~8}
+
+
+
+\doxysubsection{Fonksiyon DokÃ¼mantasyonu}
+\mbox{\Hypertarget{uart__test__code_8c_a74005dc4185dc640795ff7724cb0272b}\label{uart__test__code_8c_a74005dc4185dc640795ff7724cb0272b}} 
+\index{uart\_test\_code.c@{uart\_test\_code.c}!main@{main}}
+\index{main@{main}!uart\_test\_code.c@{uart\_test\_code.c}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily Int main (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{uart__test__code_8c_a422c1d260c214fe11b7d9f7e75d6f86a}\label{uart__test__code_8c_a422c1d260c214fe11b7d9f7e75d6f86a}} 
+\index{uart\_test\_code.c@{uart\_test\_code.c}!task\_init@{task\_init}}
+\index{task\_init@{task\_init}!uart\_test\_code.c@{uart\_test\_code.c}}
+\doxysubsubsection{\texorpdfstring{task\_init()}{task\_init()}}
+{\footnotesize\ttfamily Void task\+\_\+init (\begin{DoxyParamCaption}\item[{U\+Arg}]{arg0,  }\item[{U\+Arg}]{arg1 }\end{DoxyParamCaption})}
+
+task\+\_\+init fonksiyonu gerekli kurulumlarý yapýp uart\textquotesingle{}ýn echo yapmasýiçin semaphore\textquotesingle{}u post etmesi için çalýþan os taskýdýr. \mbox{\Hypertarget{uart__test__code_8c_a2d0bf0403e4c3e9caac777213bce3cbf}\label{uart__test__code_8c_a2d0bf0403e4c3e9caac777213bce3cbf}} 
+\index{uart\_test\_code.c@{uart\_test\_code.c}!task\_uart@{task\_uart}}
+\index{task\_uart@{task\_uart}!uart\_test\_code.c@{uart\_test\_code.c}}
+\doxysubsubsection{\texorpdfstring{task\_uart()}{task\_uart()}}
+{\footnotesize\ttfamily Void task\+\_\+uart (\begin{DoxyParamCaption}\item[{U\+Arg}]{arg0,  }\item[{U\+Arg}]{arg1 }\end{DoxyParamCaption})}
+
+task\+\_\+uart fonksiyonu ringbuffer\textquotesingle{}a yazýlmýþ verileri uarta tekrar göndermek için çalýþmasý gereken bir iþletim sistemi taskýdýr. 
+
+\doxysubsection{DeÄŸiÅŸken DokÃ¼mantasyonu}
+\mbox{\Hypertarget{uart__test__code_8c_a5fa6a3816d15ab9ab477aa071df8a308}\label{uart__test__code_8c_a5fa6a3816d15ab9ab477aa071df8a308}} 
+\index{uart\_test\_code.c@{uart\_test\_code.c}!init\_semHandle@{init\_semHandle}}
+\index{init\_semHandle@{init\_semHandle}!uart\_test\_code.c@{uart\_test\_code.c}}
+\doxysubsubsection{\texorpdfstring{init\_semHandle}{init\_semHandle}}
+{\footnotesize\ttfamily Semaphore\+\_\+\+Handle init\+\_\+sem\+Handle}
+
+\mbox{\Hypertarget{uart__test__code_8c_a371ce57b71a5c9c07c30fdbe5371449e}\label{uart__test__code_8c_a371ce57b71a5c9c07c30fdbe5371449e}} 
+\index{uart\_test\_code.c@{uart\_test\_code.c}!init\_semStruct@{init\_semStruct}}
+\index{init\_semStruct@{init\_semStruct}!uart\_test\_code.c@{uart\_test\_code.c}}
+\doxysubsubsection{\texorpdfstring{init\_semStruct}{init\_semStruct}}
+{\footnotesize\ttfamily Semaphore\+\_\+\+Struct init\+\_\+sem\+Struct}
+
+\mbox{\Hypertarget{uart__test__code_8c_a3cdc8c7b7b7ed260d0eae1c02f1c1933}\label{uart__test__code_8c_a3cdc8c7b7b7ed260d0eae1c02f1c1933}} 
+\index{uart\_test\_code.c@{uart\_test\_code.c}!pcBuffer@{pcBuffer}}
+\index{pcBuffer@{pcBuffer}!uart\_test\_code.c@{uart\_test\_code.c}}
+\doxysubsubsection{\texorpdfstring{pcBuffer}{pcBuffer}}
+{\footnotesize\ttfamily unsigned char pc\+Buffer\mbox{[}128\mbox{]}}
+
+\mbox{\Hypertarget{uart__test__code_8c_ab72cb52c79611e9e6c38fac29a4723d4}\label{uart__test__code_8c_ab72cb52c79611e9e6c38fac29a4723d4}} 
+\index{uart\_test\_code.c@{uart\_test\_code.c}!pcData@{pcData}}
+\index{pcData@{pcData}!uart\_test\_code.c@{uart\_test\_code.c}}
+\doxysubsubsection{\texorpdfstring{pcData}{pcData}}
+{\footnotesize\ttfamily unsigned char pc\+Data\mbox{[}$\,$\mbox{]}}
+
+\mbox{\Hypertarget{uart__test__code_8c_a73ff819b14ad4ebf0260b273bada04e5}\label{uart__test__code_8c_a73ff819b14ad4ebf0260b273bada04e5}} 
+\index{uart\_test\_code.c@{uart\_test\_code.c}!sleepTickCount@{sleepTickCount}}
+\index{sleepTickCount@{sleepTickCount}!uart\_test\_code.c@{uart\_test\_code.c}}
+\doxysubsubsection{\texorpdfstring{sleepTickCount}{sleepTickCount}}
+{\footnotesize\ttfamily U\+Int32 sleep\+Tick\+Count}
+
+\mbox{\Hypertarget{uart__test__code_8c_a95cb54b1146290d9c7e4e21f63d4fdb2}\label{uart__test__code_8c_a95cb54b1146290d9c7e4e21f63d4fdb2}} 
+\index{uart\_test\_code.c@{uart\_test\_code.c}!task1Stack@{task1Stack}}
+\index{task1Stack@{task1Stack}!uart\_test\_code.c@{uart\_test\_code.c}}
+\doxysubsubsection{\texorpdfstring{task1Stack}{task1Stack}}
+{\footnotesize\ttfamily Char task1\+Stack\mbox{[}\mbox{\hyperlink{uart__test__code_8c_a8babe8b37acd7b4b8c9b4aef99f767ef}{T\+A\+S\+K\+S\+T\+A\+C\+K\+S\+I\+ZE}}\mbox{]}}
+
+\mbox{\Hypertarget{uart__test__code_8c_add430fef18f591940285828f03ed9402}\label{uart__test__code_8c_add430fef18f591940285828f03ed9402}} 
+\index{uart\_test\_code.c@{uart\_test\_code.c}!task1Struct@{task1Struct}}
+\index{task1Struct@{task1Struct}!uart\_test\_code.c@{uart\_test\_code.c}}
+\doxysubsubsection{\texorpdfstring{task1Struct}{task1Struct}}
+{\footnotesize\ttfamily Task\+\_\+\+Struct task1\+Struct}
+
+\mbox{\Hypertarget{uart__test__code_8c_a84206c4e2a50daf9d77bd310210bd3ed}\label{uart__test__code_8c_a84206c4e2a50daf9d77bd310210bd3ed}} 
+\index{uart\_test\_code.c@{uart\_test\_code.c}!task2Stack@{task2Stack}}
+\index{task2Stack@{task2Stack}!uart\_test\_code.c@{uart\_test\_code.c}}
+\doxysubsubsection{\texorpdfstring{task2Stack}{task2Stack}}
+{\footnotesize\ttfamily Char task2\+Stack\mbox{[}\mbox{\hyperlink{uart__test__code_8c_a8babe8b37acd7b4b8c9b4aef99f767ef}{T\+A\+S\+K\+S\+T\+A\+C\+K\+S\+I\+ZE}}\mbox{]}}
+
+\mbox{\Hypertarget{uart__test__code_8c_aa3813524351f1196d72568bad6d2eb5b}\label{uart__test__code_8c_aa3813524351f1196d72568bad6d2eb5b}} 
+\index{uart\_test\_code.c@{uart\_test\_code.c}!task2Struct@{task2Struct}}
+\index{task2Struct@{task2Struct}!uart\_test\_code.c@{uart\_test\_code.c}}
+\doxysubsubsection{\texorpdfstring{task2Struct}{task2Struct}}
+{\footnotesize\ttfamily Task\+\_\+\+Struct task2\+Struct}
+
+\mbox{\Hypertarget{uart__test__code_8c_a9152c6bde9e4acc690ec14f8be3d6e11}\label{uart__test__code_8c_a9152c6bde9e4acc690ec14f8be3d6e11}} 
+\index{uart\_test\_code.c@{uart\_test\_code.c}!uart@{uart}}
+\index{uart@{uart}!uart\_test\_code.c@{uart\_test\_code.c}}
+\doxysubsubsection{\texorpdfstring{uart}{uart}}
+{\footnotesize\ttfamily U\+A\+R\+T\+\_\+\+Handle uart}
+
+\mbox{\Hypertarget{uart__test__code_8c_a271fd14781bcfca337e7142068d067b1}\label{uart__test__code_8c_a271fd14781bcfca337e7142068d067b1}} 
+\index{uart\_test\_code.c@{uart\_test\_code.c}!uart\_semHandle@{uart\_semHandle}}
+\index{uart\_semHandle@{uart\_semHandle}!uart\_test\_code.c@{uart\_test\_code.c}}
+\doxysubsubsection{\texorpdfstring{uart\_semHandle}{uart\_semHandle}}
+{\footnotesize\ttfamily Semaphore\+\_\+\+Handle uart\+\_\+sem\+Handle}
+
+\mbox{\Hypertarget{uart__test__code_8c_a331b4ba17e1a4282463ffeb02b36b3de}\label{uart__test__code_8c_a331b4ba17e1a4282463ffeb02b36b3de}} 
+\index{uart\_test\_code.c@{uart\_test\_code.c}!uart\_semStruct@{uart\_semStruct}}
+\index{uart\_semStruct@{uart\_semStruct}!uart\_test\_code.c@{uart\_test\_code.c}}
+\doxysubsubsection{\texorpdfstring{uart\_semStruct}{uart\_semStruct}}
+{\footnotesize\ttfamily Semaphore\+\_\+\+Struct uart\+\_\+sem\+Struct}
+
+\mbox{\Hypertarget{uart__test__code_8c_a48850bc4d39148b702c37809e066c1dd}\label{uart__test__code_8c_a48850bc4d39148b702c37809e066c1dd}} 
+\index{uart\_test\_code.c@{uart\_test\_code.c}!uartBuf@{uartBuf}}
+\index{uartBuf@{uartBuf}!uart\_test\_code.c@{uart\_test\_code.c}}
+\doxysubsubsection{\texorpdfstring{uartBuf}{uartBuf}}
+{\footnotesize\ttfamily unsigned char uart\+Buf\mbox{[}\mbox{\hyperlink{uart__test__code_8c_a058b1d8343c11c690822eee069a1c98a}{uart\+\_\+buffersize}}\mbox{]}}
+
+\mbox{\Hypertarget{uart__test__code_8c_a35d8b8b42a9f28791a07e2f3b8191d07}\label{uart__test__code_8c_a35d8b8b42a9f28791a07e2f3b8191d07}} 
+\index{uart\_test\_code.c@{uart\_test\_code.c}!uartData@{uartData}}
+\index{uartData@{uartData}!uart\_test\_code.c@{uart\_test\_code.c}}
+\doxysubsubsection{\texorpdfstring{uartData}{uartData}}
+{\footnotesize\ttfamily unsigned char uart\+Data\mbox{[}128\mbox{]}}
+
+\mbox{\Hypertarget{uart__test__code_8c_a6ec5e4b29cc55a16a370cdf1d603d8d5}\label{uart__test__code_8c_a6ec5e4b29cc55a16a370cdf1d603d8d5}} 
+\index{uart\_test\_code.c@{uart\_test\_code.c}!uartParams@{uartParams}}
+\index{uartParams@{uartParams}!uart\_test\_code.c@{uart\_test\_code.c}}
+\doxysubsubsection{\texorpdfstring{uartParams}{uartParams}}
+{\footnotesize\ttfamily U\+A\+R\+T\+\_\+\+Params uart\+Params}
+

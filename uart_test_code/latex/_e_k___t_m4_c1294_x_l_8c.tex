@@ -1,0 +1,859 @@
+\hypertarget{_e_k___t_m4_c1294_x_l_8c}{}\doxysection{E\+K\+\_\+\+T\+M4\+C1294\+X\+L.\+c Dosya Referansı}
+\label{_e_k___t_m4_c1294_x_l_8c}\index{EK\_TM4C1294XL.c@{EK\_TM4C1294XL.c}}
+{\ttfamily \#include $<$stdint.\+h$>$}\newline
+{\ttfamily \#include $<$stdbool.\+h$>$}\newline
+{\ttfamily \#include $<$xdc/std.\+h$>$}\newline
+{\ttfamily \#include $<$xdc/runtime/\+Error.\+h$>$}\newline
+{\ttfamily \#include $<$xdc/runtime/\+System.\+h$>$}\newline
+{\ttfamily \#include $<$ti/sysbios/family/arm/m3/\+Hwi.\+h$>$}\newline
+{\ttfamily \#include $<$inc/hw\+\_\+ints.\+h$>$}\newline
+{\ttfamily \#include $<$inc/hw\+\_\+memmap.\+h$>$}\newline
+{\ttfamily \#include $<$inc/hw\+\_\+types.\+h$>$}\newline
+{\ttfamily \#include $<$inc/hw\+\_\+gpio.\+h$>$}\newline
+{\ttfamily \#include $<$driverlib/flash.\+h$>$}\newline
+{\ttfamily \#include $<$driverlib/gpio.\+h$>$}\newline
+{\ttfamily \#include $<$driverlib/i2c.\+h$>$}\newline
+{\ttfamily \#include $<$driverlib/pin\+\_\+map.\+h$>$}\newline
+{\ttfamily \#include $<$driverlib/pwm.\+h$>$}\newline
+{\ttfamily \#include $<$driverlib/ssi.\+h$>$}\newline
+{\ttfamily \#include $<$driverlib/sysctl.\+h$>$}\newline
+{\ttfamily \#include $<$driverlib/uart.\+h$>$}\newline
+{\ttfamily \#include $<$driverlib/udma.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}E\+K\+\_\+\+T\+M4\+C1294\+X\+L.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$ti/drivers/\+E\+M\+A\+C.\+h$>$}\newline
+{\ttfamily \#include $<$ti/drivers/emac/\+E\+M\+A\+C\+Snow.\+h$>$}\newline
+{\ttfamily \#include $<$ti/drivers/\+G\+P\+I\+O.\+h$>$}\newline
+{\ttfamily \#include $<$ti/drivers/gpio/\+G\+P\+I\+O\+Tiva.\+h$>$}\newline
+{\ttfamily \#include $<$ti/drivers/\+I2\+C.\+h$>$}\newline
+{\ttfamily \#include $<$ti/drivers/i2c/\+I2\+C\+Tiva.\+h$>$}\newline
+{\ttfamily \#include $<$ti/drivers/\+P\+W\+M.\+h$>$}\newline
+{\ttfamily \#include $<$ti/drivers/pwm/\+P\+W\+M\+Tiva.\+h$>$}\newline
+{\ttfamily \#include $<$ti/drivers/\+S\+D\+S\+P\+I.\+h$>$}\newline
+{\ttfamily \#include $<$ti/drivers/sdspi/\+S\+D\+S\+P\+I\+Tiva.\+h$>$}\newline
+{\ttfamily \#include $<$ti/drivers/\+S\+P\+I.\+h$>$}\newline
+{\ttfamily \#include $<$ti/drivers/spi/\+S\+P\+I\+Tiva\+D\+M\+A.\+h$>$}\newline
+{\ttfamily \#include $<$ti/drivers/\+U\+A\+R\+T.\+h$>$}\newline
+{\ttfamily \#include $<$ti/drivers/uart/\+U\+A\+R\+T\+Tiva.\+h$>$}\newline
+{\ttfamily \#include $<$ti/drivers/\+U\+S\+B\+M\+S\+C\+H\+Fat\+Fs.\+h$>$}\newline
+{\ttfamily \#include $<$ti/drivers/usbmschfatfs/\+U\+S\+B\+M\+S\+C\+H\+Fat\+Fs\+Tiva.\+h$>$}\newline
+{\ttfamily \#include $<$ti/drivers/\+Watchdog.\+h$>$}\newline
+{\ttfamily \#include $<$ti/drivers/watchdog/\+Watchdog\+Tiva.\+h$>$}\newline
+{\ttfamily \#include $<$ti/drivers/\+Wi\+Fi.\+h$>$}\newline
+{\ttfamily \#include $<$ti/drivers/wifi/\+Wi\+Fi\+C\+C3100.\+h$>$}\newline
+\doxysubsection*{Makrolar}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8c_aac23a573d7d6cb8ad1cf737323cb7580}{T\+I\+\_\+\+D\+R\+I\+V\+E\+R\+S\+\_\+\+U\+A\+R\+T\+\_\+\+D\+MA}}~0
+\item 
+\#define \mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8c_a06a9b676833ce3c5c305b6a59cdbe84d}{T\+I\+\_\+\+E\+X\+A\+M\+P\+L\+E\+S\+\_\+\+P\+PP}}~0
+\end{DoxyCompactItemize}
+\doxysubsection*{Fonksiyonlar}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8c_a9f2b8ebac69279ce20e6679ad3a68f07}{E\+K\+\_\+\+T\+M4\+C1294\+X\+L\+\_\+init\+D\+MA}} (void)
+\item 
+void \mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8c_ab5daf95042218c677a6902706f968460}{E\+K\+\_\+\+T\+M4\+C1294\+X\+L\+\_\+init\+General}} (void)
+\begin{DoxyCompactList}\small\item\em Initialize the general board specific settings. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8c_abce7c3ce807880c75745d0d480ae1711}{E\+K\+\_\+\+T\+M4\+C1294\+X\+L\+\_\+init\+E\+M\+AC}} (void)
+\begin{DoxyCompactList}\small\item\em Initialize board specific E\+M\+AC settings. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8c_a7556fc06cc15335f855a923cbea6f9b0}{E\+K\+\_\+\+T\+M4\+C1294\+X\+L\+\_\+init\+G\+P\+IO}} (void)
+\begin{DoxyCompactList}\small\item\em Initialize board specific G\+P\+IO settings. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8c_ac40916affd0c767702c69e6a0f432c7a}{E\+K\+\_\+\+T\+M4\+C1294\+X\+L\+\_\+init\+I2C}} (void)
+\begin{DoxyCompactList}\small\item\em Initialize board specific I2C settings. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8c_ad768407eb2b556ce3d63f289f93f53d0}{E\+K\+\_\+\+T\+M4\+C1294\+X\+L\+\_\+init\+P\+WM}} (void)
+\begin{DoxyCompactList}\small\item\em Initialize board specific P\+WM settings. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8c_a78a92a5b84f874b7db46a20a3811245a}{E\+K\+\_\+\+T\+M4\+C1294\+X\+L\+\_\+init\+S\+D\+S\+PI}} (void)
+\begin{DoxyCompactList}\small\item\em Initialize board specific S\+D\+S\+PI settings. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8c_a45235cbf09541af99e0e57f66b5c1068}{E\+K\+\_\+\+T\+M4\+C1294\+X\+L\+\_\+init\+S\+PI}} (void)
+\begin{DoxyCompactList}\small\item\em Initialize board specific S\+PI settings. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8c_af6f1d39927c98be77136c085ac032343}{E\+K\+\_\+\+T\+M4\+C1294\+X\+L\+\_\+init\+U\+A\+RT}} (void)
+\begin{DoxyCompactList}\small\item\em Initialize board specific U\+A\+RT settings. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8c_a5daffc7bb57debea46f589c6283b041c}{E\+K\+\_\+\+T\+M4\+C1294\+X\+L\+\_\+init\+U\+SB}} (\mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8h_aa4d597e4c0d6f7ff74b21edec8c86d4f}{E\+K\+\_\+\+T\+M4\+C1294\+X\+L\+\_\+\+U\+S\+B\+Mode}} usb\+Mode)
+\begin{DoxyCompactList}\small\item\em Initialize board specific U\+SB settings. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8c_a8dcfc2ab3972a2750ef70512c8b41b71}{E\+K\+\_\+\+T\+M4\+C1294\+X\+L\+\_\+init\+U\+S\+B\+M\+S\+C\+H\+Fat\+Fs}} (void)
+\begin{DoxyCompactList}\small\item\em Initialize board specific U\+S\+B\+M\+S\+C\+H\+Fat\+Fs settings. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8c_a52c4c90068a80d3efa0ea75a5fe99c86}{E\+K\+\_\+\+T\+M4\+C1294\+X\+L\+\_\+init\+Watchdog}} (void)
+\begin{DoxyCompactList}\small\item\em Initialize board specific Watchdog settings. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8c_a22e79336bcaecf9d38643c7b4d9219a6}{E\+K\+\_\+\+T\+M4\+C1294\+X\+L\+\_\+init\+Wi\+Fi}} (void)
+\begin{DoxyCompactList}\small\item\em Initialize board specific Wi\+Fi settings. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Değişkenler}
+\begin{DoxyCompactItemize}
+\item 
+N\+I\+M\+U\+\_\+\+D\+E\+V\+I\+C\+E\+\_\+\+T\+A\+B\+L\+E\+\_\+\+E\+N\+T\+RY \mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8c_a47f88067ce58e172a5287db2ac614a81}{N\+I\+M\+U\+Device\+Table}} \mbox{[}2\mbox{]}
+\item 
+E\+M\+A\+C\+Snow\+\_\+\+Object \mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8c_ace84eb93c7b3316b2d4acc531c15626f}{emac\+Objects}} \mbox{[}\mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8h_aa0e0778be7a139e3d43c3457662052fbaeeed3d30e28af34a83d73abca090604e}{E\+K\+\_\+\+T\+M4\+C1294\+X\+L\+\_\+\+E\+M\+A\+C\+C\+O\+U\+NT}}\mbox{]}
+\item 
+unsigned char \mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8c_a1579a2702214ea5e504bad3de5b696ef}{mac\+Address}} \mbox{[}6\mbox{]} = \{0xff, 0xff, 0xff, 0xff, 0xff, 0xff\}
+\item 
+const E\+M\+A\+C\+Snow\+\_\+\+H\+W\+Attrs \mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8c_a2bc0b46187878f4298fbea0e48c8088e}{emac\+H\+W\+Attrs}} \mbox{[}\mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8h_aa0e0778be7a139e3d43c3457662052fbaeeed3d30e28af34a83d73abca090604e}{E\+K\+\_\+\+T\+M4\+C1294\+X\+L\+\_\+\+E\+M\+A\+C\+C\+O\+U\+NT}}\mbox{]}
+\item 
+const E\+M\+A\+C\+\_\+\+Config \mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8c_a2c574b5e1a119adaea49b9966b8867c6}{E\+M\+A\+C\+\_\+config}} \mbox{[}$\,$\mbox{]}
+\item 
+G\+P\+I\+O\+\_\+\+Pin\+Config \mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8c_a9e5c3072a49eb2ac4b947746854af530}{gpio\+Pin\+Configs}} \mbox{[}$\,$\mbox{]}
+\item 
+G\+P\+I\+O\+\_\+\+Callback\+Fxn \mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8c_adfe79d7b812dfa6ca8f0ef47bf9eab5a}{gpio\+Callback\+Functions}} \mbox{[}$\,$\mbox{]}
+\item 
+const G\+P\+I\+O\+Tiva\+\_\+\+Config \mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8c_a3ed8d0bb98c427ab27b28d5201febbe2}{G\+P\+I\+O\+Tiva\+\_\+config}}
+\item 
+I2\+C\+Tiva\+\_\+\+Object \mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8c_a50568065e0cf4f0cab3732d13590be68}{i2c\+Tiva\+Objects}} \mbox{[}\mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8h_ab7876a5c9e1fe423c7547af21605beeda4f6fe7b155c2d57994b40bf992e29e27}{E\+K\+\_\+\+T\+M4\+C1294\+X\+L\+\_\+\+I2\+C\+C\+O\+U\+NT}}\mbox{]}
+\item 
+const I2\+C\+Tiva\+\_\+\+H\+W\+Attrs \mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8c_a4970be411f552d8ada54c4fbb655f8ca}{i2c\+Tiva\+H\+W\+Attrs}} \mbox{[}\mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8h_ab7876a5c9e1fe423c7547af21605beeda4f6fe7b155c2d57994b40bf992e29e27}{E\+K\+\_\+\+T\+M4\+C1294\+X\+L\+\_\+\+I2\+C\+C\+O\+U\+NT}}\mbox{]}
+\item 
+const I2\+C\+\_\+\+Config \mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8c_aff23dd4a23f45b3bf8b634c56c272ebc}{I2\+C\+\_\+config}} \mbox{[}$\,$\mbox{]}
+\item 
+P\+W\+M\+Tiva\+\_\+\+Object \mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8c_a8eff1871323d62b254bd216d0330cdc4}{pwm\+Tiva\+Objects}} \mbox{[}\mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8h_adfa66b1b77983dbce579fc15ecf55e8da8903b032167582cd65584e11b514e377}{E\+K\+\_\+\+T\+M4\+C1294\+X\+L\+\_\+\+P\+W\+M\+C\+O\+U\+NT}}\mbox{]}
+\item 
+const P\+W\+M\+Tiva\+\_\+\+H\+W\+Attrs \mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8c_aa1fcaa3e0047920f0ce9e500cf462bd2}{pwm\+Tiva\+H\+W\+Attrs}} \mbox{[}\mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8h_adfa66b1b77983dbce579fc15ecf55e8da8903b032167582cd65584e11b514e377}{E\+K\+\_\+\+T\+M4\+C1294\+X\+L\+\_\+\+P\+W\+M\+C\+O\+U\+NT}}\mbox{]}
+\item 
+const P\+W\+M\+\_\+\+Config \mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8c_a27d600c9564b86a17dda2afef1159efa}{P\+W\+M\+\_\+config}} \mbox{[}$\,$\mbox{]}
+\item 
+S\+D\+S\+P\+I\+Tiva\+\_\+\+Object \mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8c_a42c1a7d48d10830124edad61702817cf}{sdspi\+Tiva\+Objects}} \mbox{[}\mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8h_a00172ff6af0e25b6c9fb418ab9d2057ca35421b57fe0e41b50f4ba19c6adbb3cd}{E\+K\+\_\+\+T\+M4\+C1294\+X\+L\+\_\+\+S\+D\+S\+P\+I\+C\+O\+U\+NT}}\mbox{]}
+\item 
+const S\+D\+S\+P\+I\+Tiva\+\_\+\+H\+W\+Attrs \mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8c_a71cd49128fc15e85a5efa9ae80c42bb6}{sdspi\+Tiva\+H\+Wattrs}} \mbox{[}\mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8h_a00172ff6af0e25b6c9fb418ab9d2057ca35421b57fe0e41b50f4ba19c6adbb3cd}{E\+K\+\_\+\+T\+M4\+C1294\+X\+L\+\_\+\+S\+D\+S\+P\+I\+C\+O\+U\+NT}}\mbox{]}
+\item 
+const S\+D\+S\+P\+I\+\_\+\+Config \mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8c_aa4f918999b9d2e7a53a2575a50ba4919}{S\+D\+S\+P\+I\+\_\+config}} \mbox{[}$\,$\mbox{]}
+\item 
+S\+P\+I\+Tiva\+D\+M\+A\+\_\+\+Object \mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8c_affcf7a006997f7bf4f049330aad90dc9}{spi\+Tiva\+D\+M\+A\+Objects}} \mbox{[}\mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8h_ae0c26dc71bbe7ca6ef38045ee745fcaaa79add243271735e10adbe04fafb7f04b}{E\+K\+\_\+\+T\+M4\+C1294\+X\+L\+\_\+\+S\+P\+I\+C\+O\+U\+NT}}\mbox{]}
+\item 
+uint32\+\_\+t \mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8c_a58cc3b001fb329f7d25507ad0b8332e4}{spi\+Tiva\+D\+M\+Ascratch\+Buf}} \mbox{[}\mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8h_ae0c26dc71bbe7ca6ef38045ee745fcaaa79add243271735e10adbe04fafb7f04b}{E\+K\+\_\+\+T\+M4\+C1294\+X\+L\+\_\+\+S\+P\+I\+C\+O\+U\+NT}}\mbox{]}
+\item 
+const S\+P\+I\+Tiva\+D\+M\+A\+\_\+\+H\+W\+Attrs \mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8c_a4c265aedf645f20118926de09d6db158}{spi\+Tiva\+D\+M\+A\+H\+W\+Attrs}} \mbox{[}\mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8h_ae0c26dc71bbe7ca6ef38045ee745fcaaa79add243271735e10adbe04fafb7f04b}{E\+K\+\_\+\+T\+M4\+C1294\+X\+L\+\_\+\+S\+P\+I\+C\+O\+U\+NT}}\mbox{]}
+\item 
+const S\+P\+I\+\_\+\+Config \mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8c_a5193a07e2fa52eefff60481f677b299d}{S\+P\+I\+\_\+config}} \mbox{[}$\,$\mbox{]}
+\item 
+U\+A\+R\+T\+Tiva\+\_\+\+Object \mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8c_abeff8fb40d1c2d82c088f85b8d0b0fb4}{uart\+Tiva\+Objects}} \mbox{[}\mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8h_a26d4bc240b070d599d161b3359d8cc8aa84e9cd64b2beb846ba25c54787435301}{E\+K\+\_\+\+T\+M4\+C1294\+X\+L\+\_\+\+U\+A\+R\+T\+C\+O\+U\+NT}}\mbox{]}
+\item 
+unsigned char \mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8c_a6879d9b49120ac55c39d8352f4d1d136}{uart\+Tiva\+Ring\+Buffer}} \mbox{[}\mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8h_a26d4bc240b070d599d161b3359d8cc8aa84e9cd64b2beb846ba25c54787435301}{E\+K\+\_\+\+T\+M4\+C1294\+X\+L\+\_\+\+U\+A\+R\+T\+C\+O\+U\+NT}}\mbox{]}\mbox{[}32\mbox{]}
+\item 
+const U\+A\+R\+T\+Tiva\+\_\+\+H\+W\+Attrs \mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8c_a4645ac6147a91fb1fecc382f6e153626}{uart\+Tiva\+H\+W\+Attrs}} \mbox{[}\mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8h_a26d4bc240b070d599d161b3359d8cc8aa84e9cd64b2beb846ba25c54787435301}{E\+K\+\_\+\+T\+M4\+C1294\+X\+L\+\_\+\+U\+A\+R\+T\+C\+O\+U\+NT}}\mbox{]}
+\item 
+const U\+A\+R\+T\+\_\+\+Config \mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8c_ad24e1d95c2d7232d55dc5b1d00a56bb5}{U\+A\+R\+T\+\_\+config}} \mbox{[}$\,$\mbox{]}
+\item 
+U\+S\+B\+M\+S\+C\+H\+Fat\+Fs\+Tiva\+\_\+\+Object \mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8c_a3dbef9639fe6d83ab3bcf38b1669386d}{usbmschfatfstiva\+Objects}} \mbox{[}\mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8h_a1b377cb71ef848e20e0df9f049e1ec2da1c5d4408903ba5bc417e2661fa8b2f61}{E\+K\+\_\+\+T\+M4\+C1294\+X\+L\+\_\+\+U\+S\+B\+M\+S\+C\+H\+Fat\+Fs\+C\+O\+U\+NT}}\mbox{]}
+\item 
+const U\+S\+B\+M\+S\+C\+H\+Fat\+Fs\+Tiva\+\_\+\+H\+W\+Attrs \mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8c_aa4c1b7dbde24824a8ee947bba5b53f6c}{usbmschfatfstiva\+H\+W\+Attrs}} \mbox{[}\mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8h_a1b377cb71ef848e20e0df9f049e1ec2da1c5d4408903ba5bc417e2661fa8b2f61}{E\+K\+\_\+\+T\+M4\+C1294\+X\+L\+\_\+\+U\+S\+B\+M\+S\+C\+H\+Fat\+Fs\+C\+O\+U\+NT}}\mbox{]}
+\item 
+const U\+S\+B\+M\+S\+C\+H\+Fat\+Fs\+\_\+\+Config \mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8c_a36337e16e94bb5b9be4edc678e2ccb52}{U\+S\+B\+M\+S\+C\+H\+Fat\+Fs\+\_\+config}} \mbox{[}$\,$\mbox{]}
+\item 
+Watchdog\+Tiva\+\_\+\+Object \mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8c_ab26075094b75975bb3ee54163f5aaf8b}{watchdog\+Tiva\+Objects}} \mbox{[}\mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8h_a93d37fc3e70db39774767feed007a0eaa7559f203197a2b7e428e7710933a2656}{E\+K\+\_\+\+T\+M4\+C1294\+X\+L\+\_\+\+W\+A\+T\+C\+H\+D\+O\+G\+C\+O\+U\+NT}}\mbox{]}
+\item 
+const Watchdog\+Tiva\+\_\+\+H\+W\+Attrs \mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8c_a7c5cfb526698e6b7da60d7c523e9ecd1}{watchdog\+Tiva\+H\+W\+Attrs}} \mbox{[}\mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8h_a93d37fc3e70db39774767feed007a0eaa7559f203197a2b7e428e7710933a2656}{E\+K\+\_\+\+T\+M4\+C1294\+X\+L\+\_\+\+W\+A\+T\+C\+H\+D\+O\+G\+C\+O\+U\+NT}}\mbox{]}
+\item 
+const Watchdog\+\_\+\+Config \mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8c_a44de1103b0354733f7dc35ac32777fb1}{Watchdog\+\_\+config}} \mbox{[}$\,$\mbox{]}
+\item 
+Wi\+Fi\+C\+C3100\+\_\+\+Object \mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8c_a399a000adf7fb4f8e8d62289818211ef}{wi\+Fi\+C\+C3100\+Objects}} \mbox{[}\mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8h_a2cad96e7da2590b0e10f1f4d21ef7864a06dd08f35bf3af6c939db97bed07efd6}{E\+K\+\_\+\+T\+M4\+C1294\+X\+L\+\_\+\+W\+I\+F\+I\+C\+O\+U\+NT}}\mbox{]}
+\item 
+const Wi\+Fi\+C\+C3100\+\_\+\+H\+W\+Attrs \mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8c_a6905618ad38f7962d0288f8243c0be9c}{wi\+Fi\+C\+C3100\+H\+W\+Attrs}} \mbox{[}\mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8h_a2cad96e7da2590b0e10f1f4d21ef7864a06dd08f35bf3af6c939db97bed07efd6}{E\+K\+\_\+\+T\+M4\+C1294\+X\+L\+\_\+\+W\+I\+F\+I\+C\+O\+U\+NT}}\mbox{]}
+\item 
+const Wi\+Fi\+\_\+\+Config \mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8c_a39134ec9218ef8f318e0db3d76dfe5ec}{Wi\+Fi\+\_\+config}} \mbox{[}$\,$\mbox{]}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Makro Dokümantasyonu}
+\mbox{\Hypertarget{_e_k___t_m4_c1294_x_l_8c_aac23a573d7d6cb8ad1cf737323cb7580}\label{_e_k___t_m4_c1294_x_l_8c_aac23a573d7d6cb8ad1cf737323cb7580}} 
+\index{EK\_TM4C1294XL.c@{EK\_TM4C1294XL.c}!TI\_DRIVERS\_UART\_DMA@{TI\_DRIVERS\_UART\_DMA}}
+\index{TI\_DRIVERS\_UART\_DMA@{TI\_DRIVERS\_UART\_DMA}!EK\_TM4C1294XL.c@{EK\_TM4C1294XL.c}}
+\doxysubsubsection{\texorpdfstring{TI\_DRIVERS\_UART\_DMA}{TI\_DRIVERS\_UART\_DMA}}
+{\footnotesize\ttfamily \#define T\+I\+\_\+\+D\+R\+I\+V\+E\+R\+S\+\_\+\+U\+A\+R\+T\+\_\+\+D\+MA~0}
+
+\mbox{\Hypertarget{_e_k___t_m4_c1294_x_l_8c_a06a9b676833ce3c5c305b6a59cdbe84d}\label{_e_k___t_m4_c1294_x_l_8c_a06a9b676833ce3c5c305b6a59cdbe84d}} 
+\index{EK\_TM4C1294XL.c@{EK\_TM4C1294XL.c}!TI\_EXAMPLES\_PPP@{TI\_EXAMPLES\_PPP}}
+\index{TI\_EXAMPLES\_PPP@{TI\_EXAMPLES\_PPP}!EK\_TM4C1294XL.c@{EK\_TM4C1294XL.c}}
+\doxysubsubsection{\texorpdfstring{TI\_EXAMPLES\_PPP}{TI\_EXAMPLES\_PPP}}
+{\footnotesize\ttfamily \#define T\+I\+\_\+\+E\+X\+A\+M\+P\+L\+E\+S\+\_\+\+P\+PP~0}
+
+
+
+\doxysubsection{Fonksiyon Dokümantasyonu}
+\mbox{\Hypertarget{_e_k___t_m4_c1294_x_l_8c_a9f2b8ebac69279ce20e6679ad3a68f07}\label{_e_k___t_m4_c1294_x_l_8c_a9f2b8ebac69279ce20e6679ad3a68f07}} 
+\index{EK\_TM4C1294XL.c@{EK\_TM4C1294XL.c}!EK\_TM4C1294XL\_initDMA@{EK\_TM4C1294XL\_initDMA}}
+\index{EK\_TM4C1294XL\_initDMA@{EK\_TM4C1294XL\_initDMA}!EK\_TM4C1294XL.c@{EK\_TM4C1294XL.c}}
+\doxysubsubsection{\texorpdfstring{EK\_TM4C1294XL\_initDMA()}{EK\_TM4C1294XL\_initDMA()}}
+{\footnotesize\ttfamily void E\+K\+\_\+\+T\+M4\+C1294\+X\+L\+\_\+init\+D\+MA (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{_e_k___t_m4_c1294_x_l_8c_abce7c3ce807880c75745d0d480ae1711}\label{_e_k___t_m4_c1294_x_l_8c_abce7c3ce807880c75745d0d480ae1711}} 
+\index{EK\_TM4C1294XL.c@{EK\_TM4C1294XL.c}!EK\_TM4C1294XL\_initEMAC@{EK\_TM4C1294XL\_initEMAC}}
+\index{EK\_TM4C1294XL\_initEMAC@{EK\_TM4C1294XL\_initEMAC}!EK\_TM4C1294XL.c@{EK\_TM4C1294XL.c}}
+\doxysubsubsection{\texorpdfstring{EK\_TM4C1294XL\_initEMAC()}{EK\_TM4C1294XL\_initEMAC()}}
+{\footnotesize\ttfamily void E\+K\+\_\+\+T\+M4\+C1294\+X\+L\+\_\+init\+E\+M\+AC (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+Initialize board specific E\+M\+AC settings. 
+
+This function initializes the board specific E\+M\+AC settings and then calls the E\+M\+A\+C\+\_\+init A\+PI to initialize the E\+M\+AC module.
+
+The E\+M\+AC address is programmed as part of this call. \mbox{\Hypertarget{_e_k___t_m4_c1294_x_l_8c_ab5daf95042218c677a6902706f968460}\label{_e_k___t_m4_c1294_x_l_8c_ab5daf95042218c677a6902706f968460}} 
+\index{EK\_TM4C1294XL.c@{EK\_TM4C1294XL.c}!EK\_TM4C1294XL\_initGeneral@{EK\_TM4C1294XL\_initGeneral}}
+\index{EK\_TM4C1294XL\_initGeneral@{EK\_TM4C1294XL\_initGeneral}!EK\_TM4C1294XL.c@{EK\_TM4C1294XL.c}}
+\doxysubsubsection{\texorpdfstring{EK\_TM4C1294XL\_initGeneral()}{EK\_TM4C1294XL\_initGeneral()}}
+{\footnotesize\ttfamily void E\+K\+\_\+\+T\+M4\+C1294\+X\+L\+\_\+init\+General (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+Initialize the general board specific settings. 
+
+This function initializes the general board specific settings. This includes\+:
+\begin{DoxyItemize}
+\item Enable clock sources for peripherals 
+\end{DoxyItemize}\mbox{\Hypertarget{_e_k___t_m4_c1294_x_l_8c_a7556fc06cc15335f855a923cbea6f9b0}\label{_e_k___t_m4_c1294_x_l_8c_a7556fc06cc15335f855a923cbea6f9b0}} 
+\index{EK\_TM4C1294XL.c@{EK\_TM4C1294XL.c}!EK\_TM4C1294XL\_initGPIO@{EK\_TM4C1294XL\_initGPIO}}
+\index{EK\_TM4C1294XL\_initGPIO@{EK\_TM4C1294XL\_initGPIO}!EK\_TM4C1294XL.c@{EK\_TM4C1294XL.c}}
+\doxysubsubsection{\texorpdfstring{EK\_TM4C1294XL\_initGPIO()}{EK\_TM4C1294XL\_initGPIO()}}
+{\footnotesize\ttfamily void E\+K\+\_\+\+T\+M4\+C1294\+X\+L\+\_\+init\+G\+P\+IO (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+Initialize board specific G\+P\+IO settings. 
+
+This function initializes the board specific G\+P\+IO settings and then calls the G\+P\+I\+O\+\_\+init A\+PI to initialize the G\+P\+IO module.
+
+The G\+P\+I\+Os controlled by the G\+P\+IO module are determined by the G\+P\+I\+O\+\_\+\+Pin\+Config variable. \mbox{\Hypertarget{_e_k___t_m4_c1294_x_l_8c_ac40916affd0c767702c69e6a0f432c7a}\label{_e_k___t_m4_c1294_x_l_8c_ac40916affd0c767702c69e6a0f432c7a}} 
+\index{EK\_TM4C1294XL.c@{EK\_TM4C1294XL.c}!EK\_TM4C1294XL\_initI2C@{EK\_TM4C1294XL\_initI2C}}
+\index{EK\_TM4C1294XL\_initI2C@{EK\_TM4C1294XL\_initI2C}!EK\_TM4C1294XL.c@{EK\_TM4C1294XL.c}}
+\doxysubsubsection{\texorpdfstring{EK\_TM4C1294XL\_initI2C()}{EK\_TM4C1294XL\_initI2C()}}
+{\footnotesize\ttfamily void E\+K\+\_\+\+T\+M4\+C1294\+X\+L\+\_\+init\+I2C (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+Initialize board specific I2C settings. 
+
+This function initializes the board specific I2C settings and then calls the I2\+C\+\_\+init A\+PI to initialize the I2C module.
+
+The I2C peripherals controlled by the I2C module are determined by the I2\+C\+\_\+config variable. \mbox{\Hypertarget{_e_k___t_m4_c1294_x_l_8c_ad768407eb2b556ce3d63f289f93f53d0}\label{_e_k___t_m4_c1294_x_l_8c_ad768407eb2b556ce3d63f289f93f53d0}} 
+\index{EK\_TM4C1294XL.c@{EK\_TM4C1294XL.c}!EK\_TM4C1294XL\_initPWM@{EK\_TM4C1294XL\_initPWM}}
+\index{EK\_TM4C1294XL\_initPWM@{EK\_TM4C1294XL\_initPWM}!EK\_TM4C1294XL.c@{EK\_TM4C1294XL.c}}
+\doxysubsubsection{\texorpdfstring{EK\_TM4C1294XL\_initPWM()}{EK\_TM4C1294XL\_initPWM()}}
+{\footnotesize\ttfamily void E\+K\+\_\+\+T\+M4\+C1294\+X\+L\+\_\+init\+P\+WM (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+Initialize board specific P\+WM settings. 
+
+This function initializes the board specific P\+WM settings and then calls the P\+W\+M\+\_\+init A\+PI to initialize the P\+WM module.
+
+The P\+WM peripherals controlled by the P\+WM module are determined by the P\+W\+M\+\_\+config variable. \mbox{\Hypertarget{_e_k___t_m4_c1294_x_l_8c_a78a92a5b84f874b7db46a20a3811245a}\label{_e_k___t_m4_c1294_x_l_8c_a78a92a5b84f874b7db46a20a3811245a}} 
+\index{EK\_TM4C1294XL.c@{EK\_TM4C1294XL.c}!EK\_TM4C1294XL\_initSDSPI@{EK\_TM4C1294XL\_initSDSPI}}
+\index{EK\_TM4C1294XL\_initSDSPI@{EK\_TM4C1294XL\_initSDSPI}!EK\_TM4C1294XL.c@{EK\_TM4C1294XL.c}}
+\doxysubsubsection{\texorpdfstring{EK\_TM4C1294XL\_initSDSPI()}{EK\_TM4C1294XL\_initSDSPI()}}
+{\footnotesize\ttfamily void E\+K\+\_\+\+T\+M4\+C1294\+X\+L\+\_\+init\+S\+D\+S\+PI (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+Initialize board specific S\+D\+S\+PI settings. 
+
+This function initializes the board specific S\+D\+S\+PI settings and then calls the S\+D\+S\+P\+I\+\_\+init A\+PI to initialize the S\+D\+S\+PI module.
+
+The S\+D\+S\+PI peripherals controlled by the S\+D\+S\+PI module are determined by the S\+D\+S\+P\+I\+\_\+config variable. \mbox{\Hypertarget{_e_k___t_m4_c1294_x_l_8c_a45235cbf09541af99e0e57f66b5c1068}\label{_e_k___t_m4_c1294_x_l_8c_a45235cbf09541af99e0e57f66b5c1068}} 
+\index{EK\_TM4C1294XL.c@{EK\_TM4C1294XL.c}!EK\_TM4C1294XL\_initSPI@{EK\_TM4C1294XL\_initSPI}}
+\index{EK\_TM4C1294XL\_initSPI@{EK\_TM4C1294XL\_initSPI}!EK\_TM4C1294XL.c@{EK\_TM4C1294XL.c}}
+\doxysubsubsection{\texorpdfstring{EK\_TM4C1294XL\_initSPI()}{EK\_TM4C1294XL\_initSPI()}}
+{\footnotesize\ttfamily void E\+K\+\_\+\+T\+M4\+C1294\+X\+L\+\_\+init\+S\+PI (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+Initialize board specific S\+PI settings. 
+
+This function initializes the board specific S\+PI settings and then calls the S\+P\+I\+\_\+init A\+PI to initialize the S\+PI module.
+
+The S\+PI peripherals controlled by the S\+PI module are determined by the S\+P\+I\+\_\+config variable. \mbox{\Hypertarget{_e_k___t_m4_c1294_x_l_8c_af6f1d39927c98be77136c085ac032343}\label{_e_k___t_m4_c1294_x_l_8c_af6f1d39927c98be77136c085ac032343}} 
+\index{EK\_TM4C1294XL.c@{EK\_TM4C1294XL.c}!EK\_TM4C1294XL\_initUART@{EK\_TM4C1294XL\_initUART}}
+\index{EK\_TM4C1294XL\_initUART@{EK\_TM4C1294XL\_initUART}!EK\_TM4C1294XL.c@{EK\_TM4C1294XL.c}}
+\doxysubsubsection{\texorpdfstring{EK\_TM4C1294XL\_initUART()}{EK\_TM4C1294XL\_initUART()}}
+{\footnotesize\ttfamily void E\+K\+\_\+\+T\+M4\+C1294\+X\+L\+\_\+init\+U\+A\+RT (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+Initialize board specific U\+A\+RT settings. 
+
+This function initializes the board specific U\+A\+RT settings and then calls the U\+A\+R\+T\+\_\+init A\+PI to initialize the U\+A\+RT module.
+
+The U\+A\+RT peripherals controlled by the U\+A\+RT module are determined by the U\+A\+R\+T\+\_\+config variable. \mbox{\Hypertarget{_e_k___t_m4_c1294_x_l_8c_a5daffc7bb57debea46f589c6283b041c}\label{_e_k___t_m4_c1294_x_l_8c_a5daffc7bb57debea46f589c6283b041c}} 
+\index{EK\_TM4C1294XL.c@{EK\_TM4C1294XL.c}!EK\_TM4C1294XL\_initUSB@{EK\_TM4C1294XL\_initUSB}}
+\index{EK\_TM4C1294XL\_initUSB@{EK\_TM4C1294XL\_initUSB}!EK\_TM4C1294XL.c@{EK\_TM4C1294XL.c}}
+\doxysubsubsection{\texorpdfstring{EK\_TM4C1294XL\_initUSB()}{EK\_TM4C1294XL\_initUSB()}}
+{\footnotesize\ttfamily void E\+K\+\_\+\+T\+M4\+C1294\+X\+L\+\_\+init\+U\+SB (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8h_aa4d597e4c0d6f7ff74b21edec8c86d4f}{E\+K\+\_\+\+T\+M4\+C1294\+X\+L\+\_\+\+U\+S\+B\+Mode}}}]{usb\+Mode }\end{DoxyParamCaption})}
+
+
+
+Initialize board specific U\+SB settings. 
+
+This function initializes the board specific U\+SB settings and pins based on the U\+SB mode of operation.
+
+
+\begin{DoxyParams}{Parametreler}
+{\em usb\+Mode} & U\+SB mode of operation \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_e_k___t_m4_c1294_x_l_8c_a8dcfc2ab3972a2750ef70512c8b41b71}\label{_e_k___t_m4_c1294_x_l_8c_a8dcfc2ab3972a2750ef70512c8b41b71}} 
+\index{EK\_TM4C1294XL.c@{EK\_TM4C1294XL.c}!EK\_TM4C1294XL\_initUSBMSCHFatFs@{EK\_TM4C1294XL\_initUSBMSCHFatFs}}
+\index{EK\_TM4C1294XL\_initUSBMSCHFatFs@{EK\_TM4C1294XL\_initUSBMSCHFatFs}!EK\_TM4C1294XL.c@{EK\_TM4C1294XL.c}}
+\doxysubsubsection{\texorpdfstring{EK\_TM4C1294XL\_initUSBMSCHFatFs()}{EK\_TM4C1294XL\_initUSBMSCHFatFs()}}
+{\footnotesize\ttfamily void E\+K\+\_\+\+T\+M4\+C1294\+X\+L\+\_\+init\+U\+S\+B\+M\+S\+C\+H\+Fat\+Fs (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+Initialize board specific U\+S\+B\+M\+S\+C\+H\+Fat\+Fs settings. 
+
+This function initializes the board specific U\+S\+B\+M\+S\+C\+H\+Fat\+Fs settings and then calls the U\+S\+B\+M\+S\+C\+H\+Fat\+Fs\+\_\+init A\+PI to initialize the U\+S\+B\+M\+S\+C\+H\+Fat\+Fs module.
+
+The U\+S\+B\+M\+S\+C\+H\+Fat\+Fs peripherals controlled by the U\+S\+B\+M\+S\+C\+H\+Fat\+Fs module are determined by the U\+S\+B\+M\+S\+C\+H\+Fat\+Fs\+\_\+config variable. \mbox{\Hypertarget{_e_k___t_m4_c1294_x_l_8c_a52c4c90068a80d3efa0ea75a5fe99c86}\label{_e_k___t_m4_c1294_x_l_8c_a52c4c90068a80d3efa0ea75a5fe99c86}} 
+\index{EK\_TM4C1294XL.c@{EK\_TM4C1294XL.c}!EK\_TM4C1294XL\_initWatchdog@{EK\_TM4C1294XL\_initWatchdog}}
+\index{EK\_TM4C1294XL\_initWatchdog@{EK\_TM4C1294XL\_initWatchdog}!EK\_TM4C1294XL.c@{EK\_TM4C1294XL.c}}
+\doxysubsubsection{\texorpdfstring{EK\_TM4C1294XL\_initWatchdog()}{EK\_TM4C1294XL\_initWatchdog()}}
+{\footnotesize\ttfamily void E\+K\+\_\+\+T\+M4\+C1294\+X\+L\+\_\+init\+Watchdog (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+Initialize board specific Watchdog settings. 
+
+This function initializes the board specific Watchdog settings and then calls the Watchdog\+\_\+init A\+PI to initialize the Watchdog module.
+
+The Watchdog peripherals controlled by the Watchdog module are determined by the Watchdog\+\_\+config variable. \mbox{\Hypertarget{_e_k___t_m4_c1294_x_l_8c_a22e79336bcaecf9d38643c7b4d9219a6}\label{_e_k___t_m4_c1294_x_l_8c_a22e79336bcaecf9d38643c7b4d9219a6}} 
+\index{EK\_TM4C1294XL.c@{EK\_TM4C1294XL.c}!EK\_TM4C1294XL\_initWiFi@{EK\_TM4C1294XL\_initWiFi}}
+\index{EK\_TM4C1294XL\_initWiFi@{EK\_TM4C1294XL\_initWiFi}!EK\_TM4C1294XL.c@{EK\_TM4C1294XL.c}}
+\doxysubsubsection{\texorpdfstring{EK\_TM4C1294XL\_initWiFi()}{EK\_TM4C1294XL\_initWiFi()}}
+{\footnotesize\ttfamily void E\+K\+\_\+\+T\+M4\+C1294\+X\+L\+\_\+init\+Wi\+Fi (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+Initialize board specific Wi\+Fi settings. 
+
+This function initializes the board specific Wi\+Fi settings and then calls the Wi\+Fi\+\_\+init A\+PI to initialize the Wi\+Fi module.
+
+The hardware resources controlled by the Wi\+Fi module are determined by the Wi\+Fi\+\_\+config variable.
+
+A Simple\+Link C\+C3100 device or module is required and must be connected to use the Wi\+Fi driver. 
+
+\doxysubsection{Değişken Dokümantasyonu}
+\mbox{\Hypertarget{_e_k___t_m4_c1294_x_l_8c_a2c574b5e1a119adaea49b9966b8867c6}\label{_e_k___t_m4_c1294_x_l_8c_a2c574b5e1a119adaea49b9966b8867c6}} 
+\index{EK\_TM4C1294XL.c@{EK\_TM4C1294XL.c}!EMAC\_config@{EMAC\_config}}
+\index{EMAC\_config@{EMAC\_config}!EK\_TM4C1294XL.c@{EK\_TM4C1294XL.c}}
+\doxysubsubsection{\texorpdfstring{EMAC\_config}{EMAC\_config}}
+{\footnotesize\ttfamily const E\+M\+A\+C\+\_\+\+Config E\+M\+A\+C\+\_\+config\mbox{[}$\,$\mbox{]}}
+
+{\bfseries İlk değer\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{= \{}
+\DoxyCodeLine{    \{}
+\DoxyCodeLine{        .fxnTablePtr = \&EMACSnow\_fxnTable,}
+\DoxyCodeLine{        .object = \&\mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8c_ace84eb93c7b3316b2d4acc531c15626f}{emacObjects}}[0],}
+\DoxyCodeLine{        .hwAttrs = \&\mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8c_a2bc0b46187878f4298fbea0e48c8088e}{emacHWAttrs}}[0]}
+\DoxyCodeLine{    \},}
+\DoxyCodeLine{    \{NULL, NULL, NULL\}}
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{_e_k___t_m4_c1294_x_l_8c_a2bc0b46187878f4298fbea0e48c8088e}\label{_e_k___t_m4_c1294_x_l_8c_a2bc0b46187878f4298fbea0e48c8088e}} 
+\index{EK\_TM4C1294XL.c@{EK\_TM4C1294XL.c}!emacHWAttrs@{emacHWAttrs}}
+\index{emacHWAttrs@{emacHWAttrs}!EK\_TM4C1294XL.c@{EK\_TM4C1294XL.c}}
+\doxysubsubsection{\texorpdfstring{emacHWAttrs}{emacHWAttrs}}
+{\footnotesize\ttfamily const E\+M\+A\+C\+Snow\+\_\+\+H\+W\+Attrs emac\+H\+W\+Attrs\mbox{[}\mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8h_aa0e0778be7a139e3d43c3457662052fbaeeed3d30e28af34a83d73abca090604e}{E\+K\+\_\+\+T\+M4\+C1294\+X\+L\+\_\+\+E\+M\+A\+C\+C\+O\+U\+NT}}\mbox{]}}
+
+{\bfseries İlk değer\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{= \{}
+\DoxyCodeLine{    \{}
+\DoxyCodeLine{        .baseAddr = EMAC0\_BASE,}
+\DoxyCodeLine{        .intNum = INT\_EMAC0,}
+\DoxyCodeLine{        .intPriority = (\string~0),}
+\DoxyCodeLine{        .\mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8c_a1579a2702214ea5e504bad3de5b696ef}{macAddress}} = \mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8c_a1579a2702214ea5e504bad3de5b696ef}{macAddress}}}
+\DoxyCodeLine{    \}}
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{_e_k___t_m4_c1294_x_l_8c_ace84eb93c7b3316b2d4acc531c15626f}\label{_e_k___t_m4_c1294_x_l_8c_ace84eb93c7b3316b2d4acc531c15626f}} 
+\index{EK\_TM4C1294XL.c@{EK\_TM4C1294XL.c}!emacObjects@{emacObjects}}
+\index{emacObjects@{emacObjects}!EK\_TM4C1294XL.c@{EK\_TM4C1294XL.c}}
+\doxysubsubsection{\texorpdfstring{emacObjects}{emacObjects}}
+{\footnotesize\ttfamily E\+M\+A\+C\+Snow\+\_\+\+Object emac\+Objects\mbox{[}\mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8h_aa0e0778be7a139e3d43c3457662052fbaeeed3d30e28af34a83d73abca090604e}{E\+K\+\_\+\+T\+M4\+C1294\+X\+L\+\_\+\+E\+M\+A\+C\+C\+O\+U\+NT}}\mbox{]}}
+
+\mbox{\Hypertarget{_e_k___t_m4_c1294_x_l_8c_adfe79d7b812dfa6ca8f0ef47bf9eab5a}\label{_e_k___t_m4_c1294_x_l_8c_adfe79d7b812dfa6ca8f0ef47bf9eab5a}} 
+\index{EK\_TM4C1294XL.c@{EK\_TM4C1294XL.c}!gpioCallbackFunctions@{gpioCallbackFunctions}}
+\index{gpioCallbackFunctions@{gpioCallbackFunctions}!EK\_TM4C1294XL.c@{EK\_TM4C1294XL.c}}
+\doxysubsubsection{\texorpdfstring{gpioCallbackFunctions}{gpioCallbackFunctions}}
+{\footnotesize\ttfamily G\+P\+I\+O\+\_\+\+Callback\+Fxn gpio\+Callback\+Functions\mbox{[}$\,$\mbox{]}}
+
+{\bfseries İlk değer\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{= \{}
+\DoxyCodeLine{    NULL,  }
+\DoxyCodeLine{    NULL   }
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{_e_k___t_m4_c1294_x_l_8c_a9e5c3072a49eb2ac4b947746854af530}\label{_e_k___t_m4_c1294_x_l_8c_a9e5c3072a49eb2ac4b947746854af530}} 
+\index{EK\_TM4C1294XL.c@{EK\_TM4C1294XL.c}!gpioPinConfigs@{gpioPinConfigs}}
+\index{gpioPinConfigs@{gpioPinConfigs}!EK\_TM4C1294XL.c@{EK\_TM4C1294XL.c}}
+\doxysubsubsection{\texorpdfstring{gpioPinConfigs}{gpioPinConfigs}}
+{\footnotesize\ttfamily G\+P\+I\+O\+\_\+\+Pin\+Config gpio\+Pin\+Configs\mbox{[}$\,$\mbox{]}}
+
+{\bfseries İlk değer\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{= \{}
+\DoxyCodeLine{    }
+\DoxyCodeLine{    }
+\DoxyCodeLine{    GPIOTiva\_PJ\_0 | GPIO\_CFG\_IN\_PU | GPIO\_CFG\_IN\_INT\_RISING,}
+\DoxyCodeLine{    }
+\DoxyCodeLine{    GPIOTiva\_PJ\_1 | GPIO\_CFG\_IN\_PU | GPIO\_CFG\_IN\_INT\_RISING,}
+\DoxyCodeLine{}
+\DoxyCodeLine{    }
+\DoxyCodeLine{    }
+\DoxyCodeLine{    GPIOTiva\_PN\_1 | GPIO\_CFG\_OUT\_STD | GPIO\_CFG\_OUT\_STR\_HIGH | GPIO\_CFG\_OUT\_LOW,}
+\DoxyCodeLine{    }
+\DoxyCodeLine{    GPIOTiva\_PN\_0 | GPIO\_CFG\_OUT\_STD | GPIO\_CFG\_OUT\_STR\_HIGH | GPIO\_CFG\_OUT\_LOW,}
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{_e_k___t_m4_c1294_x_l_8c_a3ed8d0bb98c427ab27b28d5201febbe2}\label{_e_k___t_m4_c1294_x_l_8c_a3ed8d0bb98c427ab27b28d5201febbe2}} 
+\index{EK\_TM4C1294XL.c@{EK\_TM4C1294XL.c}!GPIOTiva\_config@{GPIOTiva\_config}}
+\index{GPIOTiva\_config@{GPIOTiva\_config}!EK\_TM4C1294XL.c@{EK\_TM4C1294XL.c}}
+\doxysubsubsection{\texorpdfstring{GPIOTiva\_config}{GPIOTiva\_config}}
+{\footnotesize\ttfamily const G\+P\+I\+O\+Tiva\+\_\+\+Config G\+P\+I\+O\+Tiva\+\_\+config}
+
+{\bfseries İlk değer\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{= \{}
+\DoxyCodeLine{    .pinConfigs = (GPIO\_PinConfig *)\mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8c_a9e5c3072a49eb2ac4b947746854af530}{gpioPinConfigs}},}
+\DoxyCodeLine{    .callbacks = (GPIO\_CallbackFxn *)\mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8c_adfe79d7b812dfa6ca8f0ef47bf9eab5a}{gpioCallbackFunctions}},}
+\DoxyCodeLine{    .numberOfPinConfigs = \textcolor{keyword}{sizeof}(\mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8c_a9e5c3072a49eb2ac4b947746854af530}{gpioPinConfigs}})/\textcolor{keyword}{sizeof}(GPIO\_PinConfig),}
+\DoxyCodeLine{    .numberOfCallbacks = \textcolor{keyword}{sizeof}(\mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8c_adfe79d7b812dfa6ca8f0ef47bf9eab5a}{gpioCallbackFunctions}})/\textcolor{keyword}{sizeof}(GPIO\_CallbackFxn),}
+\DoxyCodeLine{    .intPriority = (\string~0)}
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{_e_k___t_m4_c1294_x_l_8c_aff23dd4a23f45b3bf8b634c56c272ebc}\label{_e_k___t_m4_c1294_x_l_8c_aff23dd4a23f45b3bf8b634c56c272ebc}} 
+\index{EK\_TM4C1294XL.c@{EK\_TM4C1294XL.c}!I2C\_config@{I2C\_config}}
+\index{I2C\_config@{I2C\_config}!EK\_TM4C1294XL.c@{EK\_TM4C1294XL.c}}
+\doxysubsubsection{\texorpdfstring{I2C\_config}{I2C\_config}}
+{\footnotesize\ttfamily const I2\+C\+\_\+\+Config I2\+C\+\_\+config\mbox{[}$\,$\mbox{]}}
+
+{\bfseries İlk değer\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{= \{}
+\DoxyCodeLine{    \{}
+\DoxyCodeLine{        .fxnTablePtr = \&I2CTiva\_fxnTable,}
+\DoxyCodeLine{        .object = \&\mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8c_a50568065e0cf4f0cab3732d13590be68}{i2cTivaObjects}}[0],}
+\DoxyCodeLine{        .hwAttrs = \&\mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8c_a4970be411f552d8ada54c4fbb655f8ca}{i2cTivaHWAttrs}}[0]}
+\DoxyCodeLine{    \},}
+\DoxyCodeLine{    \{}
+\DoxyCodeLine{        .fxnTablePtr = \&I2CTiva\_fxnTable,}
+\DoxyCodeLine{        .object = \&\mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8c_a50568065e0cf4f0cab3732d13590be68}{i2cTivaObjects}}[1],}
+\DoxyCodeLine{        .hwAttrs = \&\mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8c_a4970be411f552d8ada54c4fbb655f8ca}{i2cTivaHWAttrs}}[1]}
+\DoxyCodeLine{    \},}
+\DoxyCodeLine{    \{NULL, NULL, NULL\}}
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{_e_k___t_m4_c1294_x_l_8c_a4970be411f552d8ada54c4fbb655f8ca}\label{_e_k___t_m4_c1294_x_l_8c_a4970be411f552d8ada54c4fbb655f8ca}} 
+\index{EK\_TM4C1294XL.c@{EK\_TM4C1294XL.c}!i2cTivaHWAttrs@{i2cTivaHWAttrs}}
+\index{i2cTivaHWAttrs@{i2cTivaHWAttrs}!EK\_TM4C1294XL.c@{EK\_TM4C1294XL.c}}
+\doxysubsubsection{\texorpdfstring{i2cTivaHWAttrs}{i2cTivaHWAttrs}}
+{\footnotesize\ttfamily const I2\+C\+Tiva\+\_\+\+H\+W\+Attrs i2c\+Tiva\+H\+W\+Attrs\mbox{[}\mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8h_ab7876a5c9e1fe423c7547af21605beeda4f6fe7b155c2d57994b40bf992e29e27}{E\+K\+\_\+\+T\+M4\+C1294\+X\+L\+\_\+\+I2\+C\+C\+O\+U\+NT}}\mbox{]}}
+
+{\bfseries İlk değer\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{= \{}
+\DoxyCodeLine{    \{}
+\DoxyCodeLine{        .baseAddr = I2C7\_BASE,}
+\DoxyCodeLine{        .intNum = INT\_I2C7,}
+\DoxyCodeLine{        .intPriority = (\string~0)}
+\DoxyCodeLine{    \},}
+\DoxyCodeLine{    \{}
+\DoxyCodeLine{        .baseAddr = I2C8\_BASE,}
+\DoxyCodeLine{        .intNum = INT\_I2C8,}
+\DoxyCodeLine{        .intPriority = (\string~0)}
+\DoxyCodeLine{    \}}
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{_e_k___t_m4_c1294_x_l_8c_a50568065e0cf4f0cab3732d13590be68}\label{_e_k___t_m4_c1294_x_l_8c_a50568065e0cf4f0cab3732d13590be68}} 
+\index{EK\_TM4C1294XL.c@{EK\_TM4C1294XL.c}!i2cTivaObjects@{i2cTivaObjects}}
+\index{i2cTivaObjects@{i2cTivaObjects}!EK\_TM4C1294XL.c@{EK\_TM4C1294XL.c}}
+\doxysubsubsection{\texorpdfstring{i2cTivaObjects}{i2cTivaObjects}}
+{\footnotesize\ttfamily I2\+C\+Tiva\+\_\+\+Object i2c\+Tiva\+Objects\mbox{[}\mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8h_ab7876a5c9e1fe423c7547af21605beeda4f6fe7b155c2d57994b40bf992e29e27}{E\+K\+\_\+\+T\+M4\+C1294\+X\+L\+\_\+\+I2\+C\+C\+O\+U\+NT}}\mbox{]}}
+
+\mbox{\Hypertarget{_e_k___t_m4_c1294_x_l_8c_a1579a2702214ea5e504bad3de5b696ef}\label{_e_k___t_m4_c1294_x_l_8c_a1579a2702214ea5e504bad3de5b696ef}} 
+\index{EK\_TM4C1294XL.c@{EK\_TM4C1294XL.c}!macAddress@{macAddress}}
+\index{macAddress@{macAddress}!EK\_TM4C1294XL.c@{EK\_TM4C1294XL.c}}
+\doxysubsubsection{\texorpdfstring{macAddress}{macAddress}}
+{\footnotesize\ttfamily unsigned char mac\+Address\mbox{[}6\mbox{]} = \{0xff, 0xff, 0xff, 0xff, 0xff, 0xff\}}
+
+\mbox{\Hypertarget{_e_k___t_m4_c1294_x_l_8c_a47f88067ce58e172a5287db2ac614a81}\label{_e_k___t_m4_c1294_x_l_8c_a47f88067ce58e172a5287db2ac614a81}} 
+\index{EK\_TM4C1294XL.c@{EK\_TM4C1294XL.c}!NIMUDeviceTable@{NIMUDeviceTable}}
+\index{NIMUDeviceTable@{NIMUDeviceTable}!EK\_TM4C1294XL.c@{EK\_TM4C1294XL.c}}
+\doxysubsubsection{\texorpdfstring{NIMUDeviceTable}{NIMUDeviceTable}}
+{\footnotesize\ttfamily N\+I\+M\+U\+\_\+\+D\+E\+V\+I\+C\+E\+\_\+\+T\+A\+B\+L\+E\+\_\+\+E\+N\+T\+RY N\+I\+M\+U\+Device\+Table\mbox{[}2\mbox{]}}
+
+{\bfseries İlk değer\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{= \{}
+\DoxyCodeLine{    \{}
+\DoxyCodeLine{}
+\DoxyCodeLine{}
+\DoxyCodeLine{}
+\DoxyCodeLine{}
+\DoxyCodeLine{        }
+\DoxyCodeLine{        .init = EMACSnow\_NIMUInit}
+\DoxyCodeLine{}
+\DoxyCodeLine{    \},}
+\DoxyCodeLine{    \{NULL\}}
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{_e_k___t_m4_c1294_x_l_8c_a27d600c9564b86a17dda2afef1159efa}\label{_e_k___t_m4_c1294_x_l_8c_a27d600c9564b86a17dda2afef1159efa}} 
+\index{EK\_TM4C1294XL.c@{EK\_TM4C1294XL.c}!PWM\_config@{PWM\_config}}
+\index{PWM\_config@{PWM\_config}!EK\_TM4C1294XL.c@{EK\_TM4C1294XL.c}}
+\doxysubsubsection{\texorpdfstring{PWM\_config}{PWM\_config}}
+{\footnotesize\ttfamily const P\+W\+M\+\_\+\+Config P\+W\+M\+\_\+config\mbox{[}$\,$\mbox{]}}
+
+{\bfseries İlk değer\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{= \{}
+\DoxyCodeLine{    \{}
+\DoxyCodeLine{        .fxnTablePtr = \&PWMTiva\_fxnTable,}
+\DoxyCodeLine{        .object = \&\mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8c_a8eff1871323d62b254bd216d0330cdc4}{pwmTivaObjects}}[0],}
+\DoxyCodeLine{        .hwAttrs = \&\mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8c_aa1fcaa3e0047920f0ce9e500cf462bd2}{pwmTivaHWAttrs}}[0]}
+\DoxyCodeLine{    \},}
+\DoxyCodeLine{    \{NULL, NULL, NULL\}}
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{_e_k___t_m4_c1294_x_l_8c_aa1fcaa3e0047920f0ce9e500cf462bd2}\label{_e_k___t_m4_c1294_x_l_8c_aa1fcaa3e0047920f0ce9e500cf462bd2}} 
+\index{EK\_TM4C1294XL.c@{EK\_TM4C1294XL.c}!pwmTivaHWAttrs@{pwmTivaHWAttrs}}
+\index{pwmTivaHWAttrs@{pwmTivaHWAttrs}!EK\_TM4C1294XL.c@{EK\_TM4C1294XL.c}}
+\doxysubsubsection{\texorpdfstring{pwmTivaHWAttrs}{pwmTivaHWAttrs}}
+{\footnotesize\ttfamily const P\+W\+M\+Tiva\+\_\+\+H\+W\+Attrs pwm\+Tiva\+H\+W\+Attrs\mbox{[}\mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8h_adfa66b1b77983dbce579fc15ecf55e8da8903b032167582cd65584e11b514e377}{E\+K\+\_\+\+T\+M4\+C1294\+X\+L\+\_\+\+P\+W\+M\+C\+O\+U\+NT}}\mbox{]}}
+
+{\bfseries İlk değer\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{= \{}
+\DoxyCodeLine{    \{}
+\DoxyCodeLine{        .baseAddr = PWM0\_BASE,}
+\DoxyCodeLine{        .pwmOutput = PWM\_OUT\_0,}
+\DoxyCodeLine{        .pwmGenOpts = PWM\_GEN\_MODE\_DOWN | PWM\_GEN\_MODE\_DBG\_RUN}
+\DoxyCodeLine{    \}}
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{_e_k___t_m4_c1294_x_l_8c_a8eff1871323d62b254bd216d0330cdc4}\label{_e_k___t_m4_c1294_x_l_8c_a8eff1871323d62b254bd216d0330cdc4}} 
+\index{EK\_TM4C1294XL.c@{EK\_TM4C1294XL.c}!pwmTivaObjects@{pwmTivaObjects}}
+\index{pwmTivaObjects@{pwmTivaObjects}!EK\_TM4C1294XL.c@{EK\_TM4C1294XL.c}}
+\doxysubsubsection{\texorpdfstring{pwmTivaObjects}{pwmTivaObjects}}
+{\footnotesize\ttfamily P\+W\+M\+Tiva\+\_\+\+Object pwm\+Tiva\+Objects\mbox{[}\mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8h_adfa66b1b77983dbce579fc15ecf55e8da8903b032167582cd65584e11b514e377}{E\+K\+\_\+\+T\+M4\+C1294\+X\+L\+\_\+\+P\+W\+M\+C\+O\+U\+NT}}\mbox{]}}
+
+\mbox{\Hypertarget{_e_k___t_m4_c1294_x_l_8c_aa4f918999b9d2e7a53a2575a50ba4919}\label{_e_k___t_m4_c1294_x_l_8c_aa4f918999b9d2e7a53a2575a50ba4919}} 
+\index{EK\_TM4C1294XL.c@{EK\_TM4C1294XL.c}!SDSPI\_config@{SDSPI\_config}}
+\index{SDSPI\_config@{SDSPI\_config}!EK\_TM4C1294XL.c@{EK\_TM4C1294XL.c}}
+\doxysubsubsection{\texorpdfstring{SDSPI\_config}{SDSPI\_config}}
+{\footnotesize\ttfamily const S\+D\+S\+P\+I\+\_\+\+Config S\+D\+S\+P\+I\+\_\+config\mbox{[}$\,$\mbox{]}}
+
+{\bfseries İlk değer\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{= \{}
+\DoxyCodeLine{    \{}
+\DoxyCodeLine{        .fxnTablePtr = \&SDSPITiva\_fxnTable,}
+\DoxyCodeLine{        .object = \&\mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8c_a42c1a7d48d10830124edad61702817cf}{sdspiTivaObjects}}[0],}
+\DoxyCodeLine{        .hwAttrs = \&\mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8c_a71cd49128fc15e85a5efa9ae80c42bb6}{sdspiTivaHWattrs}}[0]}
+\DoxyCodeLine{    \},}
+\DoxyCodeLine{    \{}
+\DoxyCodeLine{        .fxnTablePtr = \&SDSPITiva\_fxnTable,}
+\DoxyCodeLine{        .object = \&\mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8c_a42c1a7d48d10830124edad61702817cf}{sdspiTivaObjects}}[1],}
+\DoxyCodeLine{        .hwAttrs = \&\mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8c_a71cd49128fc15e85a5efa9ae80c42bb6}{sdspiTivaHWattrs}}[1]}
+\DoxyCodeLine{    \},}
+\DoxyCodeLine{    \{NULL, NULL, NULL\}}
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{_e_k___t_m4_c1294_x_l_8c_a71cd49128fc15e85a5efa9ae80c42bb6}\label{_e_k___t_m4_c1294_x_l_8c_a71cd49128fc15e85a5efa9ae80c42bb6}} 
+\index{EK\_TM4C1294XL.c@{EK\_TM4C1294XL.c}!sdspiTivaHWattrs@{sdspiTivaHWattrs}}
+\index{sdspiTivaHWattrs@{sdspiTivaHWattrs}!EK\_TM4C1294XL.c@{EK\_TM4C1294XL.c}}
+\doxysubsubsection{\texorpdfstring{sdspiTivaHWattrs}{sdspiTivaHWattrs}}
+{\footnotesize\ttfamily const S\+D\+S\+P\+I\+Tiva\+\_\+\+H\+W\+Attrs sdspi\+Tiva\+H\+Wattrs\mbox{[}\mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8h_a00172ff6af0e25b6c9fb418ab9d2057ca35421b57fe0e41b50f4ba19c6adbb3cd}{E\+K\+\_\+\+T\+M4\+C1294\+X\+L\+\_\+\+S\+D\+S\+P\+I\+C\+O\+U\+NT}}\mbox{]}}
+
+{\bfseries İlk değer\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{= \{}
+\DoxyCodeLine{    \{}
+\DoxyCodeLine{        .baseAddr = SSI2\_BASE,}
+\DoxyCodeLine{}
+\DoxyCodeLine{        .portSCK = GPIO\_PORTD\_BASE,}
+\DoxyCodeLine{        .pinSCK = GPIO\_PIN\_3,}
+\DoxyCodeLine{        .portMISO = GPIO\_PORTD\_BASE,}
+\DoxyCodeLine{        .pinMISO = GPIO\_PIN\_0,}
+\DoxyCodeLine{        .portMOSI = GPIO\_PORTD\_BASE,}
+\DoxyCodeLine{        .pinMOSI = GPIO\_PIN\_1,}
+\DoxyCodeLine{        .portCS = GPIO\_PORTC\_BASE,}
+\DoxyCodeLine{        .pinCS = GPIO\_PIN\_7,}
+\DoxyCodeLine{    \},}
+\DoxyCodeLine{    \{}
+\DoxyCodeLine{        .baseAddr = SSI3\_BASE,}
+\DoxyCodeLine{}
+\DoxyCodeLine{        .portSCK = GPIO\_PORTQ\_BASE,}
+\DoxyCodeLine{        .pinSCK = GPIO\_PIN\_0,}
+\DoxyCodeLine{        .portMISO = GPIO\_PORTQ\_BASE,}
+\DoxyCodeLine{        .pinMISO = GPIO\_PIN\_3,}
+\DoxyCodeLine{        .portMOSI = GPIO\_PORTQ\_BASE,}
+\DoxyCodeLine{        .pinMOSI = GPIO\_PIN\_2,}
+\DoxyCodeLine{        .portCS = GPIO\_PORTP\_BASE,}
+\DoxyCodeLine{        .pinCS = GPIO\_PIN\_4,}
+\DoxyCodeLine{    \}}
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{_e_k___t_m4_c1294_x_l_8c_a42c1a7d48d10830124edad61702817cf}\label{_e_k___t_m4_c1294_x_l_8c_a42c1a7d48d10830124edad61702817cf}} 
+\index{EK\_TM4C1294XL.c@{EK\_TM4C1294XL.c}!sdspiTivaObjects@{sdspiTivaObjects}}
+\index{sdspiTivaObjects@{sdspiTivaObjects}!EK\_TM4C1294XL.c@{EK\_TM4C1294XL.c}}
+\doxysubsubsection{\texorpdfstring{sdspiTivaObjects}{sdspiTivaObjects}}
+{\footnotesize\ttfamily S\+D\+S\+P\+I\+Tiva\+\_\+\+Object sdspi\+Tiva\+Objects\mbox{[}\mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8h_a00172ff6af0e25b6c9fb418ab9d2057ca35421b57fe0e41b50f4ba19c6adbb3cd}{E\+K\+\_\+\+T\+M4\+C1294\+X\+L\+\_\+\+S\+D\+S\+P\+I\+C\+O\+U\+NT}}\mbox{]}}
+
+\mbox{\Hypertarget{_e_k___t_m4_c1294_x_l_8c_a5193a07e2fa52eefff60481f677b299d}\label{_e_k___t_m4_c1294_x_l_8c_a5193a07e2fa52eefff60481f677b299d}} 
+\index{EK\_TM4C1294XL.c@{EK\_TM4C1294XL.c}!SPI\_config@{SPI\_config}}
+\index{SPI\_config@{SPI\_config}!EK\_TM4C1294XL.c@{EK\_TM4C1294XL.c}}
+\doxysubsubsection{\texorpdfstring{SPI\_config}{SPI\_config}}
+{\footnotesize\ttfamily const S\+P\+I\+\_\+\+Config S\+P\+I\+\_\+config\mbox{[}$\,$\mbox{]}}
+
+{\bfseries İlk değer\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{= \{}
+\DoxyCodeLine{    \{}
+\DoxyCodeLine{        .fxnTablePtr = \&SPITivaDMA\_fxnTable,}
+\DoxyCodeLine{        .object = \&\mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8c_affcf7a006997f7bf4f049330aad90dc9}{spiTivaDMAObjects}}[0],}
+\DoxyCodeLine{        .hwAttrs = \&\mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8c_a4c265aedf645f20118926de09d6db158}{spiTivaDMAHWAttrs}}[0]}
+\DoxyCodeLine{    \},}
+\DoxyCodeLine{    \{}
+\DoxyCodeLine{        .fxnTablePtr = \&SPITivaDMA\_fxnTable,}
+\DoxyCodeLine{        .object = \&\mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8c_affcf7a006997f7bf4f049330aad90dc9}{spiTivaDMAObjects}}[1],}
+\DoxyCodeLine{        .hwAttrs = \&\mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8c_a4c265aedf645f20118926de09d6db158}{spiTivaDMAHWAttrs}}[1]}
+\DoxyCodeLine{    \},}
+\DoxyCodeLine{    \{NULL, NULL, NULL\}}
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{_e_k___t_m4_c1294_x_l_8c_a4c265aedf645f20118926de09d6db158}\label{_e_k___t_m4_c1294_x_l_8c_a4c265aedf645f20118926de09d6db158}} 
+\index{EK\_TM4C1294XL.c@{EK\_TM4C1294XL.c}!spiTivaDMAHWAttrs@{spiTivaDMAHWAttrs}}
+\index{spiTivaDMAHWAttrs@{spiTivaDMAHWAttrs}!EK\_TM4C1294XL.c@{EK\_TM4C1294XL.c}}
+\doxysubsubsection{\texorpdfstring{spiTivaDMAHWAttrs}{spiTivaDMAHWAttrs}}
+{\footnotesize\ttfamily const S\+P\+I\+Tiva\+D\+M\+A\+\_\+\+H\+W\+Attrs spi\+Tiva\+D\+M\+A\+H\+W\+Attrs\mbox{[}\mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8h_ae0c26dc71bbe7ca6ef38045ee745fcaaa79add243271735e10adbe04fafb7f04b}{E\+K\+\_\+\+T\+M4\+C1294\+X\+L\+\_\+\+S\+P\+I\+C\+O\+U\+NT}}\mbox{]}}
+
+{\bfseries İlk değer\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{= \{}
+\DoxyCodeLine{    \{}
+\DoxyCodeLine{        .baseAddr = SSI2\_BASE,}
+\DoxyCodeLine{        .intNum = INT\_SSI2,}
+\DoxyCodeLine{        .intPriority = (\string~0),}
+\DoxyCodeLine{        .scratchBufPtr = \&\mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8c_a58cc3b001fb329f7d25507ad0b8332e4}{spiTivaDMAscratchBuf}}[0],}
+\DoxyCodeLine{        .defaultTxBufValue = 0,}
+\DoxyCodeLine{        .rxChannelIndex = UDMA\_SEC\_CHANNEL\_UART2RX\_12,}
+\DoxyCodeLine{        .txChannelIndex = UDMA\_SEC\_CHANNEL\_UART2TX\_13,}
+\DoxyCodeLine{        .channelMappingFxn = uDMAChannelAssign,}
+\DoxyCodeLine{        .rxChannelMappingFxnArg = UDMA\_CH12\_SSI2RX,}
+\DoxyCodeLine{        .txChannelMappingFxnArg = UDMA\_CH13\_SSI2TX}
+\DoxyCodeLine{    \},}
+\DoxyCodeLine{    \{}
+\DoxyCodeLine{        .baseAddr = SSI3\_BASE,}
+\DoxyCodeLine{        .intNum = INT\_SSI3,}
+\DoxyCodeLine{        .intPriority = (\string~0),}
+\DoxyCodeLine{        .scratchBufPtr = \&\mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8c_a58cc3b001fb329f7d25507ad0b8332e4}{spiTivaDMAscratchBuf}}[1],}
+\DoxyCodeLine{        .defaultTxBufValue = 0,}
+\DoxyCodeLine{        .rxChannelIndex = UDMA\_SEC\_CHANNEL\_TMR2A\_14,}
+\DoxyCodeLine{        .txChannelIndex = UDMA\_SEC\_CHANNEL\_TMR2B\_15,}
+\DoxyCodeLine{        .channelMappingFxn = uDMAChannelAssign,}
+\DoxyCodeLine{        .rxChannelMappingFxnArg = UDMA\_CH14\_SSI3RX,}
+\DoxyCodeLine{        .txChannelMappingFxnArg = UDMA\_CH15\_SSI3TX}
+\DoxyCodeLine{    \}}
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{_e_k___t_m4_c1294_x_l_8c_affcf7a006997f7bf4f049330aad90dc9}\label{_e_k___t_m4_c1294_x_l_8c_affcf7a006997f7bf4f049330aad90dc9}} 
+\index{EK\_TM4C1294XL.c@{EK\_TM4C1294XL.c}!spiTivaDMAObjects@{spiTivaDMAObjects}}
+\index{spiTivaDMAObjects@{spiTivaDMAObjects}!EK\_TM4C1294XL.c@{EK\_TM4C1294XL.c}}
+\doxysubsubsection{\texorpdfstring{spiTivaDMAObjects}{spiTivaDMAObjects}}
+{\footnotesize\ttfamily S\+P\+I\+Tiva\+D\+M\+A\+\_\+\+Object spi\+Tiva\+D\+M\+A\+Objects\mbox{[}\mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8h_ae0c26dc71bbe7ca6ef38045ee745fcaaa79add243271735e10adbe04fafb7f04b}{E\+K\+\_\+\+T\+M4\+C1294\+X\+L\+\_\+\+S\+P\+I\+C\+O\+U\+NT}}\mbox{]}}
+
+\mbox{\Hypertarget{_e_k___t_m4_c1294_x_l_8c_a58cc3b001fb329f7d25507ad0b8332e4}\label{_e_k___t_m4_c1294_x_l_8c_a58cc3b001fb329f7d25507ad0b8332e4}} 
+\index{EK\_TM4C1294XL.c@{EK\_TM4C1294XL.c}!spiTivaDMAscratchBuf@{spiTivaDMAscratchBuf}}
+\index{spiTivaDMAscratchBuf@{spiTivaDMAscratchBuf}!EK\_TM4C1294XL.c@{EK\_TM4C1294XL.c}}
+\doxysubsubsection{\texorpdfstring{spiTivaDMAscratchBuf}{spiTivaDMAscratchBuf}}
+{\footnotesize\ttfamily uint32\+\_\+t spi\+Tiva\+D\+M\+Ascratch\+Buf\mbox{[}\mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8h_ae0c26dc71bbe7ca6ef38045ee745fcaaa79add243271735e10adbe04fafb7f04b}{E\+K\+\_\+\+T\+M4\+C1294\+X\+L\+\_\+\+S\+P\+I\+C\+O\+U\+NT}}\mbox{]}}
+
+\mbox{\Hypertarget{_e_k___t_m4_c1294_x_l_8c_ad24e1d95c2d7232d55dc5b1d00a56bb5}\label{_e_k___t_m4_c1294_x_l_8c_ad24e1d95c2d7232d55dc5b1d00a56bb5}} 
+\index{EK\_TM4C1294XL.c@{EK\_TM4C1294XL.c}!UART\_config@{UART\_config}}
+\index{UART\_config@{UART\_config}!EK\_TM4C1294XL.c@{EK\_TM4C1294XL.c}}
+\doxysubsubsection{\texorpdfstring{UART\_config}{UART\_config}}
+{\footnotesize\ttfamily const U\+A\+R\+T\+\_\+\+Config U\+A\+R\+T\+\_\+config\mbox{[}$\,$\mbox{]}}
+
+{\bfseries İlk değer\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{= \{}
+\DoxyCodeLine{    \{}
+\DoxyCodeLine{        .fxnTablePtr = \&UARTTiva\_fxnTable,}
+\DoxyCodeLine{        .object = \&\mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8c_abeff8fb40d1c2d82c088f85b8d0b0fb4}{uartTivaObjects}}[0],}
+\DoxyCodeLine{        .hwAttrs = \&\mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8c_a4645ac6147a91fb1fecc382f6e153626}{uartTivaHWAttrs}}[0]}
+\DoxyCodeLine{    \},}
+\DoxyCodeLine{    \{NULL, NULL, NULL\}}
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{_e_k___t_m4_c1294_x_l_8c_a4645ac6147a91fb1fecc382f6e153626}\label{_e_k___t_m4_c1294_x_l_8c_a4645ac6147a91fb1fecc382f6e153626}} 
+\index{EK\_TM4C1294XL.c@{EK\_TM4C1294XL.c}!uartTivaHWAttrs@{uartTivaHWAttrs}}
+\index{uartTivaHWAttrs@{uartTivaHWAttrs}!EK\_TM4C1294XL.c@{EK\_TM4C1294XL.c}}
+\doxysubsubsection{\texorpdfstring{uartTivaHWAttrs}{uartTivaHWAttrs}}
+{\footnotesize\ttfamily const U\+A\+R\+T\+Tiva\+\_\+\+H\+W\+Attrs uart\+Tiva\+H\+W\+Attrs\mbox{[}\mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8h_a26d4bc240b070d599d161b3359d8cc8aa84e9cd64b2beb846ba25c54787435301}{E\+K\+\_\+\+T\+M4\+C1294\+X\+L\+\_\+\+U\+A\+R\+T\+C\+O\+U\+NT}}\mbox{]}}
+
+{\bfseries İlk değer\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{= \{}
+\DoxyCodeLine{    \{}
+\DoxyCodeLine{        .baseAddr = UART0\_BASE,}
+\DoxyCodeLine{        .intNum = INT\_UART0,}
+\DoxyCodeLine{        .intPriority = (\string~0),}
+\DoxyCodeLine{        .flowControl = UART\_FLOWCONTROL\_NONE,}
+\DoxyCodeLine{        .ringBufPtr  = \mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8c_a6879d9b49120ac55c39d8352f4d1d136}{uartTivaRingBuffer}}[0],}
+\DoxyCodeLine{        .ringBufSize = \textcolor{keyword}{sizeof}(\mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8c_a6879d9b49120ac55c39d8352f4d1d136}{uartTivaRingBuffer}}[0])}
+\DoxyCodeLine{    \}}
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{_e_k___t_m4_c1294_x_l_8c_abeff8fb40d1c2d82c088f85b8d0b0fb4}\label{_e_k___t_m4_c1294_x_l_8c_abeff8fb40d1c2d82c088f85b8d0b0fb4}} 
+\index{EK\_TM4C1294XL.c@{EK\_TM4C1294XL.c}!uartTivaObjects@{uartTivaObjects}}
+\index{uartTivaObjects@{uartTivaObjects}!EK\_TM4C1294XL.c@{EK\_TM4C1294XL.c}}
+\doxysubsubsection{\texorpdfstring{uartTivaObjects}{uartTivaObjects}}
+{\footnotesize\ttfamily U\+A\+R\+T\+Tiva\+\_\+\+Object uart\+Tiva\+Objects\mbox{[}\mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8h_a26d4bc240b070d599d161b3359d8cc8aa84e9cd64b2beb846ba25c54787435301}{E\+K\+\_\+\+T\+M4\+C1294\+X\+L\+\_\+\+U\+A\+R\+T\+C\+O\+U\+NT}}\mbox{]}}
+
+\mbox{\Hypertarget{_e_k___t_m4_c1294_x_l_8c_a6879d9b49120ac55c39d8352f4d1d136}\label{_e_k___t_m4_c1294_x_l_8c_a6879d9b49120ac55c39d8352f4d1d136}} 
+\index{EK\_TM4C1294XL.c@{EK\_TM4C1294XL.c}!uartTivaRingBuffer@{uartTivaRingBuffer}}
+\index{uartTivaRingBuffer@{uartTivaRingBuffer}!EK\_TM4C1294XL.c@{EK\_TM4C1294XL.c}}
+\doxysubsubsection{\texorpdfstring{uartTivaRingBuffer}{uartTivaRingBuffer}}
+{\footnotesize\ttfamily unsigned char uart\+Tiva\+Ring\+Buffer\mbox{[}\mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8h_a26d4bc240b070d599d161b3359d8cc8aa84e9cd64b2beb846ba25c54787435301}{E\+K\+\_\+\+T\+M4\+C1294\+X\+L\+\_\+\+U\+A\+R\+T\+C\+O\+U\+NT}}\mbox{]}\mbox{[}32\mbox{]}}
+
+\mbox{\Hypertarget{_e_k___t_m4_c1294_x_l_8c_a36337e16e94bb5b9be4edc678e2ccb52}\label{_e_k___t_m4_c1294_x_l_8c_a36337e16e94bb5b9be4edc678e2ccb52}} 
+\index{EK\_TM4C1294XL.c@{EK\_TM4C1294XL.c}!USBMSCHFatFs\_config@{USBMSCHFatFs\_config}}
+\index{USBMSCHFatFs\_config@{USBMSCHFatFs\_config}!EK\_TM4C1294XL.c@{EK\_TM4C1294XL.c}}
+\doxysubsubsection{\texorpdfstring{USBMSCHFatFs\_config}{USBMSCHFatFs\_config}}
+{\footnotesize\ttfamily const U\+S\+B\+M\+S\+C\+H\+Fat\+Fs\+\_\+\+Config U\+S\+B\+M\+S\+C\+H\+Fat\+Fs\+\_\+config\mbox{[}$\,$\mbox{]}}
+
+{\bfseries İlk değer\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{= \{}
+\DoxyCodeLine{    \{}
+\DoxyCodeLine{        .fxnTablePtr = \&USBMSCHFatFsTiva\_fxnTable,}
+\DoxyCodeLine{        .object = \&\mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8c_a3dbef9639fe6d83ab3bcf38b1669386d}{usbmschfatfstivaObjects}}[0],}
+\DoxyCodeLine{        .hwAttrs = \&\mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8c_aa4c1b7dbde24824a8ee947bba5b53f6c}{usbmschfatfstivaHWAttrs}}[0]}
+\DoxyCodeLine{    \},}
+\DoxyCodeLine{    \{NULL, NULL, NULL\}}
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{_e_k___t_m4_c1294_x_l_8c_aa4c1b7dbde24824a8ee947bba5b53f6c}\label{_e_k___t_m4_c1294_x_l_8c_aa4c1b7dbde24824a8ee947bba5b53f6c}} 
+\index{EK\_TM4C1294XL.c@{EK\_TM4C1294XL.c}!usbmschfatfstivaHWAttrs@{usbmschfatfstivaHWAttrs}}
+\index{usbmschfatfstivaHWAttrs@{usbmschfatfstivaHWAttrs}!EK\_TM4C1294XL.c@{EK\_TM4C1294XL.c}}
+\doxysubsubsection{\texorpdfstring{usbmschfatfstivaHWAttrs}{usbmschfatfstivaHWAttrs}}
+{\footnotesize\ttfamily const U\+S\+B\+M\+S\+C\+H\+Fat\+Fs\+Tiva\+\_\+\+H\+W\+Attrs usbmschfatfstiva\+H\+W\+Attrs\mbox{[}\mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8h_a1b377cb71ef848e20e0df9f049e1ec2da1c5d4408903ba5bc417e2661fa8b2f61}{E\+K\+\_\+\+T\+M4\+C1294\+X\+L\+\_\+\+U\+S\+B\+M\+S\+C\+H\+Fat\+Fs\+C\+O\+U\+NT}}\mbox{]}}
+
+{\bfseries İlk değer\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{= \{}
+\DoxyCodeLine{    \{}
+\DoxyCodeLine{        .intNum = INT\_USB0,}
+\DoxyCodeLine{        .intPriority = (\string~0)}
+\DoxyCodeLine{    \}}
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{_e_k___t_m4_c1294_x_l_8c_a3dbef9639fe6d83ab3bcf38b1669386d}\label{_e_k___t_m4_c1294_x_l_8c_a3dbef9639fe6d83ab3bcf38b1669386d}} 
+\index{EK\_TM4C1294XL.c@{EK\_TM4C1294XL.c}!usbmschfatfstivaObjects@{usbmschfatfstivaObjects}}
+\index{usbmschfatfstivaObjects@{usbmschfatfstivaObjects}!EK\_TM4C1294XL.c@{EK\_TM4C1294XL.c}}
+\doxysubsubsection{\texorpdfstring{usbmschfatfstivaObjects}{usbmschfatfstivaObjects}}
+{\footnotesize\ttfamily U\+S\+B\+M\+S\+C\+H\+Fat\+Fs\+Tiva\+\_\+\+Object usbmschfatfstiva\+Objects\mbox{[}\mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8h_a1b377cb71ef848e20e0df9f049e1ec2da1c5d4408903ba5bc417e2661fa8b2f61}{E\+K\+\_\+\+T\+M4\+C1294\+X\+L\+\_\+\+U\+S\+B\+M\+S\+C\+H\+Fat\+Fs\+C\+O\+U\+NT}}\mbox{]}}
+
+\mbox{\Hypertarget{_e_k___t_m4_c1294_x_l_8c_a44de1103b0354733f7dc35ac32777fb1}\label{_e_k___t_m4_c1294_x_l_8c_a44de1103b0354733f7dc35ac32777fb1}} 
+\index{EK\_TM4C1294XL.c@{EK\_TM4C1294XL.c}!Watchdog\_config@{Watchdog\_config}}
+\index{Watchdog\_config@{Watchdog\_config}!EK\_TM4C1294XL.c@{EK\_TM4C1294XL.c}}
+\doxysubsubsection{\texorpdfstring{Watchdog\_config}{Watchdog\_config}}
+{\footnotesize\ttfamily const Watchdog\+\_\+\+Config Watchdog\+\_\+config\mbox{[}$\,$\mbox{]}}
+
+{\bfseries İlk değer\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{= \{}
+\DoxyCodeLine{    \{}
+\DoxyCodeLine{        .fxnTablePtr = \&WatchdogTiva\_fxnTable,}
+\DoxyCodeLine{        .object = \&\mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8c_ab26075094b75975bb3ee54163f5aaf8b}{watchdogTivaObjects}}[0],}
+\DoxyCodeLine{        .hwAttrs = \&\mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8c_a7c5cfb526698e6b7da60d7c523e9ecd1}{watchdogTivaHWAttrs}}[0]}
+\DoxyCodeLine{    \},}
+\DoxyCodeLine{    \{NULL, NULL, NULL\},}
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{_e_k___t_m4_c1294_x_l_8c_a7c5cfb526698e6b7da60d7c523e9ecd1}\label{_e_k___t_m4_c1294_x_l_8c_a7c5cfb526698e6b7da60d7c523e9ecd1}} 
+\index{EK\_TM4C1294XL.c@{EK\_TM4C1294XL.c}!watchdogTivaHWAttrs@{watchdogTivaHWAttrs}}
+\index{watchdogTivaHWAttrs@{watchdogTivaHWAttrs}!EK\_TM4C1294XL.c@{EK\_TM4C1294XL.c}}
+\doxysubsubsection{\texorpdfstring{watchdogTivaHWAttrs}{watchdogTivaHWAttrs}}
+{\footnotesize\ttfamily const Watchdog\+Tiva\+\_\+\+H\+W\+Attrs watchdog\+Tiva\+H\+W\+Attrs\mbox{[}\mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8h_a93d37fc3e70db39774767feed007a0eaa7559f203197a2b7e428e7710933a2656}{E\+K\+\_\+\+T\+M4\+C1294\+X\+L\+\_\+\+W\+A\+T\+C\+H\+D\+O\+G\+C\+O\+U\+NT}}\mbox{]}}
+
+{\bfseries İlk değer\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{= \{}
+\DoxyCodeLine{    \{}
+\DoxyCodeLine{        .baseAddr = WATCHDOG0\_BASE,}
+\DoxyCodeLine{        .intNum = INT\_WATCHDOG,}
+\DoxyCodeLine{        .intPriority = (\string~0),}
+\DoxyCodeLine{        .reloadValue = 80000000 }
+\DoxyCodeLine{    \},}
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{_e_k___t_m4_c1294_x_l_8c_ab26075094b75975bb3ee54163f5aaf8b}\label{_e_k___t_m4_c1294_x_l_8c_ab26075094b75975bb3ee54163f5aaf8b}} 
+\index{EK\_TM4C1294XL.c@{EK\_TM4C1294XL.c}!watchdogTivaObjects@{watchdogTivaObjects}}
+\index{watchdogTivaObjects@{watchdogTivaObjects}!EK\_TM4C1294XL.c@{EK\_TM4C1294XL.c}}
+\doxysubsubsection{\texorpdfstring{watchdogTivaObjects}{watchdogTivaObjects}}
+{\footnotesize\ttfamily Watchdog\+Tiva\+\_\+\+Object watchdog\+Tiva\+Objects\mbox{[}\mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8h_a93d37fc3e70db39774767feed007a0eaa7559f203197a2b7e428e7710933a2656}{E\+K\+\_\+\+T\+M4\+C1294\+X\+L\+\_\+\+W\+A\+T\+C\+H\+D\+O\+G\+C\+O\+U\+NT}}\mbox{]}}
+
+\mbox{\Hypertarget{_e_k___t_m4_c1294_x_l_8c_a39134ec9218ef8f318e0db3d76dfe5ec}\label{_e_k___t_m4_c1294_x_l_8c_a39134ec9218ef8f318e0db3d76dfe5ec}} 
+\index{EK\_TM4C1294XL.c@{EK\_TM4C1294XL.c}!WiFi\_config@{WiFi\_config}}
+\index{WiFi\_config@{WiFi\_config}!EK\_TM4C1294XL.c@{EK\_TM4C1294XL.c}}
+\doxysubsubsection{\texorpdfstring{WiFi\_config}{WiFi\_config}}
+{\footnotesize\ttfamily const Wi\+Fi\+\_\+\+Config Wi\+Fi\+\_\+config\mbox{[}$\,$\mbox{]}}
+
+{\bfseries İlk değer\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{= \{}
+\DoxyCodeLine{    \{}
+\DoxyCodeLine{        .fxnTablePtr = \&WiFiCC3100\_fxnTable,}
+\DoxyCodeLine{        .object = \&\mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8c_a399a000adf7fb4f8e8d62289818211ef}{wiFiCC3100Objects}}[0],}
+\DoxyCodeLine{        .hwAttrs = \&\mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8c_a6905618ad38f7962d0288f8243c0be9c}{wiFiCC3100HWAttrs}}[0]}
+\DoxyCodeLine{    \},}
+\DoxyCodeLine{    \{NULL,NULL, NULL\},}
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{_e_k___t_m4_c1294_x_l_8c_a6905618ad38f7962d0288f8243c0be9c}\label{_e_k___t_m4_c1294_x_l_8c_a6905618ad38f7962d0288f8243c0be9c}} 
+\index{EK\_TM4C1294XL.c@{EK\_TM4C1294XL.c}!wiFiCC3100HWAttrs@{wiFiCC3100HWAttrs}}
+\index{wiFiCC3100HWAttrs@{wiFiCC3100HWAttrs}!EK\_TM4C1294XL.c@{EK\_TM4C1294XL.c}}
+\doxysubsubsection{\texorpdfstring{wiFiCC3100HWAttrs}{wiFiCC3100HWAttrs}}
+{\footnotesize\ttfamily const Wi\+Fi\+C\+C3100\+\_\+\+H\+W\+Attrs wi\+Fi\+C\+C3100\+H\+W\+Attrs\mbox{[}\mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8h_a2cad96e7da2590b0e10f1f4d21ef7864a06dd08f35bf3af6c939db97bed07efd6}{E\+K\+\_\+\+T\+M4\+C1294\+X\+L\+\_\+\+W\+I\+F\+I\+C\+O\+U\+NT}}\mbox{]}}
+
+{\bfseries İlk değer\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{= \{}
+\DoxyCodeLine{    \{}
+\DoxyCodeLine{        .irqPort = GPIO\_PORTM\_BASE,}
+\DoxyCodeLine{        .irqPin = GPIO\_PIN\_3,}
+\DoxyCodeLine{        .irqIntNum = INT\_GPIOM,}
+\DoxyCodeLine{}
+\DoxyCodeLine{        .csPort = GPIO\_PORTH\_BASE,}
+\DoxyCodeLine{        .csPin = GPIO\_PIN\_2,}
+\DoxyCodeLine{}
+\DoxyCodeLine{        .enPort = GPIO\_PORTC\_BASE,}
+\DoxyCodeLine{        .enPin = GPIO\_PIN\_6}
+\DoxyCodeLine{    \}}
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{_e_k___t_m4_c1294_x_l_8c_a399a000adf7fb4f8e8d62289818211ef}\label{_e_k___t_m4_c1294_x_l_8c_a399a000adf7fb4f8e8d62289818211ef}} 
+\index{EK\_TM4C1294XL.c@{EK\_TM4C1294XL.c}!wiFiCC3100Objects@{wiFiCC3100Objects}}
+\index{wiFiCC3100Objects@{wiFiCC3100Objects}!EK\_TM4C1294XL.c@{EK\_TM4C1294XL.c}}
+\doxysubsubsection{\texorpdfstring{wiFiCC3100Objects}{wiFiCC3100Objects}}
+{\footnotesize\ttfamily Wi\+Fi\+C\+C3100\+\_\+\+Object wi\+Fi\+C\+C3100\+Objects\mbox{[}\mbox{\hyperlink{_e_k___t_m4_c1294_x_l_8h_a2cad96e7da2590b0e10f1f4d21ef7864a06dd08f35bf3af6c939db97bed07efd6}{E\+K\+\_\+\+T\+M4\+C1294\+X\+L\+\_\+\+W\+I\+F\+I\+C\+O\+U\+NT}}\mbox{]}}
+

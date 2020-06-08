@@ -1,0 +1,147 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.17"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>My Project: uart_test.h Kaynak Dosyası</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">My Project
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Oluşturan Doxygen 1.8.17 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Ara');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Ara');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">uart_test.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="uart__test_8h.html">Bu dosyanın dokümantasyonuna git.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/*</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment"> * uart_test.h</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"> *  Created on: 13 �ub 2020</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment"> *      Author: Mustafa Abdullah Ku�</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment"> */</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160; </div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#ifndef UART_TEST_H_</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#define UART_TEST_H_</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160; </div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &lt;ti/drivers/UART.h&gt;</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="uart__test_8h.html#a61bcc9dcdd87be7e6376fd91f322a5fe">   12</a></span>&#160;<span class="keyword">typedef</span> void        (*<a class="code" href="uart__test_8h.html#a61bcc9dcdd87be7e6376fd91f322a5fe">OkumaKesmesi</a>)    (UART_Handle, <span class="keywordtype">void</span> *buf, <span class="keywordtype">size_t</span> count);</div>
+<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="uart__test_8h.html#ad9bfe4b8061e001c3c717bff9b4edcce">   13</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">enum</span> <a class="code" href="uart__test_8h.html#ad9bfe4b8061e001c3c717bff9b4edcce">eBaudRate</a></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;{</div>
+<div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="uart__test_8h.html#ad9bfe4b8061e001c3c717bff9b4edcceadfe926cec30e5c96206830700d9e71d7">   15</a></span>&#160;    <a class="code" href="uart__test_8h.html#ad9bfe4b8061e001c3c717bff9b4edcceadfe926cec30e5c96206830700d9e71d7">Baud_2400</a>=2400,</div>
+<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="uart__test_8h.html#ad9bfe4b8061e001c3c717bff9b4edcceaa013dfa803db5c221cc506a4c3425be8">   16</a></span>&#160;    <a class="code" href="uart__test_8h.html#ad9bfe4b8061e001c3c717bff9b4edcceaa013dfa803db5c221cc506a4c3425be8">Baud_9600</a>=9600,</div>
+<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="uart__test_8h.html#ad9bfe4b8061e001c3c717bff9b4edccea2a41160a2cedcc6e82e0b15194e9f9e0">   17</a></span>&#160;    <a class="code" href="uart__test_8h.html#ad9bfe4b8061e001c3c717bff9b4edccea2a41160a2cedcc6e82e0b15194e9f9e0">Baud_19200</a>=19200,</div>
+<div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="uart__test_8h.html#ad9bfe4b8061e001c3c717bff9b4edccea0c071daa88da9027bb91c27ddb5290a5">   18</a></span>&#160;    <a class="code" href="uart__test_8h.html#ad9bfe4b8061e001c3c717bff9b4edccea0c071daa88da9027bb91c27ddb5290a5">Baud_38400</a>=38400,</div>
+<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="uart__test_8h.html#ad9bfe4b8061e001c3c717bff9b4edccea59f322050e734c2af8c5f343e79033c1">   19</a></span>&#160;    <a class="code" href="uart__test_8h.html#ad9bfe4b8061e001c3c717bff9b4edccea59f322050e734c2af8c5f343e79033c1">Baud_57600</a>=57600,</div>
+<div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="uart__test_8h.html#ad9bfe4b8061e001c3c717bff9b4edccea9a51214e4520f7c418b80cd3c347ff09">   20</a></span>&#160;    <a class="code" href="uart__test_8h.html#ad9bfe4b8061e001c3c717bff9b4edccea9a51214e4520f7c418b80cd3c347ff09">Baud_115200</a>=115200,</div>
+<div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="uart__test_8h.html#ad9bfe4b8061e001c3c717bff9b4edccea4602205244bc78dc79e835a6294a266d">   21</a></span>&#160;    <a class="code" href="uart__test_8h.html#ad9bfe4b8061e001c3c717bff9b4edccea4602205244bc78dc79e835a6294a266d">Baud_921600</a>=921600</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;} <a class="code" href="uart__test_8h.html#ad9bfe4b8061e001c3c717bff9b4edcce">eBaudRate</a>;</div>
+<div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="uart__test_8h.html#aa111cbfcc23289509f63bf49400a5bea">   23</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">enum</span> <a class="code" href="uart__test_8h.html#aa111cbfcc23289509f63bf49400a5bea">eParite</a></div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;{</div>
+<div class="line"><a name="l00025"></a><span class="lineno"><a class="line" href="uart__test_8h.html#aa111cbfcc23289509f63bf49400a5beaa20850f96285f56b28ef565c77b414cab">   25</a></span>&#160;    <a class="code" href="uart__test_8h.html#aa111cbfcc23289509f63bf49400a5beaa20850f96285f56b28ef565c77b414cab">Parite_NONE</a> = 0,</div>
+<div class="line"><a name="l00026"></a><span class="lineno"><a class="line" href="uart__test_8h.html#aa111cbfcc23289509f63bf49400a5beaa0da8d7ed126875d7a55b0d7a3cd2ffd8">   26</a></span>&#160;    <a class="code" href="uart__test_8h.html#aa111cbfcc23289509f63bf49400a5beaa0da8d7ed126875d7a55b0d7a3cd2ffd8">Parite_EVEN</a> = 1,</div>
+<div class="line"><a name="l00027"></a><span class="lineno"><a class="line" href="uart__test_8h.html#aa111cbfcc23289509f63bf49400a5beaaf1fb6b713e777fd8a64e2a9ee8642594">   27</a></span>&#160;    <a class="code" href="uart__test_8h.html#aa111cbfcc23289509f63bf49400a5beaaf1fb6b713e777fd8a64e2a9ee8642594">Parite_ODD</a>  = 2,</div>
+<div class="line"><a name="l00028"></a><span class="lineno"><a class="line" href="uart__test_8h.html#aa111cbfcc23289509f63bf49400a5beaa7b99f64c7bdaaa5ea3d03612624930d4">   28</a></span>&#160;    <a class="code" href="uart__test_8h.html#aa111cbfcc23289509f63bf49400a5beaa7b99f64c7bdaaa5ea3d03612624930d4">Parite_ZERO</a> = 3,</div>
+<div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="uart__test_8h.html#aa111cbfcc23289509f63bf49400a5beaa9f053f69dd5790eb4ef325729b20e12a">   29</a></span>&#160;    <a class="code" href="uart__test_8h.html#aa111cbfcc23289509f63bf49400a5beaa9f053f69dd5790eb4ef325729b20e12a">Parite_ONE</a>  = 4</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;} <a class="code" href="uart__test_8h.html#aa111cbfcc23289509f63bf49400a5bea">eParite</a>;</div>
+<div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="uart__test_8h.html#a649f052c5062e6fb250da6b72d8e71d3">   31</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">enum</span> <a class="code" href="uart__test_8h.html#a649f052c5062e6fb250da6b72d8e71d3">eStopBit</a></div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;{</div>
+<div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="uart__test_8h.html#a649f052c5062e6fb250da6b72d8e71d3abc1aa3f50c3580361e7bce7ea7793fef">   33</a></span>&#160;    <a class="code" href="uart__test_8h.html#a649f052c5062e6fb250da6b72d8e71d3abc1aa3f50c3580361e7bce7ea7793fef">Stop_ONE</a> = 0,</div>
+<div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="uart__test_8h.html#a649f052c5062e6fb250da6b72d8e71d3aa05a41487ef7e8c81bcb34b4f5fb9855">   34</a></span>&#160;    <a class="code" href="uart__test_8h.html#a649f052c5062e6fb250da6b72d8e71d3aa05a41487ef7e8c81bcb34b4f5fb9855">Stop_TWO</a> = 1</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;} <a class="code" href="uart__test_8h.html#a649f052c5062e6fb250da6b72d8e71d3">eStopBit</a>;</div>
+<div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="uart__test_8h.html#ad9e60a391c69e6cf2211cabf0a1dee76">   36</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">enum</span> <a class="code" href="uart__test_8h.html#ad9e60a391c69e6cf2211cabf0a1dee76">eKesmeByte</a></div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;{</div>
+<div class="line"><a name="l00038"></a><span class="lineno"><a class="line" href="uart__test_8h.html#ad9e60a391c69e6cf2211cabf0a1dee76a7a0e265f3cb239777ffa88bce68892bf">   38</a></span>&#160;    <a class="code" href="uart__test_8h.html#ad9e60a391c69e6cf2211cabf0a1dee76a7a0e265f3cb239777ffa88bce68892bf">Kesme_1</a> = 1,</div>
+<div class="line"><a name="l00039"></a><span class="lineno"><a class="line" href="uart__test_8h.html#ad9e60a391c69e6cf2211cabf0a1dee76a8a1bcbfa8e3ca5b03e94b8375e4df4a7">   39</a></span>&#160;    <a class="code" href="uart__test_8h.html#ad9e60a391c69e6cf2211cabf0a1dee76a8a1bcbfa8e3ca5b03e94b8375e4df4a7">Kesme_8</a> = 8</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;} <a class="code" href="uart__test_8h.html#ad9e60a391c69e6cf2211cabf0a1dee76">eKesmeByte</a>;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160; </div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="keywordtype">void</span> <a class="code" href="uart__test_8h.html#a68a68055df8fd3001df3c84372013b1a">UART_Kurulum</a>(<a class="code" href="uart__test_8h.html#ad9bfe4b8061e001c3c717bff9b4edcce">eBaudRate</a> BaudRate, <a class="code" href="uart__test_8h.html#a61bcc9dcdd87be7e6376fd91f322a5fe">OkumaKesmesi</a> callback,<a class="code" href="uart__test_8h.html#aa111cbfcc23289509f63bf49400a5bea">eParite</a> Parite, <a class="code" href="uart__test_8h.html#a649f052c5062e6fb250da6b72d8e71d3">eStopBit</a> StopBit);</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="keywordtype">void</span> <a class="code" href="uart__test_8h.html#ae92ba3a475f1c2277ac9234b0b91cfaf">UART_Step</a>();</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="keywordtype">void</span> <a class="code" href="uart__test_8h.html#aac5e6807fa03f1eeffe7cde2e5036bdb">readCallback</a>(UART_Handle handle, <span class="keywordtype">void</span> *<a class="code" href="uart__test_8c.html#ab72cb52c79611e9e6c38fac29a4723d4">pcData</a>, <span class="keywordtype">size_t</span> num);</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160; </div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* UART_TEST_H_ */</span><span class="preprocessor"></span></div>
+</div><!-- fragment --></div><!-- contents -->
+<div class="ttc" id="auart__test_8h_html_ad9e60a391c69e6cf2211cabf0a1dee76a7a0e265f3cb239777ffa88bce68892bf"><div class="ttname"><a href="uart__test_8h.html#ad9e60a391c69e6cf2211cabf0a1dee76a7a0e265f3cb239777ffa88bce68892bf">Kesme_1</a></div><div class="ttdeci">@ Kesme_1</div><div class="ttdef"><b>Definition:</b> uart_test.h:38</div></div>
+<div class="ttc" id="auart__test_8h_html_a649f052c5062e6fb250da6b72d8e71d3"><div class="ttname"><a href="uart__test_8h.html#a649f052c5062e6fb250da6b72d8e71d3">eStopBit</a></div><div class="ttdeci">eStopBit</div><div class="ttdef"><b>Definition:</b> uart_test.h:31</div></div>
+<div class="ttc" id="auart__test_8h_html_aa111cbfcc23289509f63bf49400a5beaa9f053f69dd5790eb4ef325729b20e12a"><div class="ttname"><a href="uart__test_8h.html#aa111cbfcc23289509f63bf49400a5beaa9f053f69dd5790eb4ef325729b20e12a">Parite_ONE</a></div><div class="ttdeci">@ Parite_ONE</div><div class="ttdef"><b>Definition:</b> uart_test.h:29</div></div>
+<div class="ttc" id="auart__test_8h_html_a68a68055df8fd3001df3c84372013b1a"><div class="ttname"><a href="uart__test_8h.html#a68a68055df8fd3001df3c84372013b1a">UART_Kurulum</a></div><div class="ttdeci">void UART_Kurulum(eBaudRate BaudRate, OkumaKesmesi callback, eParite Parite, eStopBit StopBit)</div><div class="ttdef"><b>Definition:</b> uart_test.c:46</div></div>
+<div class="ttc" id="auart__test_8h_html_ad9bfe4b8061e001c3c717bff9b4edccea9a51214e4520f7c418b80cd3c347ff09"><div class="ttname"><a href="uart__test_8h.html#ad9bfe4b8061e001c3c717bff9b4edccea9a51214e4520f7c418b80cd3c347ff09">Baud_115200</a></div><div class="ttdeci">@ Baud_115200</div><div class="ttdef"><b>Definition:</b> uart_test.h:20</div></div>
+<div class="ttc" id="auart__test_8h_html_ad9bfe4b8061e001c3c717bff9b4edcceaa013dfa803db5c221cc506a4c3425be8"><div class="ttname"><a href="uart__test_8h.html#ad9bfe4b8061e001c3c717bff9b4edcceaa013dfa803db5c221cc506a4c3425be8">Baud_9600</a></div><div class="ttdeci">@ Baud_9600</div><div class="ttdef"><b>Definition:</b> uart_test.h:16</div></div>
+<div class="ttc" id="auart__test_8h_html_a649f052c5062e6fb250da6b72d8e71d3abc1aa3f50c3580361e7bce7ea7793fef"><div class="ttname"><a href="uart__test_8h.html#a649f052c5062e6fb250da6b72d8e71d3abc1aa3f50c3580361e7bce7ea7793fef">Stop_ONE</a></div><div class="ttdeci">@ Stop_ONE</div><div class="ttdef"><b>Definition:</b> uart_test.h:33</div></div>
+<div class="ttc" id="auart__test_8h_html_aa111cbfcc23289509f63bf49400a5bea"><div class="ttname"><a href="uart__test_8h.html#aa111cbfcc23289509f63bf49400a5bea">eParite</a></div><div class="ttdeci">eParite</div><div class="ttdef"><b>Definition:</b> uart_test.h:23</div></div>
+<div class="ttc" id="auart__test_8h_html_aa111cbfcc23289509f63bf49400a5beaa7b99f64c7bdaaa5ea3d03612624930d4"><div class="ttname"><a href="uart__test_8h.html#aa111cbfcc23289509f63bf49400a5beaa7b99f64c7bdaaa5ea3d03612624930d4">Parite_ZERO</a></div><div class="ttdeci">@ Parite_ZERO</div><div class="ttdef"><b>Definition:</b> uart_test.h:28</div></div>
+<div class="ttc" id="auart__test_8h_html_a649f052c5062e6fb250da6b72d8e71d3aa05a41487ef7e8c81bcb34b4f5fb9855"><div class="ttname"><a href="uart__test_8h.html#a649f052c5062e6fb250da6b72d8e71d3aa05a41487ef7e8c81bcb34b4f5fb9855">Stop_TWO</a></div><div class="ttdeci">@ Stop_TWO</div><div class="ttdef"><b>Definition:</b> uart_test.h:34</div></div>
+<div class="ttc" id="auart__test_8h_html_ad9e60a391c69e6cf2211cabf0a1dee76a8a1bcbfa8e3ca5b03e94b8375e4df4a7"><div class="ttname"><a href="uart__test_8h.html#ad9e60a391c69e6cf2211cabf0a1dee76a8a1bcbfa8e3ca5b03e94b8375e4df4a7">Kesme_8</a></div><div class="ttdeci">@ Kesme_8</div><div class="ttdef"><b>Definition:</b> uart_test.h:39</div></div>
+<div class="ttc" id="auart__test_8h_html_aa111cbfcc23289509f63bf49400a5beaa20850f96285f56b28ef565c77b414cab"><div class="ttname"><a href="uart__test_8h.html#aa111cbfcc23289509f63bf49400a5beaa20850f96285f56b28ef565c77b414cab">Parite_NONE</a></div><div class="ttdeci">@ Parite_NONE</div><div class="ttdef"><b>Definition:</b> uart_test.h:25</div></div>
+<div class="ttc" id="auart__test_8h_html_aa111cbfcc23289509f63bf49400a5beaaf1fb6b713e777fd8a64e2a9ee8642594"><div class="ttname"><a href="uart__test_8h.html#aa111cbfcc23289509f63bf49400a5beaaf1fb6b713e777fd8a64e2a9ee8642594">Parite_ODD</a></div><div class="ttdeci">@ Parite_ODD</div><div class="ttdef"><b>Definition:</b> uart_test.h:27</div></div>
+<div class="ttc" id="auart__test_8h_html_aac5e6807fa03f1eeffe7cde2e5036bdb"><div class="ttname"><a href="uart__test_8h.html#aac5e6807fa03f1eeffe7cde2e5036bdb">readCallback</a></div><div class="ttdeci">void readCallback(UART_Handle handle, void *pcData, size_t num)</div><div class="ttdef"><b>Definition:</b> uart_test.c:92</div></div>
+<div class="ttc" id="auart__test_8c_html_ab72cb52c79611e9e6c38fac29a4723d4"><div class="ttname"><a href="uart__test_8c.html#ab72cb52c79611e9e6c38fac29a4723d4">pcData</a></div><div class="ttdeci">unsigned char pcData[]</div><div class="ttdef"><b>Definition:</b> uart_test.c:23</div></div>
+<div class="ttc" id="auart__test_8h_html_a61bcc9dcdd87be7e6376fd91f322a5fe"><div class="ttname"><a href="uart__test_8h.html#a61bcc9dcdd87be7e6376fd91f322a5fe">OkumaKesmesi</a></div><div class="ttdeci">void(* OkumaKesmesi)(UART_Handle, void *buf, size_t count)</div><div class="ttdef"><b>Definition:</b> uart_test.h:12</div></div>
+<div class="ttc" id="auart__test_8h_html_ad9bfe4b8061e001c3c717bff9b4edccea59f322050e734c2af8c5f343e79033c1"><div class="ttname"><a href="uart__test_8h.html#ad9bfe4b8061e001c3c717bff9b4edccea59f322050e734c2af8c5f343e79033c1">Baud_57600</a></div><div class="ttdeci">@ Baud_57600</div><div class="ttdef"><b>Definition:</b> uart_test.h:19</div></div>
+<div class="ttc" id="auart__test_8h_html_ad9bfe4b8061e001c3c717bff9b4edcce"><div class="ttname"><a href="uart__test_8h.html#ad9bfe4b8061e001c3c717bff9b4edcce">eBaudRate</a></div><div class="ttdeci">eBaudRate</div><div class="ttdef"><b>Definition:</b> uart_test.h:13</div></div>
+<div class="ttc" id="auart__test_8h_html_ad9bfe4b8061e001c3c717bff9b4edcceadfe926cec30e5c96206830700d9e71d7"><div class="ttname"><a href="uart__test_8h.html#ad9bfe4b8061e001c3c717bff9b4edcceadfe926cec30e5c96206830700d9e71d7">Baud_2400</a></div><div class="ttdeci">@ Baud_2400</div><div class="ttdef"><b>Definition:</b> uart_test.h:15</div></div>
+<div class="ttc" id="auart__test_8h_html_ae92ba3a475f1c2277ac9234b0b91cfaf"><div class="ttname"><a href="uart__test_8h.html#ae92ba3a475f1c2277ac9234b0b91cfaf">UART_Step</a></div><div class="ttdeci">void UART_Step()</div><div class="ttdef"><b>Definition:</b> uart_test.c:80</div></div>
+<div class="ttc" id="auart__test_8h_html_aa111cbfcc23289509f63bf49400a5beaa0da8d7ed126875d7a55b0d7a3cd2ffd8"><div class="ttname"><a href="uart__test_8h.html#aa111cbfcc23289509f63bf49400a5beaa0da8d7ed126875d7a55b0d7a3cd2ffd8">Parite_EVEN</a></div><div class="ttdeci">@ Parite_EVEN</div><div class="ttdef"><b>Definition:</b> uart_test.h:26</div></div>
+<div class="ttc" id="auart__test_8h_html_ad9bfe4b8061e001c3c717bff9b4edccea4602205244bc78dc79e835a6294a266d"><div class="ttname"><a href="uart__test_8h.html#ad9bfe4b8061e001c3c717bff9b4edccea4602205244bc78dc79e835a6294a266d">Baud_921600</a></div><div class="ttdeci">@ Baud_921600</div><div class="ttdef"><b>Definition:</b> uart_test.h:21</div></div>
+<div class="ttc" id="auart__test_8h_html_ad9e60a391c69e6cf2211cabf0a1dee76"><div class="ttname"><a href="uart__test_8h.html#ad9e60a391c69e6cf2211cabf0a1dee76">eKesmeByte</a></div><div class="ttdeci">eKesmeByte</div><div class="ttdef"><b>Definition:</b> uart_test.h:36</div></div>
+<div class="ttc" id="auart__test_8h_html_ad9bfe4b8061e001c3c717bff9b4edccea2a41160a2cedcc6e82e0b15194e9f9e0"><div class="ttname"><a href="uart__test_8h.html#ad9bfe4b8061e001c3c717bff9b4edccea2a41160a2cedcc6e82e0b15194e9f9e0">Baud_19200</a></div><div class="ttdeci">@ Baud_19200</div><div class="ttdef"><b>Definition:</b> uart_test.h:17</div></div>
+<div class="ttc" id="auart__test_8h_html_ad9bfe4b8061e001c3c717bff9b4edccea0c071daa88da9027bb91c27ddb5290a5"><div class="ttname"><a href="uart__test_8h.html#ad9bfe4b8061e001c3c717bff9b4edccea0c071daa88da9027bb91c27ddb5290a5">Baud_38400</a></div><div class="ttdeci">@ Baud_38400</div><div class="ttdef"><b>Definition:</b> uart_test.h:18</div></div>
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Oluşturan &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.17
+</small></address>
+</body>
+</html>

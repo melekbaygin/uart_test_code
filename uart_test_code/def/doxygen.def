@@ -1,0 +1,4017 @@
+AutoGen Definitions dummy;
+file = {
+  file-id   = '_board_8h';
+  file-name = 'Board.h';
+    define = {
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = '_board_8h_1ad26ba08f866e8fa4e1ce5950fa2e2b43';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'Board_initEMAC';
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+EK_TM4C1294XL_initEMAC
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/Board.h';
+      define-mem-desc-line = '42';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* define-member */
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = '_board_8h_1a5c38860f7ecab5bf0d4574c25e28f447';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'Board_initGeneral';
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+EK_TM4C1294XL_initGeneral
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/Board.h';
+      define-mem-desc-line = '43';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* define-member */
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = '_board_8h_1a8c4742b6f975e68cddb872667ce5a4a8';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'Board_initGPIO';
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+EK_TM4C1294XL_initGPIO
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/Board.h';
+      define-mem-desc-line = '44';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* define-member */
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = '_board_8h_1a300fa50d1048a140b65bce75806275a3';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'Board_initI2C';
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+EK_TM4C1294XL_initI2C
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/Board.h';
+      define-mem-desc-line = '45';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* define-member */
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = '_board_8h_1a24744e97cc5194dfde109c156a3f1550';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'Board_initPWM';
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+EK_TM4C1294XL_initPWM
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/Board.h';
+      define-mem-desc-line = '46';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* define-member */
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = '_board_8h_1afab620cd6204088512a6c8b9eb761894';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'Board_initSDSPI';
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+EK_TM4C1294XL_initSDSPI
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/Board.h';
+      define-mem-desc-line = '47';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* define-member */
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = '_board_8h_1a58f5648172922c5ba12ad061ba00389b';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'Board_initSPI';
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+EK_TM4C1294XL_initSPI
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/Board.h';
+      define-mem-desc-line = '48';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* define-member */
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = '_board_8h_1afa6771bd1bca9797e96a540c4f4faa9a';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'Board_initUART';
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+EK_TM4C1294XL_initUART
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/Board.h';
+      define-mem-desc-line = '49';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* define-member */
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = '_board_8h_1a94633355958f2a1c5076bf9e673e6fee';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'Board_initUSB';
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+EK_TM4C1294XL_initUSB
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/Board.h';
+      define-mem-desc-line = '50';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* define-member */
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = '_board_8h_1aa453912993d76c154b772e9a4c0cb26a';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'Board_initUSBMSCHFatFs';
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+EK_TM4C1294XL_initUSBMSCHFatFs
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/Board.h';
+      define-mem-desc-line = '51';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* define-member */
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = '_board_8h_1aa5025f2ce556d7db72a71b92e5706d62';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'Board_initWatchdog';
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+EK_TM4C1294XL_initWatchdog
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/Board.h';
+      define-mem-desc-line = '52';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* define-member */
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = '_board_8h_1a32f63733eea6988d15c91b19cfc05e5b';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'Board_initWiFi';
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+EK_TM4C1294XL_initWiFi
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/Board.h';
+      define-mem-desc-line = '53';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* define-member */
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = '_board_8h_1a427527c56a51ba01aaa4fbc8365f74c7';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'Board_LED_ON';
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+EK_TM4C1294XL_LED_ON
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/Board.h';
+      define-mem-desc-line = '55';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* define-member */
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = '_board_8h_1ada887666466687dc7eb1e2397b773947';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'Board_LED_OFF';
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+EK_TM4C1294XL_LED_OFF
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/Board.h';
+      define-mem-desc-line = '56';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* define-member */
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = '_board_8h_1a36edcb34b05aadb73ad075b95f45e0ef';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'Board_LED0';
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+EK_TM4C1294XL_D1
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/Board.h';
+      define-mem-desc-line = '57';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* define-member */
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = '_board_8h_1a4ad00f26fa83bb88030458a9a1eb3e15';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'Board_LED1';
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+EK_TM4C1294XL_D2
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/Board.h';
+      define-mem-desc-line = '58';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* define-member */
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = '_board_8h_1a9989b439bbeed3a9c1658b4dc7249dfb';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'Board_LED2';
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+EK_TM4C1294XL_D2
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/Board.h';
+      define-mem-desc-line = '59';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* define-member */
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = '_board_8h_1a1ff4f68330c32ca5b0b996e699897c49';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'Board_BUTTON0';
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+EK_TM4C1294XL_USR_SW1
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/Board.h';
+      define-mem-desc-line = '60';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* define-member */
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = '_board_8h_1a42d4a737ff3dba964cb7a27c923dcb55';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'Board_BUTTON1';
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+EK_TM4C1294XL_USR_SW2
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/Board.h';
+      define-mem-desc-line = '61';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* define-member */
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = '_board_8h_1a33acee482f45f270acd61ae5f622f8b4';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'Board_I2C0';
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+EK_TM4C1294XL_I2C7
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/Board.h';
+      define-mem-desc-line = '63';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* define-member */
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = '_board_8h_1af344ea83ff4e362f49fa9c86087a6a05';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'Board_I2C1';
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+EK_TM4C1294XL_I2C8
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/Board.h';
+      define-mem-desc-line = '64';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* define-member */
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = '_board_8h_1adfeaaabca24aa8e84cf309d171e436b9';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'Board_I2C_TMP';
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+EK_TM4C1294XL_I2C7
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/Board.h';
+      define-mem-desc-line = '65';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* define-member */
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = '_board_8h_1a294e6f20d4681b2c57f6d187703849b9';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'Board_I2C_NFC';
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+EK_TM4C1294XL_I2C7
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/Board.h';
+      define-mem-desc-line = '66';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* define-member */
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = '_board_8h_1a05f6a4a7c1fe75984e597662b1d42571';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'Board_I2C_TPL0401';
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+EK_TM4C1294XL_I2C7
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/Board.h';
+      define-mem-desc-line = '67';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* define-member */
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = '_board_8h_1acbb04c601c15a33616a40df6f932a375';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'Board_PWM0';
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+EK_TM4C1294XL_PWM0
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/Board.h';
+      define-mem-desc-line = '69';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* define-member */
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = '_board_8h_1a86a94cce07d1e36f085253cdcd0e9574';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'Board_PWM1';
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+EK_TM4C1294XL_PWM0
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/Board.h';
+      define-mem-desc-line = '70';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* define-member */
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = '_board_8h_1a6cd651907e558f023ecfdd9deb6e4a57';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'Board_SDSPI0';
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+EK_TM4C1294XL_SDSPI0
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/Board.h';
+      define-mem-desc-line = '72';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* define-member */
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = '_board_8h_1aa1b4581ebc6401845988b3a2601b0984';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'Board_SDSPI1';
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+EK_TM4C1294XL_SDSPI1
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/Board.h';
+      define-mem-desc-line = '73';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* define-member */
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = '_board_8h_1ad98d1761f6afc562c2ecc05ea145acff';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'Board_SPI0';
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+EK_TM4C1294XL_SPI2
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/Board.h';
+      define-mem-desc-line = '75';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* define-member */
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = '_board_8h_1afded7c96e262c523c8208bfbacb2a611';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'Board_SPI1';
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+EK_TM4C1294XL_SPI3
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/Board.h';
+      define-mem-desc-line = '76';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* define-member */
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = '_board_8h_1a683e7dba628f6c2739c27e98011e68db';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'Board_USBMSCHFatFs0';
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+EK_TM4C1294XL_USBMSCHFatFs0
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/Board.h';
+      define-mem-desc-line = '78';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* define-member */
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = '_board_8h_1a4cd0c139ab41d69e6c5d5e42fee0adc4';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'Board_USBHOST';
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+EK_TM4C1294XL_USBHOST
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/Board.h';
+      define-mem-desc-line = '80';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* define-member */
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = '_board_8h_1a579b23b8cf5ae40f01e82d82d805b312';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'Board_USBDEVICE';
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+EK_TM4C1294XL_USBDEVICE
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/Board.h';
+      define-mem-desc-line = '81';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* define-member */
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = '_board_8h_1ab812c93bd3f38b54aff31c5bdc97b441';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'Board_UART0';
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+EK_TM4C1294XL_UART0
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/Board.h';
+      define-mem-desc-line = '83';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* define-member */
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = '_board_8h_1a0bbc912ed421d5a07aef2b6ac1db8590';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'Board_WATCHDOG0';
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+EK_TM4C1294XL_WATCHDOG0
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/Board.h';
+      define-mem-desc-line = '85';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* define-member */
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = '_board_8h_1af4f2e9fd23fe18d516dce8168e86ad77';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'Board_WIFI';
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+EK_TM4C1294XL_WIFI
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/Board.h';
+      define-mem-desc-line = '87';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* define-member */
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = '_board_8h_1ae30ce3b459f6e6faaf6fb392f3fa80ed';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'Board_WIFI_SPI';
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+EK_TM4C1294XL_SPI2
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/Board.h';
+      define-mem-desc-line = '88';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* define-member */
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = '_board_8h_1a544a5fb4b6d4c8ee1a397456176c02bc';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'Board_TMP006_ADDR';
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+(0x40)
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/Board.h';
+      define-mem-desc-line = '91';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* define-member */
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = '_board_8h_1ace416bb1b64e4573c2572979c5ffd72d';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'Board_RF430CL330_ADDR';
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+(0x28)
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/Board.h';
+      define-mem-desc-line = '92';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* define-member */
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = '_board_8h_1ae6403c6dfe7765123d77f71113d41159';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'Board_TPL0401_ADDR';
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+(0x40)
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/Board.h';
+      define-mem-desc-line = '93';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* define-member */
+    };
+  file-full-name  = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/Board.h';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = 'doxygen__log_8txt';
+  file-name = 'doxygen_log.txt';
+  file-full-name  = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/doxygen_log.txt';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = '_e_k___t_m4_c1294_x_l_8c';
+  file-name = 'EK_TM4C1294XL.c';
+    define = {
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = '_e_k___t_m4_c1294_x_l_8c_1aac23a573d7d6cb8ad1cf737323cb7580';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'TI_DRIVERS_UART_DMA';
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+0
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/EK_TM4C1294XL.c';
+      define-mem-desc-line = '65';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* define-member */
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = '_e_k___t_m4_c1294_x_l_8c_1a06a9b676833ce3c5c305b6a59cdbe84d';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'TI_EXAMPLES_PPP';
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+0
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/EK_TM4C1294XL.c';
+      define-mem-desc-line = '69';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* define-member */
+    };
+    func = {
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = '_e_k___t_m4_c1294_x_l_8c_1ac6f0a57375f3ad42919cbd36fb0c1b06';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+static Void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'dmaErrorHwi';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+UArg
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'arg';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/EK_TM4C1294XL.c';
+      func-mem-desc-line = '97';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = '_e_k___t_m4_c1294_x_l_8c_1af15d2eee59a9a14b4c185822c2c7d91c';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+static Void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'EK_TM4C1294XL_usbBusFaultHwi';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+UArg
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'arg';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/EK_TM4C1294XL.c';
+      func-mem-desc-line = '107';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = '_e_k___t_m4_c1294_x_l_8c_1a9f2b8ebac69279ce20e6679ad3a68f07';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'EK_TM4C1294XL_initDMA';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/EK_TM4C1294XL.c';
+      func-mem-desc-line = '121';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = '_e_k___t_m4_c1294_x_l_8c_1ab5daf95042218c677a6902706f968460';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'EK_TM4C1294XL_initGeneral';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/EK_TM4C1294XL.c';
+      func-mem-desc-line = '149';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Initialize the general board specific settings.
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+This function initializes the general board specific settings.
+This includes:
+   - Enable clock sources for peripherals
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = '_e_k___t_m4_c1294_x_l_8c_1abce7c3ce807880c75745d0d480ae1711';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'EK_TM4C1294XL_initEMAC';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/EK_TM4C1294XL.c';
+      func-mem-desc-line = '234';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Initialize board specific EMAC settings.
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+This function initializes the board specific EMAC settings and
+then calls the EMAC_init API to initialize the EMAC module.
+
+The EMAC address is programmed as part of this call.
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = '_e_k___t_m4_c1294_x_l_8c_1a7556fc06cc15335f855a923cbea6f9b0';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'EK_TM4C1294XL_initGPIO';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/EK_TM4C1294XL.c';
+      func-mem-desc-line = '326';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Initialize board specific GPIO settings.
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+This function initializes the board specific GPIO settings and
+then calls the GPIO_init API to initialize the GPIO module.
+
+The GPIOs controlled by the GPIO module are determined by the GPIO_PinConfig
+variable.
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = '_e_k___t_m4_c1294_x_l_8c_1ac40916affd0c767702c69e6a0f432c7a';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'EK_TM4C1294XL_initI2C';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/EK_TM4C1294XL.c';
+      func-mem-desc-line = '376';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Initialize board specific I2C settings.
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+This function initializes the board specific I2C settings and then calls
+the I2C_init API to initialize the I2C module.
+
+The I2C peripherals controlled by the I2C module are determined by the
+I2C_config variable.
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = '_e_k___t_m4_c1294_x_l_8c_1ad768407eb2b556ce3d63f289f93f53d0';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'EK_TM4C1294XL_initPWM';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/EK_TM4C1294XL.c';
+      func-mem-desc-line = '441';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Initialize board specific PWM settings.
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+This function initializes the board specific PWM settings and then calls
+the PWM_init API to initialize the PWM module.
+
+The PWM peripherals controlled by the PWM module are determined by the
+PWM_config variable.
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = '_e_k___t_m4_c1294_x_l_8c_1a78a92a5b84f874b7db46a20a3811245a';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'EK_TM4C1294XL_initSDSPI';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/EK_TM4C1294XL.c';
+      func-mem-desc-line = '515';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Initialize board specific SDSPI settings.
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+This function initializes the board specific SDSPI settings and then calls
+the SDSPI_init API to initialize the SDSPI module.
+
+The SDSPI peripherals controlled by the SDSPI module are determined by the
+SDSPI_config variable.
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = '_e_k___t_m4_c1294_x_l_8c_1a45235cbf09541af99e0e57f66b5c1068';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'EK_TM4C1294XL_initSPI';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/EK_TM4C1294XL.c';
+      func-mem-desc-line = '636';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Initialize board specific SPI settings.
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+This function initializes the board specific SPI settings and then calls
+the SPI_init API to initialize the SPI module.
+
+The SPI peripherals controlled by the SPI module are determined by the
+SPI_config variable.
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = '_e_k___t_m4_c1294_x_l_8c_1af6f1d39927c98be77136c085ac032343';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'EK_TM4C1294XL_initUART';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/EK_TM4C1294XL.c';
+      func-mem-desc-line = '734';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Initialize board specific UART settings.
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+This function initializes the board specific UART settings and then calls
+the UART_init API to initialize the UART module.
+
+The UART peripherals controlled by the UART module are determined by the
+UART_config variable.
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = '_e_k___t_m4_c1294_x_l_8c_1a5daffc7bb57debea46f589c6283b041c';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'EK_TM4C1294XL_initUSB';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+EK_TM4C1294XL_USBMode
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'usbMode';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/EK_TM4C1294XL.c';
+      func-mem-desc-line = '756';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Initialize board specific USB settings.
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+This function initializes the board specific USB settings and pins based on
+the USB mode of operation.
+
+@param usbMode    USB mode of operation
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = '_e_k___t_m4_c1294_x_l_8c_1a8dcfc2ab3972a2750ef70512c8b41b71';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'EK_TM4C1294XL_initUSBMSCHFatFs';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/EK_TM4C1294XL.c';
+      func-mem-desc-line = '832';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Initialize board specific USBMSCHFatFs settings.
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+This function initializes the board specific USBMSCHFatFs settings and then
+calls the USBMSCHFatFs_init API to initialize the USBMSCHFatFs module.
+
+The USBMSCHFatFs peripherals controlled by the USBMSCHFatFs module are
+determined by the USBMSCHFatFs_config variable.
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = '_e_k___t_m4_c1294_x_l_8c_1a52c4c90068a80d3efa0ea75a5fe99c86';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'EK_TM4C1294XL_initWatchdog';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/EK_TM4C1294XL.c';
+      func-mem-desc-line = '888';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Initialize board specific Watchdog settings.
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+This function initializes the board specific Watchdog settings and then
+calls the Watchdog_init API to initialize the Watchdog module.
+
+The Watchdog peripherals controlled by the Watchdog module are determined
+by the Watchdog_config variable.
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = '_e_k___t_m4_c1294_x_l_8c_1a22e79336bcaecf9d38643c7b4d9219a6';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'EK_TM4C1294XL_initWiFi';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/EK_TM4C1294XL.c';
+      func-mem-desc-line = '936';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Initialize board specific WiFi settings.
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+This function initializes the board specific WiFi settings and then calls
+the WiFi_init API to initialize the WiFi module.
+
+The hardware resources controlled by the WiFi module are determined by the
+WiFi_config variable.
+
+A SimpleLink CC3100 device or module is required and must be connected to
+use the WiFi driver.
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    };
+    var = {
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = '_e_k___t_m4_c1294_x_l_8c_1a5a7dcadec30951dd934e4295013aa1c9';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+static tDMAControlTable
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'dmaControlTable';
+      var-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/EK_TM4C1294XL.c';
+      var-mem-desc-line = '85';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = '_e_k___t_m4_c1294_x_l_8c_1aa572921d6787282fbe8a345de9cdb267';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+static bool
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'dmaInitialized';
+      var-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= false
+_EnD_oF_dEf_TeXt_;
+      var-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/EK_TM4C1294XL.c';
+      var-mem-desc-line = '86';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = '_e_k___t_m4_c1294_x_l_8c_1ab05de4f447d1a85582e08b434569bb42';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+static Hwi_Struct
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'dmaHwiStruct';
+      var-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/EK_TM4C1294XL.c';
+      var-mem-desc-line = '89';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = '_e_k___t_m4_c1294_x_l_8c_1a7f728131944f64faba963aa5b9180aa0';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+static Hwi_Struct
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'usbBusFaultHwiStruct';
+      var-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/EK_TM4C1294XL.c';
+      var-mem-desc-line = '92';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = '_e_k___t_m4_c1294_x_l_8c_1a47f88067ce58e172a5287db2ac614a81';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+NIMU_DEVICE_TABLE_ENTRY
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'NIMUDeviceTable';
+      var-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= {
+    {
+
+
+
+
+        
+        .init = EMACSnow_NIMUInit
+
+    },
+    {NULL}
+}
+_EnD_oF_dEf_TeXt_;
+      var-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/EK_TM4C1294XL.c';
+      var-mem-desc-line = '190';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = '_e_k___t_m4_c1294_x_l_8c_1ace84eb93c7b3316b2d4acc531c15626f';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+EMACSnow_Object
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'emacObjects';
+      var-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/EK_TM4C1294XL.c';
+      var-mem-desc-line = '203';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = '_e_k___t_m4_c1294_x_l_8c_1a1579a2702214ea5e504bad3de5b696ef';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+unsigned char
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'macAddress';
+      var-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= {0xff, 0xff, 0xff, 0xff, 0xff, 0xff}
+_EnD_oF_dEf_TeXt_;
+      var-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/EK_TM4C1294XL.c';
+      var-mem-desc-line = '211';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = '_e_k___t_m4_c1294_x_l_8c_1a2bc0b46187878f4298fbea0e48c8088e';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+const EMACSnow_HWAttrs
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'emacHWAttrs';
+      var-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= {
+    {
+        .baseAddr = EMAC0_BASE,
+        .intNum = INT_EMAC0,
+        .intPriority = (~0),
+        .macAddress = macAddress
+    }
+}
+_EnD_oF_dEf_TeXt_;
+      var-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/EK_TM4C1294XL.c';
+      var-mem-desc-line = '213';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = '_e_k___t_m4_c1294_x_l_8c_1a2c574b5e1a119adaea49b9966b8867c6';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+const EMAC_Config
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'EMAC_config';
+      var-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= {
+    {
+        .fxnTablePtr = &EMACSnow_fxnTable,
+        .object = &emacObjects[0],
+        .hwAttrs = &emacHWAttrs[0]
+    },
+    {NULL, NULL, NULL}
+}
+_EnD_oF_dEf_TeXt_;
+      var-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/EK_TM4C1294XL.c';
+      var-mem-desc-line = '222';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = '_e_k___t_m4_c1294_x_l_8c_1a9e5c3072a49eb2ac4b947746854af530';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+GPIO_PinConfig
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'gpioPinConfigs';
+      var-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= {
+    
+    
+    GPIOTiva_PJ_0 | GPIO_CFG_IN_PU | GPIO_CFG_IN_INT_RISING,
+    
+    GPIOTiva_PJ_1 | GPIO_CFG_IN_PU | GPIO_CFG_IN_INT_RISING,
+
+    
+    
+    GPIOTiva_PN_1 | GPIO_CFG_OUT_STD | GPIO_CFG_OUT_STR_HIGH | GPIO_CFG_OUT_LOW,
+    
+    GPIOTiva_PN_0 | GPIO_CFG_OUT_STD | GPIO_CFG_OUT_STR_HIGH | GPIO_CFG_OUT_LOW,
+}
+_EnD_oF_dEf_TeXt_;
+      var-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/EK_TM4C1294XL.c';
+      var-mem-desc-line = '288';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = '_e_k___t_m4_c1294_x_l_8c_1adfe79d7b812dfa6ca8f0ef47bf9eab5a';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+GPIO_CallbackFxn
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'gpioCallbackFunctions';
+      var-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= {
+    NULL,  
+    NULL   
+}
+_EnD_oF_dEf_TeXt_;
+      var-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/EK_TM4C1294XL.c';
+      var-mem-desc-line = '309';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = '_e_k___t_m4_c1294_x_l_8c_1a3ed8d0bb98c427ab27b28d5201febbe2';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+const GPIOTiva_Config
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'GPIOTiva_config';
+      var-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= {
+    .pinConfigs = (GPIO_PinConfig *)gpioPinConfigs,
+    .callbacks = (GPIO_CallbackFxn *)gpioCallbackFunctions,
+    .numberOfPinConfigs = sizeof(gpioPinConfigs)/sizeof(GPIO_PinConfig),
+    .numberOfCallbacks = sizeof(gpioCallbackFunctions)/sizeof(GPIO_CallbackFxn),
+    .intPriority = (~0)
+}
+_EnD_oF_dEf_TeXt_;
+      var-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/EK_TM4C1294XL.c';
+      var-mem-desc-line = '315';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = '_e_k___t_m4_c1294_x_l_8c_1a50568065e0cf4f0cab3732d13590be68';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+I2CTiva_Object
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'i2cTivaObjects';
+      var-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/EK_TM4C1294XL.c';
+      var-mem-desc-line = '344';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = '_e_k___t_m4_c1294_x_l_8c_1a4970be411f552d8ada54c4fbb655f8ca';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+const I2CTiva_HWAttrs
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'i2cTivaHWAttrs';
+      var-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= {
+    {
+        .baseAddr = I2C7_BASE,
+        .intNum = INT_I2C7,
+        .intPriority = (~0)
+    },
+    {
+        .baseAddr = I2C8_BASE,
+        .intNum = INT_I2C8,
+        .intPriority = (~0)
+    }
+}
+_EnD_oF_dEf_TeXt_;
+      var-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/EK_TM4C1294XL.c';
+      var-mem-desc-line = '346';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = '_e_k___t_m4_c1294_x_l_8c_1aff23dd4a23f45b3bf8b634c56c272ebc';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+const I2C_Config
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'I2C_config';
+      var-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= {
+    {
+        .fxnTablePtr = &I2CTiva_fxnTable,
+        .object = &i2cTivaObjects[0],
+        .hwAttrs = &i2cTivaHWAttrs[0]
+    },
+    {
+        .fxnTablePtr = &I2CTiva_fxnTable,
+        .object = &i2cTivaObjects[1],
+        .hwAttrs = &i2cTivaHWAttrs[1]
+    },
+    {NULL, NULL, NULL}
+}
+_EnD_oF_dEf_TeXt_;
+      var-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/EK_TM4C1294XL.c';
+      var-mem-desc-line = '359';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = '_e_k___t_m4_c1294_x_l_8c_1a8eff1871323d62b254bd216d0330cdc4';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+PWMTiva_Object
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'pwmTivaObjects';
+      var-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/EK_TM4C1294XL.c';
+      var-mem-desc-line = '419';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = '_e_k___t_m4_c1294_x_l_8c_1aa1fcaa3e0047920f0ce9e500cf462bd2';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+const PWMTiva_HWAttrs
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'pwmTivaHWAttrs';
+      var-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= {
+    {
+        .baseAddr = PWM0_BASE,
+        .pwmOutput = PWM_OUT_0,
+        .pwmGenOpts = PWM_GEN_MODE_DOWN | PWM_GEN_MODE_DBG_RUN
+    }
+}
+_EnD_oF_dEf_TeXt_;
+      var-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/EK_TM4C1294XL.c';
+      var-mem-desc-line = '421';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = '_e_k___t_m4_c1294_x_l_8c_1a27d600c9564b86a17dda2afef1159efa';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+const PWM_Config
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'PWM_config';
+      var-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= {
+    {
+        .fxnTablePtr = &PWMTiva_fxnTable,
+        .object = &pwmTivaObjects[0],
+        .hwAttrs = &pwmTivaHWAttrs[0]
+    },
+    {NULL, NULL, NULL}
+}
+_EnD_oF_dEf_TeXt_;
+      var-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/EK_TM4C1294XL.c';
+      var-mem-desc-line = '429';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = '_e_k___t_m4_c1294_x_l_8c_1a42c1a7d48d10830124edad61702817cf';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+SDSPITiva_Object
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'sdspiTivaObjects';
+      var-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/EK_TM4C1294XL.c';
+      var-mem-desc-line = '469';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = '_e_k___t_m4_c1294_x_l_8c_1a71cd49128fc15e85a5efa9ae80c42bb6';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+const SDSPITiva_HWAttrs
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'sdspiTivaHWattrs';
+      var-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= {
+    {
+        .baseAddr = SSI2_BASE,
+
+        .portSCK = GPIO_PORTD_BASE,
+        .pinSCK = GPIO_PIN_3,
+        .portMISO = GPIO_PORTD_BASE,
+        .pinMISO = GPIO_PIN_0,
+        .portMOSI = GPIO_PORTD_BASE,
+        .pinMOSI = GPIO_PIN_1,
+        .portCS = GPIO_PORTC_BASE,
+        .pinCS = GPIO_PIN_7,
+    },
+    {
+        .baseAddr = SSI3_BASE,
+
+        .portSCK = GPIO_PORTQ_BASE,
+        .pinSCK = GPIO_PIN_0,
+        .portMISO = GPIO_PORTQ_BASE,
+        .pinMISO = GPIO_PIN_3,
+        .portMOSI = GPIO_PORTQ_BASE,
+        .pinMOSI = GPIO_PIN_2,
+        .portCS = GPIO_PORTP_BASE,
+        .pinCS = GPIO_PIN_4,
+    }
+}
+_EnD_oF_dEf_TeXt_;
+      var-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/EK_TM4C1294XL.c';
+      var-mem-desc-line = '471';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = '_e_k___t_m4_c1294_x_l_8c_1aa4f918999b9d2e7a53a2575a50ba4919';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+const SDSPI_Config
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'SDSPI_config';
+      var-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= {
+    {
+        .fxnTablePtr = &SDSPITiva_fxnTable,
+        .object = &sdspiTivaObjects[0],
+        .hwAttrs = &sdspiTivaHWattrs[0]
+    },
+    {
+        .fxnTablePtr = &SDSPITiva_fxnTable,
+        .object = &sdspiTivaObjects[1],
+        .hwAttrs = &sdspiTivaHWattrs[1]
+    },
+    {NULL, NULL, NULL}
+}
+_EnD_oF_dEf_TeXt_;
+      var-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/EK_TM4C1294XL.c';
+      var-mem-desc-line = '498';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = '_e_k___t_m4_c1294_x_l_8c_1affcf7a006997f7bf4f049330aad90dc9';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+SPITivaDMA_Object
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'spiTivaDMAObjects';
+      var-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/EK_TM4C1294XL.c';
+      var-mem-desc-line = '581';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = '_e_k___t_m4_c1294_x_l_8c_1a58cc3b001fb329f7d25507ad0b8332e4';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+uint32_t
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'spiTivaDMAscratchBuf';
+      var-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/EK_TM4C1294XL.c';
+      var-mem-desc-line = '590';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = '_e_k___t_m4_c1294_x_l_8c_1a4c265aedf645f20118926de09d6db158';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+const SPITivaDMA_HWAttrs
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'spiTivaDMAHWAttrs';
+      var-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= {
+    {
+        .baseAddr = SSI2_BASE,
+        .intNum = INT_SSI2,
+        .intPriority = (~0),
+        .scratchBufPtr = &spiTivaDMAscratchBuf[0],
+        .defaultTxBufValue = 0,
+        .rxChannelIndex = UDMA_SEC_CHANNEL_UART2RX_12,
+        .txChannelIndex = UDMA_SEC_CHANNEL_UART2TX_13,
+        .channelMappingFxn = uDMAChannelAssign,
+        .rxChannelMappingFxnArg = UDMA_CH12_SSI2RX,
+        .txChannelMappingFxnArg = UDMA_CH13_SSI2TX
+    },
+    {
+        .baseAddr = SSI3_BASE,
+        .intNum = INT_SSI3,
+        .intPriority = (~0),
+        .scratchBufPtr = &spiTivaDMAscratchBuf[1],
+        .defaultTxBufValue = 0,
+        .rxChannelIndex = UDMA_SEC_CHANNEL_TMR2A_14,
+        .txChannelIndex = UDMA_SEC_CHANNEL_TMR2B_15,
+        .channelMappingFxn = uDMAChannelAssign,
+        .rxChannelMappingFxnArg = UDMA_CH14_SSI3RX,
+        .txChannelMappingFxnArg = UDMA_CH15_SSI3TX
+    }
+}
+_EnD_oF_dEf_TeXt_;
+      var-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/EK_TM4C1294XL.c';
+      var-mem-desc-line = '592';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = '_e_k___t_m4_c1294_x_l_8c_1a5193a07e2fa52eefff60481f677b299d';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+const SPI_Config
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'SPI_config';
+      var-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= {
+    {
+        .fxnTablePtr = &SPITivaDMA_fxnTable,
+        .object = &spiTivaDMAObjects[0],
+        .hwAttrs = &spiTivaDMAHWAttrs[0]
+    },
+    {
+        .fxnTablePtr = &SPITivaDMA_fxnTable,
+        .object = &spiTivaDMAObjects[1],
+        .hwAttrs = &spiTivaDMAHWAttrs[1]
+    },
+    {NULL, NULL, NULL}
+}
+_EnD_oF_dEf_TeXt_;
+      var-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/EK_TM4C1294XL.c';
+      var-mem-desc-line = '619';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = '_e_k___t_m4_c1294_x_l_8c_1abeff8fb40d1c2d82c088f85b8d0b0fb4';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+UARTTiva_Object
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'uartTivaObjects';
+      var-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/EK_TM4C1294XL.c';
+      var-mem-desc-line = '706';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = '_e_k___t_m4_c1294_x_l_8c_1a6879d9b49120ac55c39d8352f4d1d136';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+unsigned char
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'uartTivaRingBuffer';
+      var-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/EK_TM4C1294XL.c';
+      var-mem-desc-line = '707';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = '_e_k___t_m4_c1294_x_l_8c_1a4645ac6147a91fb1fecc382f6e153626';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+const UARTTiva_HWAttrs
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'uartTivaHWAttrs';
+      var-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= {
+    {
+        .baseAddr = UART0_BASE,
+        .intNum = INT_UART0,
+        .intPriority = (~0),
+        .flowControl = UART_FLOWCONTROL_NONE,
+        .ringBufPtr  = uartTivaRingBuffer[0],
+        .ringBufSize = sizeof(uartTivaRingBuffer[0])
+    }
+}
+_EnD_oF_dEf_TeXt_;
+      var-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/EK_TM4C1294XL.c';
+      var-mem-desc-line = '710';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = '_e_k___t_m4_c1294_x_l_8c_1ad24e1d95c2d7232d55dc5b1d00a56bb5';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+const UART_Config
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'UART_config';
+      var-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= {
+    {
+        .fxnTablePtr = &UARTTiva_fxnTable,
+        .object = &uartTivaObjects[0],
+        .hwAttrs = &uartTivaHWAttrs[0]
+    },
+    {NULL, NULL, NULL}
+}
+_EnD_oF_dEf_TeXt_;
+      var-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/EK_TM4C1294XL.c';
+      var-mem-desc-line = '721';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = '_e_k___t_m4_c1294_x_l_8c_1a3dbef9639fe6d83ab3bcf38b1669386d';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+USBMSCHFatFsTiva_Object
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'usbmschfatfstivaObjects';
+      var-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/EK_TM4C1294XL.c';
+      var-mem-desc-line = '811';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = '_e_k___t_m4_c1294_x_l_8c_1aa4c1b7dbde24824a8ee947bba5b53f6c';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+const USBMSCHFatFsTiva_HWAttrs
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'usbmschfatfstivaHWAttrs';
+      var-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= {
+    {
+        .intNum = INT_USB0,
+        .intPriority = (~0)
+    }
+}
+_EnD_oF_dEf_TeXt_;
+      var-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/EK_TM4C1294XL.c';
+      var-mem-desc-line = '813';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = '_e_k___t_m4_c1294_x_l_8c_1a36337e16e94bb5b9be4edc678e2ccb52';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+const USBMSCHFatFs_Config
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'USBMSCHFatFs_config';
+      var-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= {
+    {
+        .fxnTablePtr = &USBMSCHFatFsTiva_fxnTable,
+        .object = &usbmschfatfstivaObjects[0],
+        .hwAttrs = &usbmschfatfstivaHWAttrs[0]
+    },
+    {NULL, NULL, NULL}
+}
+_EnD_oF_dEf_TeXt_;
+      var-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/EK_TM4C1294XL.c';
+      var-mem-desc-line = '820';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = '_e_k___t_m4_c1294_x_l_8c_1ab26075094b75975bb3ee54163f5aaf8b';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+WatchdogTiva_Object
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'watchdogTivaObjects';
+      var-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/EK_TM4C1294XL.c';
+      var-mem-desc-line = '854';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = '_e_k___t_m4_c1294_x_l_8c_1a7c5cfb526698e6b7da60d7c523e9ecd1';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+const WatchdogTiva_HWAttrs
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'watchdogTivaHWAttrs';
+      var-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= {
+    {
+        .baseAddr = WATCHDOG0_BASE,
+        .intNum = INT_WATCHDOG,
+        .intPriority = (~0),
+        .reloadValue = 80000000 
+    },
+}
+_EnD_oF_dEf_TeXt_;
+      var-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/EK_TM4C1294XL.c';
+      var-mem-desc-line = '856';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = '_e_k___t_m4_c1294_x_l_8c_1a44de1103b0354733f7dc35ac32777fb1';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+const Watchdog_Config
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'Watchdog_config';
+      var-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= {
+    {
+        .fxnTablePtr = &WatchdogTiva_fxnTable,
+        .object = &watchdogTivaObjects[0],
+        .hwAttrs = &watchdogTivaHWAttrs[0]
+    },
+    {NULL, NULL, NULL},
+}
+_EnD_oF_dEf_TeXt_;
+      var-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/EK_TM4C1294XL.c';
+      var-mem-desc-line = '865';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = '_e_k___t_m4_c1294_x_l_8c_1a399a000adf7fb4f8e8d62289818211ef';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+WiFiCC3100_Object
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'wiFiCC3100Objects';
+      var-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/EK_TM4C1294XL.c';
+      var-mem-desc-line = '908';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = '_e_k___t_m4_c1294_x_l_8c_1a6905618ad38f7962d0288f8243c0be9c';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+const WiFiCC3100_HWAttrs
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'wiFiCC3100HWAttrs';
+      var-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= {
+    {
+        .irqPort = GPIO_PORTM_BASE,
+        .irqPin = GPIO_PIN_3,
+        .irqIntNum = INT_GPIOM,
+
+        .csPort = GPIO_PORTH_BASE,
+        .csPin = GPIO_PIN_2,
+
+        .enPort = GPIO_PORTC_BASE,
+        .enPin = GPIO_PIN_6
+    }
+}
+_EnD_oF_dEf_TeXt_;
+      var-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/EK_TM4C1294XL.c';
+      var-mem-desc-line = '910';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = '_e_k___t_m4_c1294_x_l_8c_1a39134ec9218ef8f318e0db3d76dfe5ec';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+const WiFi_Config
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'WiFi_config';
+      var-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= {
+    {
+        .fxnTablePtr = &WiFiCC3100_fxnTable,
+        .object = &wiFiCC3100Objects[0],
+        .hwAttrs = &wiFiCC3100HWAttrs[0]
+    },
+    {NULL,NULL, NULL},
+}
+_EnD_oF_dEf_TeXt_;
+      var-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/EK_TM4C1294XL.c';
+      var-mem-desc-line = '924';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    };
+  file-full-name  = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/EK_TM4C1294XL.c';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = '_e_k___t_m4_c1294_x_l_8h';
+  file-name = 'EK_TM4C1294XL.h';
+    define = {
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = '_e_k___t_m4_c1294_x_l_8h_1ad1cb67185b0bdc00aa57581513ad0737';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'EK_TM4C1294XL_LED_OFF';
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+(0)
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/EK_TM4C1294XL.h';
+      define-mem-desc-line = '54';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* define-member */
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = '_e_k___t_m4_c1294_x_l_8h_1ad7563e053d3b97332125ac39869ced37';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'EK_TM4C1294XL_LED_ON';
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+(1)
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/EK_TM4C1294XL.h';
+      define-mem-desc-line = '55';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* define-member */
+    };
+    typedef = {
+    typedef-member = {
+      typedef-mem-kind = 'typedef';
+      typedef-mem-id   = '_e_k___t_m4_c1294_x_l_8h_1aec2f04b4bea43028b0c89acb6643440c';
+      typedef-mem-virt = normal;
+      typedef-mem-prot = public;
+      typedef-mem-type = <<_EnD_oF_dEf_TeXt_
+enum EK_TM4C1294XL_EMACName
+_EnD_oF_dEf_TeXt_;
+      typedef-mem-name = 'EK_TM4C1294XL_EMACName';
+      typedef-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/EK_TM4C1294XL.h';
+      typedef-mem-desc-line = '65';
+      typedef-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      typedef-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* typedef-member */
+    typedef-member = {
+      typedef-mem-kind = 'typedef';
+      typedef-mem-id   = '_e_k___t_m4_c1294_x_l_8h_1a4a8b1942f93ca4cb1ec0f8e4a3c176de';
+      typedef-mem-virt = normal;
+      typedef-mem-prot = public;
+      typedef-mem-type = <<_EnD_oF_dEf_TeXt_
+enum EK_TM4C1294XL_GPIOName
+_EnD_oF_dEf_TeXt_;
+      typedef-mem-name = 'EK_TM4C1294XL_GPIOName';
+      typedef-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/EK_TM4C1294XL.h';
+      typedef-mem-desc-line = '78';
+      typedef-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      typedef-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* typedef-member */
+    typedef-member = {
+      typedef-mem-kind = 'typedef';
+      typedef-mem-id   = '_e_k___t_m4_c1294_x_l_8h_1ab8db7aa4676ec83a024a1f54dda4560c';
+      typedef-mem-virt = normal;
+      typedef-mem-prot = public;
+      typedef-mem-type = <<_EnD_oF_dEf_TeXt_
+enum EK_TM4C1294XL_I2CName
+_EnD_oF_dEf_TeXt_;
+      typedef-mem-name = 'EK_TM4C1294XL_I2CName';
+      typedef-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/EK_TM4C1294XL.h';
+      typedef-mem-desc-line = '89';
+      typedef-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      typedef-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* typedef-member */
+    typedef-member = {
+      typedef-mem-kind = 'typedef';
+      typedef-mem-id   = '_e_k___t_m4_c1294_x_l_8h_1a3f8870f99fd9f458eb92f9b511642cfa';
+      typedef-mem-virt = normal;
+      typedef-mem-prot = public;
+      typedef-mem-type = <<_EnD_oF_dEf_TeXt_
+enum EK_TM4C1294XL_PWMName
+_EnD_oF_dEf_TeXt_;
+      typedef-mem-name = 'EK_TM4C1294XL_PWMName';
+      typedef-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/EK_TM4C1294XL.h';
+      typedef-mem-desc-line = '99';
+      typedef-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      typedef-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* typedef-member */
+    typedef-member = {
+      typedef-mem-kind = 'typedef';
+      typedef-mem-id   = '_e_k___t_m4_c1294_x_l_8h_1a8cc8cecf89902a60e9042d88e78f3dfd';
+      typedef-mem-virt = normal;
+      typedef-mem-prot = public;
+      typedef-mem-type = <<_EnD_oF_dEf_TeXt_
+enum EK_TM4C1294XL_SDSPIName
+_EnD_oF_dEf_TeXt_;
+      typedef-mem-name = 'EK_TM4C1294XL_SDSPIName';
+      typedef-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/EK_TM4C1294XL.h';
+      typedef-mem-desc-line = '110';
+      typedef-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      typedef-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* typedef-member */
+    typedef-member = {
+      typedef-mem-kind = 'typedef';
+      typedef-mem-id   = '_e_k___t_m4_c1294_x_l_8h_1a261ae633f8f1991e5023c8c5e4eba01c';
+      typedef-mem-virt = normal;
+      typedef-mem-prot = public;
+      typedef-mem-type = <<_EnD_oF_dEf_TeXt_
+enum EK_TM4C1294XL_SPIName
+_EnD_oF_dEf_TeXt_;
+      typedef-mem-name = 'EK_TM4C1294XL_SPIName';
+      typedef-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/EK_TM4C1294XL.h';
+      typedef-mem-desc-line = '121';
+      typedef-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      typedef-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* typedef-member */
+    typedef-member = {
+      typedef-mem-kind = 'typedef';
+      typedef-mem-id   = '_e_k___t_m4_c1294_x_l_8h_1a7bfdc2f1431e9fadce7f8c7d4f637f30';
+      typedef-mem-virt = normal;
+      typedef-mem-prot = public;
+      typedef-mem-type = <<_EnD_oF_dEf_TeXt_
+enum EK_TM4C1294XL_UARTName
+_EnD_oF_dEf_TeXt_;
+      typedef-mem-name = 'EK_TM4C1294XL_UARTName';
+      typedef-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/EK_TM4C1294XL.h';
+      typedef-mem-desc-line = '131';
+      typedef-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      typedef-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* typedef-member */
+    typedef-member = {
+      typedef-mem-kind = 'typedef';
+      typedef-mem-id   = '_e_k___t_m4_c1294_x_l_8h_1ab9e56be3b1ccaf2a5ba85d1513979ded';
+      typedef-mem-virt = normal;
+      typedef-mem-prot = public;
+      typedef-mem-type = <<_EnD_oF_dEf_TeXt_
+enum EK_TM4C1294XL_USBMode
+_EnD_oF_dEf_TeXt_;
+      typedef-mem-name = 'EK_TM4C1294XL_USBMode';
+      typedef-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/EK_TM4C1294XL.h';
+      typedef-mem-desc-line = '140';
+      typedef-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      typedef-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* typedef-member */
+    typedef-member = {
+      typedef-mem-kind = 'typedef';
+      typedef-mem-id   = '_e_k___t_m4_c1294_x_l_8h_1a4cab1d481d367026491e50759f5371f1';
+      typedef-mem-virt = normal;
+      typedef-mem-prot = public;
+      typedef-mem-type = <<_EnD_oF_dEf_TeXt_
+enum EK_TM4C1294XL_USBMSCHFatFsName
+_EnD_oF_dEf_TeXt_;
+      typedef-mem-name = 'EK_TM4C1294XL_USBMSCHFatFsName';
+      typedef-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/EK_TM4C1294XL.h';
+      typedef-mem-desc-line = '150';
+      typedef-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      typedef-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* typedef-member */
+    typedef-member = {
+      typedef-mem-kind = 'typedef';
+      typedef-mem-id   = '_e_k___t_m4_c1294_x_l_8h_1a36ddea7bdbfb40cc838ad3ec846e2bd2';
+      typedef-mem-virt = normal;
+      typedef-mem-prot = public;
+      typedef-mem-type = <<_EnD_oF_dEf_TeXt_
+enum EK_TM4C1294XL_WatchdogName
+_EnD_oF_dEf_TeXt_;
+      typedef-mem-name = 'EK_TM4C1294XL_WatchdogName';
+      typedef-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/EK_TM4C1294XL.h';
+      typedef-mem-desc-line = '160';
+      typedef-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      typedef-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* typedef-member */
+    typedef-member = {
+      typedef-mem-kind = 'typedef';
+      typedef-mem-id   = '_e_k___t_m4_c1294_x_l_8h_1a07dd784d03c3429f3158f23ef3ace2f8';
+      typedef-mem-virt = normal;
+      typedef-mem-prot = public;
+      typedef-mem-type = <<_EnD_oF_dEf_TeXt_
+enum EK_TM4C1294XL_WiFiName
+_EnD_oF_dEf_TeXt_;
+      typedef-mem-name = 'EK_TM4C1294XL_WiFiName';
+      typedef-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/EK_TM4C1294XL.h';
+      typedef-mem-desc-line = '170';
+      typedef-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      typedef-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* typedef-member */
+    };
+    enum = {
+    enum-member = {
+      enum-mem-kind = 'enum';
+      enum-mem-id   = '_e_k___t_m4_c1294_x_l_8h_1aa0e0778be7a139e3d43c3457662052fb';
+      enum-mem-virt = normal;
+      enum-mem-prot = public;
+      enum-mem-name = 'EK_TM4C1294XL_EMACName';
+      enum-mem-enum = { enum-name = EK_TM4C1294XL_EMAC0; enum-value = '= 0'; };
+      enum-mem-enum = { enum-name = EK_TM4C1294XL_EMACCOUNT; };
+      enum-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/EK_TM4C1294XL.h';
+      enum-mem-desc-line = '61';
+      enum-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      enum-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* enum-member */
+    enum-member = {
+      enum-mem-kind = 'enum';
+      enum-mem-id   = '_e_k___t_m4_c1294_x_l_8h_1a82b814c336f99ac6655e0d6cff7a5129';
+      enum-mem-virt = normal;
+      enum-mem-prot = public;
+      enum-mem-name = 'EK_TM4C1294XL_GPIOName';
+      enum-mem-enum = { enum-name = EK_TM4C1294XL_USR_SW1; enum-value = '= 0'; };
+      enum-mem-enum = { enum-name = EK_TM4C1294XL_USR_SW2; };
+      enum-mem-enum = { enum-name = EK_TM4C1294XL_D1; };
+      enum-mem-enum = { enum-name = EK_TM4C1294XL_D2; };
+      enum-mem-enum = { enum-name = EK_TM4C1294XL_GPIOCOUNT; };
+      enum-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/EK_TM4C1294XL.h';
+      enum-mem-desc-line = '71';
+      enum-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      enum-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* enum-member */
+    enum-member = {
+      enum-mem-kind = 'enum';
+      enum-mem-id   = '_e_k___t_m4_c1294_x_l_8h_1ab7876a5c9e1fe423c7547af21605beed';
+      enum-mem-virt = normal;
+      enum-mem-prot = public;
+      enum-mem-name = 'EK_TM4C1294XL_I2CName';
+      enum-mem-enum = { enum-name = EK_TM4C1294XL_I2C7; enum-value = '= 0'; };
+      enum-mem-enum = { enum-name = EK_TM4C1294XL_I2C8; };
+      enum-mem-enum = { enum-name = EK_TM4C1294XL_I2CCOUNT; };
+      enum-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/EK_TM4C1294XL.h';
+      enum-mem-desc-line = '84';
+      enum-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      enum-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* enum-member */
+    enum-member = {
+      enum-mem-kind = 'enum';
+      enum-mem-id   = '_e_k___t_m4_c1294_x_l_8h_1adfa66b1b77983dbce579fc15ecf55e8d';
+      enum-mem-virt = normal;
+      enum-mem-prot = public;
+      enum-mem-name = 'EK_TM4C1294XL_PWMName';
+      enum-mem-enum = { enum-name = EK_TM4C1294XL_PWM0; enum-value = '= 0'; };
+      enum-mem-enum = { enum-name = EK_TM4C1294XL_PWMCOUNT; };
+      enum-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/EK_TM4C1294XL.h';
+      enum-mem-desc-line = '95';
+      enum-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      enum-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* enum-member */
+    enum-member = {
+      enum-mem-kind = 'enum';
+      enum-mem-id   = '_e_k___t_m4_c1294_x_l_8h_1a00172ff6af0e25b6c9fb418ab9d2057c';
+      enum-mem-virt = normal;
+      enum-mem-prot = public;
+      enum-mem-name = 'EK_TM4C1294XL_SDSPIName';
+      enum-mem-enum = { enum-name = EK_TM4C1294XL_SDSPI0; enum-value = '= 0'; };
+      enum-mem-enum = { enum-name = EK_TM4C1294XL_SDSPI1; };
+      enum-mem-enum = { enum-name = EK_TM4C1294XL_SDSPICOUNT; };
+      enum-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/EK_TM4C1294XL.h';
+      enum-mem-desc-line = '105';
+      enum-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      enum-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* enum-member */
+    enum-member = {
+      enum-mem-kind = 'enum';
+      enum-mem-id   = '_e_k___t_m4_c1294_x_l_8h_1ae0c26dc71bbe7ca6ef38045ee745fcaa';
+      enum-mem-virt = normal;
+      enum-mem-prot = public;
+      enum-mem-name = 'EK_TM4C1294XL_SPIName';
+      enum-mem-enum = { enum-name = EK_TM4C1294XL_SPI2; enum-value = '= 0'; };
+      enum-mem-enum = { enum-name = EK_TM4C1294XL_SPI3; };
+      enum-mem-enum = { enum-name = EK_TM4C1294XL_SPICOUNT; };
+      enum-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/EK_TM4C1294XL.h';
+      enum-mem-desc-line = '116';
+      enum-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      enum-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* enum-member */
+    enum-member = {
+      enum-mem-kind = 'enum';
+      enum-mem-id   = '_e_k___t_m4_c1294_x_l_8h_1a26d4bc240b070d599d161b3359d8cc8a';
+      enum-mem-virt = normal;
+      enum-mem-prot = public;
+      enum-mem-name = 'EK_TM4C1294XL_UARTName';
+      enum-mem-enum = { enum-name = EK_TM4C1294XL_UART0; enum-value = '= 0'; };
+      enum-mem-enum = { enum-name = EK_TM4C1294XL_UARTCOUNT; };
+      enum-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/EK_TM4C1294XL.h';
+      enum-mem-desc-line = '127';
+      enum-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      enum-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* enum-member */
+    enum-member = {
+      enum-mem-kind = 'enum';
+      enum-mem-id   = '_e_k___t_m4_c1294_x_l_8h_1aa4d597e4c0d6f7ff74b21edec8c86d4f';
+      enum-mem-virt = normal;
+      enum-mem-prot = public;
+      enum-mem-name = 'EK_TM4C1294XL_USBMode';
+      enum-mem-enum = { enum-name = EK_TM4C1294XL_USBDEVICE; };
+      enum-mem-enum = { enum-name = EK_TM4C1294XL_USBHOST; };
+      enum-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/EK_TM4C1294XL.h';
+      enum-mem-desc-line = '137';
+      enum-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      enum-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* enum-member */
+    enum-member = {
+      enum-mem-kind = 'enum';
+      enum-mem-id   = '_e_k___t_m4_c1294_x_l_8h_1a1b377cb71ef848e20e0df9f049e1ec2d';
+      enum-mem-virt = normal;
+      enum-mem-prot = public;
+      enum-mem-name = 'EK_TM4C1294XL_USBMSCHFatFsName';
+      enum-mem-enum = { enum-name = EK_TM4C1294XL_USBMSCHFatFs0; enum-value = '= 0'; };
+      enum-mem-enum = { enum-name = EK_TM4C1294XL_USBMSCHFatFsCOUNT; };
+      enum-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/EK_TM4C1294XL.h';
+      enum-mem-desc-line = '146';
+      enum-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      enum-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* enum-member */
+    enum-member = {
+      enum-mem-kind = 'enum';
+      enum-mem-id   = '_e_k___t_m4_c1294_x_l_8h_1a93d37fc3e70db39774767feed007a0ea';
+      enum-mem-virt = normal;
+      enum-mem-prot = public;
+      enum-mem-name = 'EK_TM4C1294XL_WatchdogName';
+      enum-mem-enum = { enum-name = EK_TM4C1294XL_WATCHDOG0; enum-value = '= 0'; };
+      enum-mem-enum = { enum-name = EK_TM4C1294XL_WATCHDOGCOUNT; };
+      enum-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/EK_TM4C1294XL.h';
+      enum-mem-desc-line = '156';
+      enum-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      enum-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* enum-member */
+    enum-member = {
+      enum-mem-kind = 'enum';
+      enum-mem-id   = '_e_k___t_m4_c1294_x_l_8h_1a2cad96e7da2590b0e10f1f4d21ef7864';
+      enum-mem-virt = normal;
+      enum-mem-prot = public;
+      enum-mem-name = 'EK_TM4C1294XL_WiFiName';
+      enum-mem-enum = { enum-name = EK_TM4C1294XL_WIFI; enum-value = '= 0'; };
+      enum-mem-enum = { enum-name = EK_TM4C1294XL_WIFICOUNT; };
+      enum-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/EK_TM4C1294XL.h';
+      enum-mem-desc-line = '166';
+      enum-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      enum-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* enum-member */
+    };
+    func = {
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = '_e_k___t_m4_c1294_x_l_8h_1ab5daf95042218c677a6902706f968460';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'EK_TM4C1294XL_initGeneral';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/EK_TM4C1294XL.h';
+      func-mem-desc-line = '179';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Initialize the general board specific settings.
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+This function initializes the general board specific settings.
+This includes:
+   - Enable clock sources for peripherals
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = '_e_k___t_m4_c1294_x_l_8h_1abce7c3ce807880c75745d0d480ae1711';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'EK_TM4C1294XL_initEMAC';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/EK_TM4C1294XL.h';
+      func-mem-desc-line = '190';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Initialize board specific EMAC settings.
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+This function initializes the board specific EMAC settings and
+then calls the EMAC_init API to initialize the EMAC module.
+
+The EMAC address is programmed as part of this call.
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = '_e_k___t_m4_c1294_x_l_8h_1a7556fc06cc15335f855a923cbea6f9b0';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'EK_TM4C1294XL_initGPIO';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/EK_TM4C1294XL.h';
+      func-mem-desc-line = '201';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Initialize board specific GPIO settings.
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+This function initializes the board specific GPIO settings and
+then calls the GPIO_init API to initialize the GPIO module.
+
+The GPIOs controlled by the GPIO module are determined by the GPIO_PinConfig
+variable.
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = '_e_k___t_m4_c1294_x_l_8h_1ac40916affd0c767702c69e6a0f432c7a';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'EK_TM4C1294XL_initI2C';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/EK_TM4C1294XL.h';
+      func-mem-desc-line = '212';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Initialize board specific I2C settings.
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+This function initializes the board specific I2C settings and then calls
+the I2C_init API to initialize the I2C module.
+
+The I2C peripherals controlled by the I2C module are determined by the
+I2C_config variable.
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = '_e_k___t_m4_c1294_x_l_8h_1ad768407eb2b556ce3d63f289f93f53d0';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'EK_TM4C1294XL_initPWM';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/EK_TM4C1294XL.h';
+      func-mem-desc-line = '223';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Initialize board specific PWM settings.
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+This function initializes the board specific PWM settings and then calls
+the PWM_init API to initialize the PWM module.
+
+The PWM peripherals controlled by the PWM module are determined by the
+PWM_config variable.
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = '_e_k___t_m4_c1294_x_l_8h_1a78a92a5b84f874b7db46a20a3811245a';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'EK_TM4C1294XL_initSDSPI';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/EK_TM4C1294XL.h';
+      func-mem-desc-line = '234';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Initialize board specific SDSPI settings.
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+This function initializes the board specific SDSPI settings and then calls
+the SDSPI_init API to initialize the SDSPI module.
+
+The SDSPI peripherals controlled by the SDSPI module are determined by the
+SDSPI_config variable.
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = '_e_k___t_m4_c1294_x_l_8h_1a45235cbf09541af99e0e57f66b5c1068';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'EK_TM4C1294XL_initSPI';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/EK_TM4C1294XL.h';
+      func-mem-desc-line = '245';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Initialize board specific SPI settings.
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+This function initializes the board specific SPI settings and then calls
+the SPI_init API to initialize the SPI module.
+
+The SPI peripherals controlled by the SPI module are determined by the
+SPI_config variable.
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = '_e_k___t_m4_c1294_x_l_8h_1af6f1d39927c98be77136c085ac032343';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'EK_TM4C1294XL_initUART';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/EK_TM4C1294XL.h';
+      func-mem-desc-line = '256';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Initialize board specific UART settings.
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+This function initializes the board specific UART settings and then calls
+the UART_init API to initialize the UART module.
+
+The UART peripherals controlled by the UART module are determined by the
+UART_config variable.
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = '_e_k___t_m4_c1294_x_l_8h_1a5daffc7bb57debea46f589c6283b041c';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'EK_TM4C1294XL_initUSB';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+EK_TM4C1294XL_USBMode
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'usbMode';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/EK_TM4C1294XL.h';
+      func-mem-desc-line = '266';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Initialize board specific USB settings.
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+This function initializes the board specific USB settings and pins based on
+the USB mode of operation.
+
+@param usbMode    USB mode of operation
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = '_e_k___t_m4_c1294_x_l_8h_1a8dcfc2ab3972a2750ef70512c8b41b71';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'EK_TM4C1294XL_initUSBMSCHFatFs';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/EK_TM4C1294XL.h';
+      func-mem-desc-line = '277';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Initialize board specific USBMSCHFatFs settings.
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+This function initializes the board specific USBMSCHFatFs settings and then
+calls the USBMSCHFatFs_init API to initialize the USBMSCHFatFs module.
+
+The USBMSCHFatFs peripherals controlled by the USBMSCHFatFs module are
+determined by the USBMSCHFatFs_config variable.
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = '_e_k___t_m4_c1294_x_l_8h_1a52c4c90068a80d3efa0ea75a5fe99c86';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'EK_TM4C1294XL_initWatchdog';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/EK_TM4C1294XL.h';
+      func-mem-desc-line = '288';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Initialize board specific Watchdog settings.
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+This function initializes the board specific Watchdog settings and then
+calls the Watchdog_init API to initialize the Watchdog module.
+
+The Watchdog peripherals controlled by the Watchdog module are determined
+by the Watchdog_config variable.
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = '_e_k___t_m4_c1294_x_l_8h_1a22e79336bcaecf9d38643c7b4d9219a6';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'EK_TM4C1294XL_initWiFi';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/EK_TM4C1294XL.h';
+      func-mem-desc-line = '302';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Initialize board specific WiFi settings.
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+This function initializes the board specific WiFi settings and then calls
+the WiFi_init API to initialize the WiFi module.
+
+The hardware resources controlled by the WiFi module are determined by the
+WiFi_config variable.
+
+A SimpleLink CC3100 device or module is required and must be connected to
+use the WiFi driver.
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    };
+  file-full-name  = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/EK_TM4C1294XL.h';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+EK_TM4C1294XL Board Specific APIs.
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+============================================================================
+
+
+The EK_TM4C1294XL header file should be included in an application as
+follows:
+@code 
+#include <EK_TM4C1294XL.h>
+@endcode
+
+<hr>
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = 'project_8h';
+  file-name = 'project.h';
+  file-full-name  = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/project.h';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = 'uart__test_8c';
+  file-name = 'uart_test.c';
+    define = {
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = 'uart__test_8c_1a058b1d8343c11c690822eee069a1c98a';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'uart_buffersize';
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+8
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/uart_test.c';
+      define-mem-desc-line = '11';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* define-member */
+    };
+    func = {
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = 'uart__test_8c_1a68a68055df8fd3001df3c84372013b1a';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'UART_Kurulum';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+eBaudRate
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'BaudRate';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+OkumaKesmesi
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'callback';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+eParite
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'Parite';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+eStopBit
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'StopBit';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/uart_test.c';
+      func-mem-desc-line = '46';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+uart_kurulum fonksiyonu uart konfigürasyonlarýný yapmak için oluþturulmuþ bir fonksiyondur.
+
+@param BaudRate: eBaudrate adýnda enum tanýmlanmýþtýr.
+Baud_9600 için 9600 deðeri atanýr.
+Baud_19200 için 19200 deðeri atanýr.
+Baud_38400 için 38400 deðeri atanýr.
+Baud_57600 için 57600 deðeri atanýr.
+Baud_115200 için 115200 deðeri atanýr.
+
+@param callback: uart kesme fonksiyonunu bu fonksiyona argüman olarak (void)*f(UART_Handle handle, void *pcData, size_t num) verilmelidir.
+
+@param Parite: eParite adýnda enum tanýmlanmýþtýr.
+Parite_NONE için parite biti olmamasý ayarlanýr.
+Parite_EVEN için parite modu even olarak ayarlanýr.
+Parite_ODD için parite modu odd olarak ayarlanýr.
+@param StopBit: eStopBit adýnda enum tanýmlanmýþtýr.
+
+Stop_ONE için stop biti 1 olarak atanýr.
+Stop_TWO için stop biti 2 olarak atanýr.
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = 'uart__test_8c_1ae92ba3a475f1c2277ac9234b0b91cfaf';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'UART_Step';
+      func-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/uart_test.c';
+      func-mem-desc-line = '80';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+uart_step  fonksiyonu uarttangelen verileri ringbuffera yazmak ve ringbuffer'dan uarta yazmak için oluþturulmuþ fonksiyondur.
+kullanýlacak diziler "unsigned char pcBuffer[128], uartBuf[uart_buffersize], pcData[],uartData[128];" þeklinde tanýmlanýr.
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = 'uart__test_8c_1aac5e6807fa03f1eeffe7cde2e5036bdb';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'readCallback';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+UART_Handle
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'handle';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+void *
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'pcData';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+size_t
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'num';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/uart_test.c';
+      func-mem-desc-line = '92';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+readcallback  fonksiyonu uartýn kesme fonksiyonudur. uart_step'in çalýþmasý için semaphore buradan post edilir.
+UART_Handle hangi uart objesinden donaným kesmesi bilgisi geleceðinin bilgisini taþýr.
+pcData dizisi uarttan kesme geldiði anda kanaldaki verilerin yazýldýðý dizidir.
+num adlý deðiþkende ise gelen verilinin boyutu tutulmaktadýr.
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    };
+    var = {
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = 'uart__test_8c_1a9152c6bde9e4acc690ec14f8be3d6e11';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+UART_Handle
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'uart';
+      var-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/uart_test.c';
+      var-mem-desc-line = '13';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = 'uart__test_8c_1a6ec5e4b29cc55a16a370cdf1d603d8d5';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+UART_Params
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'uartParams';
+      var-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/uart_test.c';
+      var-mem-desc-line = '14';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = 'uart__test_8c_1a9d2c957655e660a32909db3d386be7a9';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+tRingBufObject
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'RingBuf';
+      var-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/uart_test.c';
+      var-mem-desc-line = '15';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = 'uart__test_8c_1a331b4ba17e1a4282463ffeb02b36b3de';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+Semaphore_Struct
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'uart_semStruct';
+      var-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/uart_test.c';
+      var-mem-desc-line = '17';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = 'uart__test_8c_1a271fd14781bcfca337e7142068d067b1';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+Semaphore_Handle
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'uart_semHandle';
+      var-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/uart_test.c';
+      var-mem-desc-line = '18';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = 'uart__test_8c_1a371ce57b71a5c9c07c30fdbe5371449e';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+Semaphore_Struct
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'init_semStruct';
+      var-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/uart_test.c';
+      var-mem-desc-line = '20';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = 'uart__test_8c_1a5fa6a3816d15ab9ab477aa071df8a308';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+Semaphore_Handle
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'init_semHandle';
+      var-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/uart_test.c';
+      var-mem-desc-line = '21';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = 'uart__test_8c_1a3cdc8c7b7b7ed260d0eae1c02f1c1933';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+unsigned char
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'pcBuffer';
+      var-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/uart_test.c';
+      var-mem-desc-line = '23';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = 'uart__test_8c_1a48850bc4d39148b702c37809e066c1dd';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+unsigned char
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'uartBuf';
+      var-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/uart_test.c';
+      var-mem-desc-line = '23';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = 'uart__test_8c_1ab72cb52c79611e9e6c38fac29a4723d4';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+unsigned char
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'pcData';
+      var-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/uart_test.c';
+      var-mem-desc-line = '23';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = 'uart__test_8c_1a35d8b8b42a9f28791a07e2f3b8191d07';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+unsigned char
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'uartData';
+      var-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/uart_test.c';
+      var-mem-desc-line = '23';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    };
+  file-full-name  = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/uart_test.c';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = 'uart__test_8h';
+  file-name = 'uart_test.h';
+    typedef = {
+    typedef-member = {
+      typedef-mem-kind = 'typedef';
+      typedef-mem-id   = 'uart__test_8h_1a61bcc9dcdd87be7e6376fd91f322a5fe';
+      typedef-mem-virt = normal;
+      typedef-mem-prot = public;
+      typedef-mem-type = <<_EnD_oF_dEf_TeXt_
+void(*
+_EnD_oF_dEf_TeXt_;
+      typedef-mem-name = 'OkumaKesmesi';
+      typedef-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/uart_test.h';
+      typedef-mem-desc-line = '12';
+      typedef-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      typedef-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* typedef-member */
+    typedef-member = {
+      typedef-mem-kind = 'typedef';
+      typedef-mem-id   = 'uart__test_8h_1a7f61ae1808e04722df1717509c43149b';
+      typedef-mem-virt = normal;
+      typedef-mem-prot = public;
+      typedef-mem-type = <<_EnD_oF_dEf_TeXt_
+enum eBaudRate
+_EnD_oF_dEf_TeXt_;
+      typedef-mem-name = 'eBaudRate';
+      typedef-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/uart_test.h';
+      typedef-mem-desc-line = '22';
+      typedef-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      typedef-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* typedef-member */
+    typedef-member = {
+      typedef-mem-kind = 'typedef';
+      typedef-mem-id   = 'uart__test_8h_1ab560a6363058b35e72b245370c7774c1';
+      typedef-mem-virt = normal;
+      typedef-mem-prot = public;
+      typedef-mem-type = <<_EnD_oF_dEf_TeXt_
+enum eParite
+_EnD_oF_dEf_TeXt_;
+      typedef-mem-name = 'eParite';
+      typedef-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/uart_test.h';
+      typedef-mem-desc-line = '30';
+      typedef-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      typedef-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* typedef-member */
+    typedef-member = {
+      typedef-mem-kind = 'typedef';
+      typedef-mem-id   = 'uart__test_8h_1aa3c39958157f8fc789078ecc3ca05608';
+      typedef-mem-virt = normal;
+      typedef-mem-prot = public;
+      typedef-mem-type = <<_EnD_oF_dEf_TeXt_
+enum eStopBit
+_EnD_oF_dEf_TeXt_;
+      typedef-mem-name = 'eStopBit';
+      typedef-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/uart_test.h';
+      typedef-mem-desc-line = '35';
+      typedef-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      typedef-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* typedef-member */
+    typedef-member = {
+      typedef-mem-kind = 'typedef';
+      typedef-mem-id   = 'uart__test_8h_1a645a7f61d1c7a0e67e183a70210b073b';
+      typedef-mem-virt = normal;
+      typedef-mem-prot = public;
+      typedef-mem-type = <<_EnD_oF_dEf_TeXt_
+enum eKesmeByte
+_EnD_oF_dEf_TeXt_;
+      typedef-mem-name = 'eKesmeByte';
+      typedef-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/uart_test.h';
+      typedef-mem-desc-line = '40';
+      typedef-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      typedef-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* typedef-member */
+    };
+    enum = {
+    enum-member = {
+      enum-mem-kind = 'enum';
+      enum-mem-id   = 'uart__test_8h_1ad9bfe4b8061e001c3c717bff9b4edcce';
+      enum-mem-virt = normal;
+      enum-mem-prot = public;
+      enum-mem-name = 'eBaudRate';
+      enum-mem-enum = { enum-name = Baud_2400; enum-value = '=2400'; };
+      enum-mem-enum = { enum-name = Baud_9600; enum-value = '=9600'; };
+      enum-mem-enum = { enum-name = Baud_19200; enum-value = '=19200'; };
+      enum-mem-enum = { enum-name = Baud_38400; enum-value = '=38400'; };
+      enum-mem-enum = { enum-name = Baud_57600; enum-value = '=57600'; };
+      enum-mem-enum = { enum-name = Baud_115200; enum-value = '=115200'; };
+      enum-mem-enum = { enum-name = Baud_921600; enum-value = '=921600'; };
+      enum-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/uart_test.h';
+      enum-mem-desc-line = '14';
+      enum-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      enum-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* enum-member */
+    enum-member = {
+      enum-mem-kind = 'enum';
+      enum-mem-id   = 'uart__test_8h_1aa111cbfcc23289509f63bf49400a5bea';
+      enum-mem-virt = normal;
+      enum-mem-prot = public;
+      enum-mem-name = 'eParite';
+      enum-mem-enum = { enum-name = Parite_NONE; enum-value = '= 0'; };
+      enum-mem-enum = { enum-name = Parite_EVEN; enum-value = '= 1'; };
+      enum-mem-enum = { enum-name = Parite_ODD; enum-value = '= 2'; };
+      enum-mem-enum = { enum-name = Parite_ZERO; enum-value = '= 3'; };
+      enum-mem-enum = { enum-name = Parite_ONE; enum-value = '= 4'; };
+      enum-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/uart_test.h';
+      enum-mem-desc-line = '24';
+      enum-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      enum-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* enum-member */
+    enum-member = {
+      enum-mem-kind = 'enum';
+      enum-mem-id   = 'uart__test_8h_1a649f052c5062e6fb250da6b72d8e71d3';
+      enum-mem-virt = normal;
+      enum-mem-prot = public;
+      enum-mem-name = 'eStopBit';
+      enum-mem-enum = { enum-name = Stop_ONE; enum-value = '= 0'; };
+      enum-mem-enum = { enum-name = Stop_TWO; enum-value = '= 1'; };
+      enum-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/uart_test.h';
+      enum-mem-desc-line = '32';
+      enum-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      enum-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* enum-member */
+    enum-member = {
+      enum-mem-kind = 'enum';
+      enum-mem-id   = 'uart__test_8h_1ad9e60a391c69e6cf2211cabf0a1dee76';
+      enum-mem-virt = normal;
+      enum-mem-prot = public;
+      enum-mem-name = 'eKesmeByte';
+      enum-mem-enum = { enum-name = Kesme_1; enum-value = '= 1'; };
+      enum-mem-enum = { enum-name = Kesme_8; enum-value = '= 8'; };
+      enum-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/uart_test.h';
+      enum-mem-desc-line = '37';
+      enum-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      enum-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* enum-member */
+    };
+    func = {
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = 'uart__test_8h_1a68a68055df8fd3001df3c84372013b1a';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'UART_Kurulum';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+eBaudRate
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'BaudRate';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+OkumaKesmesi
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'callback';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+eParite
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'Parite';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+eStopBit
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'StopBit';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/uart_test.h';
+      func-mem-desc-line = '42';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+uart_kurulum fonksiyonu uart konfigürasyonlarýný yapmak için oluþturulmuþ bir fonksiyondur.
+
+@param BaudRate: eBaudrate adýnda enum tanýmlanmýþtýr.
+Baud_9600 için 9600 deðeri atanýr.
+Baud_19200 için 19200 deðeri atanýr.
+Baud_38400 için 38400 deðeri atanýr.
+Baud_57600 için 57600 deðeri atanýr.
+Baud_115200 için 115200 deðeri atanýr.
+
+@param callback: uart kesme fonksiyonunu bu fonksiyona argüman olarak (void)*f(UART_Handle handle, void *pcData, size_t num) verilmelidir.
+
+@param Parite: eParite adýnda enum tanýmlanmýþtýr.
+Parite_NONE için parite biti olmamasý ayarlanýr.
+Parite_EVEN için parite modu even olarak ayarlanýr.
+Parite_ODD için parite modu odd olarak ayarlanýr.
+@param StopBit: eStopBit adýnda enum tanýmlanmýþtýr.
+
+Stop_ONE için stop biti 1 olarak atanýr.
+Stop_TWO için stop biti 2 olarak atanýr.
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = 'uart__test_8h_1ae92ba3a475f1c2277ac9234b0b91cfaf';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'UART_Step';
+      func-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/uart_test.h';
+      func-mem-desc-line = '43';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+uart_step  fonksiyonu uarttangelen verileri ringbuffera yazmak ve ringbuffer'dan uarta yazmak için oluþturulmuþ fonksiyondur.
+kullanýlacak diziler "unsigned char pcBuffer[128], uartBuf[uart_buffersize], pcData[],uartData[128];" þeklinde tanýmlanýr.
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = 'uart__test_8h_1aac5e6807fa03f1eeffe7cde2e5036bdb';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'readCallback';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+UART_Handle
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'handle';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+void *
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'pcData';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+size_t
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'num';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/uart_test.h';
+      func-mem-desc-line = '44';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+readcallback  fonksiyonu uartýn kesme fonksiyonudur. uart_step'in çalýþmasý için semaphore buradan post edilir.
+UART_Handle hangi uart objesinden donaným kesmesi bilgisi geleceðinin bilgisini taþýr.
+pcData dizisi uarttan kesme geldiði anda kanaldaki verilerin yazýldýðý dizidir.
+num adlý deðiþkende ise gelen verilinin boyutu tutulmaktadýr.
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    };
+  file-full-name  = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/uart_test.h';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = 'uart__test__code_8c';
+  file-name = 'uart_test_code.c';
+    define = {
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = 'uart__test__code_8c_1a8babe8b37acd7b4b8c9b4aef99f767ef';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'TASKSTACKSIZE';
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+512
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/uart_test_code.c';
+      define-mem-desc-line = '4';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* define-member */
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = 'uart__test__code_8c_1a058b1d8343c11c690822eee069a1c98a';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'uart_buffersize';
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+8
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/uart_test_code.c';
+      define-mem-desc-line = '5';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* define-member */
+    };
+    func = {
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = 'uart__test__code_8c_1a422c1d260c214fe11b7d9f7e75d6f86a';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+Void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'task_init';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+UArg
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'arg0';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+UArg
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'arg1';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/uart_test_code.c';
+      func-mem-desc-line = '62';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+task_init fonksiyonu gerekli kurulumlarý yapýp uart'ýn echo yapmasýiçin semaphore'u post etmesi için çalýþan os taskýdýr.
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = 'uart__test__code_8c_1a2d0bf0403e4c3e9caac777213bce3cbf';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+Void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'task_uart';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+UArg
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'arg0';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+UArg
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'arg1';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/uart_test_code.c';
+      func-mem-desc-line = '79';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+task_uart fonksiyonu ringbuffer'a yazýlmýþ verileri uarta tekrar göndermek için çalýþmasý gereken bir iþletim sistemi taskýdýr.
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = 'uart__test__code_8c_1a74005dc4185dc640795ff7724cb0272b';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+Int
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'main';
+      func-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/uart_test_code.c';
+      func-mem-desc-line = '26';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    };
+    var = {
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = 'uart__test__code_8c_1a73ff819b14ad4ebf0260b273bada04e5';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+UInt32
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'sleepTickCount';
+      var-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/uart_test_code.c';
+      var-mem-desc-line = '10';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = 'uart__test__code_8c_1add430fef18f591940285828f03ed9402';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+Task_Struct
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'task1Struct';
+      var-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/uart_test_code.c';
+      var-mem-desc-line = '12';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = 'uart__test__code_8c_1aa3813524351f1196d72568bad6d2eb5b';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+Task_Struct
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'task2Struct';
+      var-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/uart_test_code.c';
+      var-mem-desc-line = '12';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = 'uart__test__code_8c_1a95cb54b1146290d9c7e4e21f63d4fdb2';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+Char
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'task1Stack';
+      var-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/uart_test_code.c';
+      var-mem-desc-line = '13';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = 'uart__test__code_8c_1a84206c4e2a50daf9d77bd310210bd3ed';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+Char
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'task2Stack';
+      var-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/uart_test_code.c';
+      var-mem-desc-line = '13';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = 'uart__test__code_8c_1a331b4ba17e1a4282463ffeb02b36b3de';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+Semaphore_Struct
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'uart_semStruct';
+      var-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/uart_test_code.c';
+      var-mem-desc-line = '15';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = 'uart__test__code_8c_1a271fd14781bcfca337e7142068d067b1';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+Semaphore_Handle
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'uart_semHandle';
+      var-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/uart_test_code.c';
+      var-mem-desc-line = '16';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = 'uart__test__code_8c_1a371ce57b71a5c9c07c30fdbe5371449e';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+Semaphore_Struct
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'init_semStruct';
+      var-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/uart_test_code.c';
+      var-mem-desc-line = '18';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = 'uart__test__code_8c_1a5fa6a3816d15ab9ab477aa071df8a308';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+Semaphore_Handle
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'init_semHandle';
+      var-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/uart_test_code.c';
+      var-mem-desc-line = '19';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = 'uart__test__code_8c_1a9152c6bde9e4acc690ec14f8be3d6e11';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+UART_Handle
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'uart';
+      var-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/uart_test_code.c';
+      var-mem-desc-line = '21';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = 'uart__test__code_8c_1a6ec5e4b29cc55a16a370cdf1d603d8d5';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+UART_Params
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'uartParams';
+      var-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/uart_test_code.c';
+      var-mem-desc-line = '22';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = 'uart__test__code_8c_1a3cdc8c7b7b7ed260d0eae1c02f1c1933';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+unsigned char
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'pcBuffer';
+      var-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/uart_test_code.c';
+      var-mem-desc-line = '24';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = 'uart__test__code_8c_1a48850bc4d39148b702c37809e066c1dd';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+unsigned char
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'uartBuf';
+      var-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/uart_test_code.c';
+      var-mem-desc-line = '24';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = 'uart__test__code_8c_1ab72cb52c79611e9e6c38fac29a4723d4';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+unsigned char
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'pcData';
+      var-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/uart_test_code.c';
+      var-mem-desc-line = '24';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = 'uart__test__code_8c_1a35d8b8b42a9f28791a07e2f3b8191d07';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+unsigned char
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'uartData';
+      var-mem-desc-file = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/uart_test_code.c';
+      var-mem-desc-line = '24';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    };
+  file-full-name  = 'C:/Users/Packard Bell/workspace_v9/uart_test_code/uart_test_code.c';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */

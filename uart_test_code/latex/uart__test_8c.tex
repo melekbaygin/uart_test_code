@@ -1,0 +1,155 @@
+\hypertarget{uart__test_8c}{}\doxysection{uart\+\_\+test.\+c Dosya ReferansÄ±}
+\label{uart__test_8c}\index{uart\_test.c@{uart\_test.c}}
+{\ttfamily \#include \char`\"{}project.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}uart\+\_\+test.\+h\char`\"{}}\newline
+\doxysubsection*{Makrolar}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{uart__test_8c_a058b1d8343c11c690822eee069a1c98a}{uart\+\_\+buffersize}}~8
+\end{DoxyCompactItemize}
+\doxysubsection*{Fonksiyonlar}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{uart__test_8c_a68a68055df8fd3001df3c84372013b1a}{U\+A\+R\+T\+\_\+\+Kurulum}} (\mbox{\hyperlink{uart__test_8h_ad9bfe4b8061e001c3c717bff9b4edcce}{e\+Baud\+Rate}} Baud\+Rate, \mbox{\hyperlink{uart__test_8h_a61bcc9dcdd87be7e6376fd91f322a5fe}{Okuma\+Kesmesi}} callback, \mbox{\hyperlink{uart__test_8h_aa111cbfcc23289509f63bf49400a5bea}{e\+Parite}} Parite, \mbox{\hyperlink{uart__test_8h_a649f052c5062e6fb250da6b72d8e71d3}{e\+Stop\+Bit}} Stop\+Bit)
+\item 
+void \mbox{\hyperlink{uart__test_8c_ae92ba3a475f1c2277ac9234b0b91cfaf}{U\+A\+R\+T\+\_\+\+Step}} ()
+\item 
+void \mbox{\hyperlink{uart__test_8c_aac5e6807fa03f1eeffe7cde2e5036bdb}{read\+Callback}} (U\+A\+R\+T\+\_\+\+Handle handle, void $\ast$\mbox{\hyperlink{uart__test__code_8c_ab72cb52c79611e9e6c38fac29a4723d4}{pc\+Data}}, size\+\_\+t num)
+\end{DoxyCompactItemize}
+\doxysubsection*{DeÄŸiÅŸkenler}
+\begin{DoxyCompactItemize}
+\item 
+U\+A\+R\+T\+\_\+\+Handle \mbox{\hyperlink{uart__test_8c_a9152c6bde9e4acc690ec14f8be3d6e11}{uart}}
+\item 
+U\+A\+R\+T\+\_\+\+Params \mbox{\hyperlink{uart__test_8c_a6ec5e4b29cc55a16a370cdf1d603d8d5}{uart\+Params}}
+\item 
+t\+Ring\+Buf\+Object \mbox{\hyperlink{uart__test_8c_a9d2c957655e660a32909db3d386be7a9}{Ring\+Buf}}
+\item 
+Semaphore\+\_\+\+Struct \mbox{\hyperlink{uart__test_8c_a331b4ba17e1a4282463ffeb02b36b3de}{uart\+\_\+sem\+Struct}}
+\item 
+Semaphore\+\_\+\+Handle \mbox{\hyperlink{uart__test_8c_a271fd14781bcfca337e7142068d067b1}{uart\+\_\+sem\+Handle}}
+\item 
+Semaphore\+\_\+\+Struct \mbox{\hyperlink{uart__test_8c_a371ce57b71a5c9c07c30fdbe5371449e}{init\+\_\+sem\+Struct}}
+\item 
+Semaphore\+\_\+\+Handle \mbox{\hyperlink{uart__test_8c_a5fa6a3816d15ab9ab477aa071df8a308}{init\+\_\+sem\+Handle}}
+\item 
+unsigned char \mbox{\hyperlink{uart__test_8c_a3cdc8c7b7b7ed260d0eae1c02f1c1933}{pc\+Buffer}} \mbox{[}128\mbox{]}
+\item 
+unsigned char \mbox{\hyperlink{uart__test_8c_a48850bc4d39148b702c37809e066c1dd}{uart\+Buf}} \mbox{[}\mbox{\hyperlink{uart__test__code_8c_a058b1d8343c11c690822eee069a1c98a}{uart\+\_\+buffersize}}\mbox{]}
+\item 
+unsigned char \mbox{\hyperlink{uart__test_8c_ab72cb52c79611e9e6c38fac29a4723d4}{pc\+Data}} \mbox{[}$\,$\mbox{]}
+\item 
+unsigned char \mbox{\hyperlink{uart__test_8c_a35d8b8b42a9f28791a07e2f3b8191d07}{uart\+Data}} \mbox{[}128\mbox{]}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Makro DokÃ¼mantasyonu}
+\mbox{\Hypertarget{uart__test_8c_a058b1d8343c11c690822eee069a1c98a}\label{uart__test_8c_a058b1d8343c11c690822eee069a1c98a}} 
+\index{uart\_test.c@{uart\_test.c}!uart\_buffersize@{uart\_buffersize}}
+\index{uart\_buffersize@{uart\_buffersize}!uart\_test.c@{uart\_test.c}}
+\doxysubsubsection{\texorpdfstring{uart\_buffersize}{uart\_buffersize}}
+{\footnotesize\ttfamily \#define uart\+\_\+buffersize~8}
+
+
+
+\doxysubsection{Fonksiyon DokÃ¼mantasyonu}
+\mbox{\Hypertarget{uart__test_8c_aac5e6807fa03f1eeffe7cde2e5036bdb}\label{uart__test_8c_aac5e6807fa03f1eeffe7cde2e5036bdb}} 
+\index{uart\_test.c@{uart\_test.c}!readCallback@{readCallback}}
+\index{readCallback@{readCallback}!uart\_test.c@{uart\_test.c}}
+\doxysubsubsection{\texorpdfstring{readCallback()}{readCallback()}}
+{\footnotesize\ttfamily void read\+Callback (\begin{DoxyParamCaption}\item[{U\+A\+R\+T\+\_\+\+Handle}]{handle,  }\item[{void $\ast$}]{pc\+Data,  }\item[{size\+\_\+t}]{num }\end{DoxyParamCaption})}
+
+readcallback fonksiyonu uartýn kesme fonksiyonudur. uart\+\_\+step\textquotesingle{}in çalýþmasý için semaphore buradan post edilir. U\+A\+R\+T\+\_\+\+Handle hangi uart objesinden donaným kesmesi bilgisi geleceðinin bilgisini taþýr. pc\+Data dizisi uarttan kesme geldiði anda kanaldaki verilerin yazýldýðý dizidir. num adlý deðiþkende ise gelen verilinin boyutu tutulmaktadýr. \mbox{\Hypertarget{uart__test_8c_a68a68055df8fd3001df3c84372013b1a}\label{uart__test_8c_a68a68055df8fd3001df3c84372013b1a}} 
+\index{uart\_test.c@{uart\_test.c}!UART\_Kurulum@{UART\_Kurulum}}
+\index{UART\_Kurulum@{UART\_Kurulum}!uart\_test.c@{uart\_test.c}}
+\doxysubsubsection{\texorpdfstring{UART\_Kurulum()}{UART\_Kurulum()}}
+{\footnotesize\ttfamily void U\+A\+R\+T\+\_\+\+Kurulum (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{uart__test_8h_ad9bfe4b8061e001c3c717bff9b4edcce}{e\+Baud\+Rate}}}]{Baud\+Rate,  }\item[{\mbox{\hyperlink{uart__test_8h_a61bcc9dcdd87be7e6376fd91f322a5fe}{Okuma\+Kesmesi}}}]{callback,  }\item[{\mbox{\hyperlink{uart__test_8h_aa111cbfcc23289509f63bf49400a5bea}{e\+Parite}}}]{Parite,  }\item[{\mbox{\hyperlink{uart__test_8h_a649f052c5062e6fb250da6b72d8e71d3}{e\+Stop\+Bit}}}]{Stop\+Bit }\end{DoxyParamCaption})}
+
+uart\+\_\+kurulum fonksiyonu uart konfigürasyonlarýný yapmak için oluþturulmuþ bir fonksiyondur.
+
+
+\begin{DoxyParams}{Parametreler}
+{\em Baud\+Rate} & e\+Baudrate adýnda enum tanýmlanmýþtýr. Baud\+\_\+9600 için 9600 deðeri atanýr. Baud\+\_\+19200 için 19200 deðeri atanýr. Baud\+\_\+38400 için 38400 deðeri atanýr. Baud\+\_\+57600 için 57600 deðeri atanýr. Baud\+\_\+115200 için 115200 deðeri atanýr.\\
+\hline
+{\em callback} & uart kesme fonksiyonunu bu fonksiyona argüman olarak (void)$\ast$f(U\+A\+R\+T\+\_\+\+Handle handle, void $\ast$pc\+Data, size\+\_\+t num) verilmelidir.\\
+\hline
+{\em Parite} & e\+Parite adýnda enum tanýmlanmýþtýr. Parite\+\_\+\+N\+O\+NE için parite biti olmamasý ayarlanýr. Parite\+\_\+\+E\+V\+EN için parite modu even olarak ayarlanýr. Parite\+\_\+\+O\+DD için parite modu odd olarak ayarlanýr. \\
+\hline
+{\em Stop\+Bit} & e\+Stop\+Bit adýnda enum tanýmlanmýþtýr.\\
+\hline
+\end{DoxyParams}
+Stop\+\_\+\+O\+NE için stop biti 1 olarak atanýr. Stop\+\_\+\+T\+WO için stop biti 2 olarak atanýr. \mbox{\Hypertarget{uart__test_8c_ae92ba3a475f1c2277ac9234b0b91cfaf}\label{uart__test_8c_ae92ba3a475f1c2277ac9234b0b91cfaf}} 
+\index{uart\_test.c@{uart\_test.c}!UART\_Step@{UART\_Step}}
+\index{UART\_Step@{UART\_Step}!uart\_test.c@{uart\_test.c}}
+\doxysubsubsection{\texorpdfstring{UART\_Step()}{UART\_Step()}}
+{\footnotesize\ttfamily void U\+A\+R\+T\+\_\+\+Step (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+uart\+\_\+step fonksiyonu uarttangelen verileri ringbuffera yazmak ve ringbuffer\textquotesingle{}dan uarta yazmak için oluþturulmuþ fonksiyondur. kullanýlacak diziler \char`\"{}unsigned char pc\+Buffer\mbox{[}128\mbox{]}, uart\+Buf\mbox{[}uart\+\_\+buffersize\mbox{]}, pc\+Data\mbox{[}$\,$\mbox{]},uart\+Data\mbox{[}128\mbox{]};\char`\"{} þeklinde tanýmlanýr. 
+
+\doxysubsection{DeÄŸiÅŸken DokÃ¼mantasyonu}
+\mbox{\Hypertarget{uart__test_8c_a5fa6a3816d15ab9ab477aa071df8a308}\label{uart__test_8c_a5fa6a3816d15ab9ab477aa071df8a308}} 
+\index{uart\_test.c@{uart\_test.c}!init\_semHandle@{init\_semHandle}}
+\index{init\_semHandle@{init\_semHandle}!uart\_test.c@{uart\_test.c}}
+\doxysubsubsection{\texorpdfstring{init\_semHandle}{init\_semHandle}}
+{\footnotesize\ttfamily Semaphore\+\_\+\+Handle init\+\_\+sem\+Handle}
+
+\mbox{\Hypertarget{uart__test_8c_a371ce57b71a5c9c07c30fdbe5371449e}\label{uart__test_8c_a371ce57b71a5c9c07c30fdbe5371449e}} 
+\index{uart\_test.c@{uart\_test.c}!init\_semStruct@{init\_semStruct}}
+\index{init\_semStruct@{init\_semStruct}!uart\_test.c@{uart\_test.c}}
+\doxysubsubsection{\texorpdfstring{init\_semStruct}{init\_semStruct}}
+{\footnotesize\ttfamily Semaphore\+\_\+\+Struct init\+\_\+sem\+Struct}
+
+\mbox{\Hypertarget{uart__test_8c_a3cdc8c7b7b7ed260d0eae1c02f1c1933}\label{uart__test_8c_a3cdc8c7b7b7ed260d0eae1c02f1c1933}} 
+\index{uart\_test.c@{uart\_test.c}!pcBuffer@{pcBuffer}}
+\index{pcBuffer@{pcBuffer}!uart\_test.c@{uart\_test.c}}
+\doxysubsubsection{\texorpdfstring{pcBuffer}{pcBuffer}}
+{\footnotesize\ttfamily unsigned char pc\+Buffer\mbox{[}128\mbox{]}}
+
+\mbox{\Hypertarget{uart__test_8c_ab72cb52c79611e9e6c38fac29a4723d4}\label{uart__test_8c_ab72cb52c79611e9e6c38fac29a4723d4}} 
+\index{uart\_test.c@{uart\_test.c}!pcData@{pcData}}
+\index{pcData@{pcData}!uart\_test.c@{uart\_test.c}}
+\doxysubsubsection{\texorpdfstring{pcData}{pcData}}
+{\footnotesize\ttfamily unsigned char pc\+Data\mbox{[}$\,$\mbox{]}}
+
+\mbox{\Hypertarget{uart__test_8c_a9d2c957655e660a32909db3d386be7a9}\label{uart__test_8c_a9d2c957655e660a32909db3d386be7a9}} 
+\index{uart\_test.c@{uart\_test.c}!RingBuf@{RingBuf}}
+\index{RingBuf@{RingBuf}!uart\_test.c@{uart\_test.c}}
+\doxysubsubsection{\texorpdfstring{RingBuf}{RingBuf}}
+{\footnotesize\ttfamily t\+Ring\+Buf\+Object Ring\+Buf}
+
+\mbox{\Hypertarget{uart__test_8c_a9152c6bde9e4acc690ec14f8be3d6e11}\label{uart__test_8c_a9152c6bde9e4acc690ec14f8be3d6e11}} 
+\index{uart\_test.c@{uart\_test.c}!uart@{uart}}
+\index{uart@{uart}!uart\_test.c@{uart\_test.c}}
+\doxysubsubsection{\texorpdfstring{uart}{uart}}
+{\footnotesize\ttfamily U\+A\+R\+T\+\_\+\+Handle uart}
+
+\mbox{\Hypertarget{uart__test_8c_a271fd14781bcfca337e7142068d067b1}\label{uart__test_8c_a271fd14781bcfca337e7142068d067b1}} 
+\index{uart\_test.c@{uart\_test.c}!uart\_semHandle@{uart\_semHandle}}
+\index{uart\_semHandle@{uart\_semHandle}!uart\_test.c@{uart\_test.c}}
+\doxysubsubsection{\texorpdfstring{uart\_semHandle}{uart\_semHandle}}
+{\footnotesize\ttfamily Semaphore\+\_\+\+Handle uart\+\_\+sem\+Handle}
+
+\mbox{\Hypertarget{uart__test_8c_a331b4ba17e1a4282463ffeb02b36b3de}\label{uart__test_8c_a331b4ba17e1a4282463ffeb02b36b3de}} 
+\index{uart\_test.c@{uart\_test.c}!uart\_semStruct@{uart\_semStruct}}
+\index{uart\_semStruct@{uart\_semStruct}!uart\_test.c@{uart\_test.c}}
+\doxysubsubsection{\texorpdfstring{uart\_semStruct}{uart\_semStruct}}
+{\footnotesize\ttfamily Semaphore\+\_\+\+Struct uart\+\_\+sem\+Struct}
+
+\mbox{\Hypertarget{uart__test_8c_a48850bc4d39148b702c37809e066c1dd}\label{uart__test_8c_a48850bc4d39148b702c37809e066c1dd}} 
+\index{uart\_test.c@{uart\_test.c}!uartBuf@{uartBuf}}
+\index{uartBuf@{uartBuf}!uart\_test.c@{uart\_test.c}}
+\doxysubsubsection{\texorpdfstring{uartBuf}{uartBuf}}
+{\footnotesize\ttfamily unsigned char uart\+Buf\mbox{[}\mbox{\hyperlink{uart__test__code_8c_a058b1d8343c11c690822eee069a1c98a}{uart\+\_\+buffersize}}\mbox{]}}
+
+\mbox{\Hypertarget{uart__test_8c_a35d8b8b42a9f28791a07e2f3b8191d07}\label{uart__test_8c_a35d8b8b42a9f28791a07e2f3b8191d07}} 
+\index{uart\_test.c@{uart\_test.c}!uartData@{uartData}}
+\index{uartData@{uartData}!uart\_test.c@{uart\_test.c}}
+\doxysubsubsection{\texorpdfstring{uartData}{uartData}}
+{\footnotesize\ttfamily unsigned char uart\+Data\mbox{[}128\mbox{]}}
+
+\mbox{\Hypertarget{uart__test_8c_a6ec5e4b29cc55a16a370cdf1d603d8d5}\label{uart__test_8c_a6ec5e4b29cc55a16a370cdf1d603d8d5}} 
+\index{uart\_test.c@{uart\_test.c}!uartParams@{uartParams}}
+\index{uartParams@{uartParams}!uart\_test.c@{uart\_test.c}}
+\doxysubsubsection{\texorpdfstring{uartParams}{uartParams}}
+{\footnotesize\ttfamily U\+A\+R\+T\+\_\+\+Params uart\+Params}
+

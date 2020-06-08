@@ -1,0 +1,223 @@
+\hypertarget{uart__test_8h}{}\doxysection{uart\+\_\+test.\+h Dosya ReferansÄ±}
+\label{uart__test_8h}\index{uart\_test.h@{uart\_test.h}}
+{\ttfamily \#include $<$ti/drivers/\+U\+A\+R\+T.\+h$>$}\newline
+\doxysubsection*{Typedef\textquotesingle{}ler}
+\begin{DoxyCompactItemize}
+\item 
+typedef void($\ast$ \mbox{\hyperlink{uart__test_8h_a61bcc9dcdd87be7e6376fd91f322a5fe}{Okuma\+Kesmesi}}) (U\+A\+R\+T\+\_\+\+Handle, void $\ast$buf, size\+\_\+t count)
+\item 
+typedef enum \mbox{\hyperlink{uart__test_8h_ad9bfe4b8061e001c3c717bff9b4edcce}{e\+Baud\+Rate}} \mbox{\hyperlink{uart__test_8h_a7f61ae1808e04722df1717509c43149b}{e\+Baud\+Rate}}
+\item 
+typedef enum \mbox{\hyperlink{uart__test_8h_aa111cbfcc23289509f63bf49400a5bea}{e\+Parite}} \mbox{\hyperlink{uart__test_8h_ab560a6363058b35e72b245370c7774c1}{e\+Parite}}
+\item 
+typedef enum \mbox{\hyperlink{uart__test_8h_a649f052c5062e6fb250da6b72d8e71d3}{e\+Stop\+Bit}} \mbox{\hyperlink{uart__test_8h_aa3c39958157f8fc789078ecc3ca05608}{e\+Stop\+Bit}}
+\item 
+typedef enum \mbox{\hyperlink{uart__test_8h_ad9e60a391c69e6cf2211cabf0a1dee76}{e\+Kesme\+Byte}} \mbox{\hyperlink{uart__test_8h_a645a7f61d1c7a0e67e183a70210b073b}{e\+Kesme\+Byte}}
+\end{DoxyCompactItemize}
+\doxysubsection*{EnÃ¼merasyonlar}
+\begin{DoxyCompactItemize}
+\item 
+enum \mbox{\hyperlink{uart__test_8h_ad9bfe4b8061e001c3c717bff9b4edcce}{e\+Baud\+Rate}} \{ \newline
+\mbox{\hyperlink{uart__test_8h_ad9bfe4b8061e001c3c717bff9b4edcceadfe926cec30e5c96206830700d9e71d7}{Baud\+\_\+2400}} =2400, 
+\mbox{\hyperlink{uart__test_8h_ad9bfe4b8061e001c3c717bff9b4edcceaa013dfa803db5c221cc506a4c3425be8}{Baud\+\_\+9600}} =9600, 
+\mbox{\hyperlink{uart__test_8h_ad9bfe4b8061e001c3c717bff9b4edccea2a41160a2cedcc6e82e0b15194e9f9e0}{Baud\+\_\+19200}} =19200, 
+\mbox{\hyperlink{uart__test_8h_ad9bfe4b8061e001c3c717bff9b4edccea0c071daa88da9027bb91c27ddb5290a5}{Baud\+\_\+38400}} =38400, 
+\newline
+\mbox{\hyperlink{uart__test_8h_ad9bfe4b8061e001c3c717bff9b4edccea59f322050e734c2af8c5f343e79033c1}{Baud\+\_\+57600}} =57600, 
+\mbox{\hyperlink{uart__test_8h_ad9bfe4b8061e001c3c717bff9b4edccea9a51214e4520f7c418b80cd3c347ff09}{Baud\+\_\+115200}} =115200, 
+\mbox{\hyperlink{uart__test_8h_ad9bfe4b8061e001c3c717bff9b4edccea4602205244bc78dc79e835a6294a266d}{Baud\+\_\+921600}} =921600
+ \}
+\item 
+enum \mbox{\hyperlink{uart__test_8h_aa111cbfcc23289509f63bf49400a5bea}{e\+Parite}} \{ \newline
+\mbox{\hyperlink{uart__test_8h_aa111cbfcc23289509f63bf49400a5beaa20850f96285f56b28ef565c77b414cab}{Parite\+\_\+\+N\+O\+NE}} = 0, 
+\mbox{\hyperlink{uart__test_8h_aa111cbfcc23289509f63bf49400a5beaa0da8d7ed126875d7a55b0d7a3cd2ffd8}{Parite\+\_\+\+E\+V\+EN}} = 1, 
+\mbox{\hyperlink{uart__test_8h_aa111cbfcc23289509f63bf49400a5beaaf1fb6b713e777fd8a64e2a9ee8642594}{Parite\+\_\+\+O\+DD}} = 2, 
+\mbox{\hyperlink{uart__test_8h_aa111cbfcc23289509f63bf49400a5beaa7b99f64c7bdaaa5ea3d03612624930d4}{Parite\+\_\+\+Z\+E\+RO}} = 3, 
+\newline
+\mbox{\hyperlink{uart__test_8h_aa111cbfcc23289509f63bf49400a5beaa9f053f69dd5790eb4ef325729b20e12a}{Parite\+\_\+\+O\+NE}} = 4
+ \}
+\item 
+enum \mbox{\hyperlink{uart__test_8h_a649f052c5062e6fb250da6b72d8e71d3}{e\+Stop\+Bit}} \{ \mbox{\hyperlink{uart__test_8h_a649f052c5062e6fb250da6b72d8e71d3abc1aa3f50c3580361e7bce7ea7793fef}{Stop\+\_\+\+O\+NE}} = 0, 
+\mbox{\hyperlink{uart__test_8h_a649f052c5062e6fb250da6b72d8e71d3aa05a41487ef7e8c81bcb34b4f5fb9855}{Stop\+\_\+\+T\+WO}} = 1
+ \}
+\item 
+enum \mbox{\hyperlink{uart__test_8h_ad9e60a391c69e6cf2211cabf0a1dee76}{e\+Kesme\+Byte}} \{ \mbox{\hyperlink{uart__test_8h_ad9e60a391c69e6cf2211cabf0a1dee76a7a0e265f3cb239777ffa88bce68892bf}{Kesme\+\_\+1}} = 1, 
+\mbox{\hyperlink{uart__test_8h_ad9e60a391c69e6cf2211cabf0a1dee76a8a1bcbfa8e3ca5b03e94b8375e4df4a7}{Kesme\+\_\+8}} = 8
+ \}
+\end{DoxyCompactItemize}
+\doxysubsection*{Fonksiyonlar}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{uart__test_8h_a68a68055df8fd3001df3c84372013b1a}{U\+A\+R\+T\+\_\+\+Kurulum}} (\mbox{\hyperlink{uart__test_8h_ad9bfe4b8061e001c3c717bff9b4edcce}{e\+Baud\+Rate}} Baud\+Rate, \mbox{\hyperlink{uart__test_8h_a61bcc9dcdd87be7e6376fd91f322a5fe}{Okuma\+Kesmesi}} callback, \mbox{\hyperlink{uart__test_8h_aa111cbfcc23289509f63bf49400a5bea}{e\+Parite}} Parite, \mbox{\hyperlink{uart__test_8h_a649f052c5062e6fb250da6b72d8e71d3}{e\+Stop\+Bit}} Stop\+Bit)
+\item 
+void \mbox{\hyperlink{uart__test_8h_ae92ba3a475f1c2277ac9234b0b91cfaf}{U\+A\+R\+T\+\_\+\+Step}} ()
+\item 
+void \mbox{\hyperlink{uart__test_8h_aac5e6807fa03f1eeffe7cde2e5036bdb}{read\+Callback}} (U\+A\+R\+T\+\_\+\+Handle handle, void $\ast$\mbox{\hyperlink{uart__test__code_8c_ab72cb52c79611e9e6c38fac29a4723d4}{pc\+Data}}, size\+\_\+t num)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Typedef DokÃ¼mantasyonu}
+\mbox{\Hypertarget{uart__test_8h_a7f61ae1808e04722df1717509c43149b}\label{uart__test_8h_a7f61ae1808e04722df1717509c43149b}} 
+\index{uart\_test.h@{uart\_test.h}!eBaudRate@{eBaudRate}}
+\index{eBaudRate@{eBaudRate}!uart\_test.h@{uart\_test.h}}
+\doxysubsubsection{\texorpdfstring{eBaudRate}{eBaudRate}}
+{\footnotesize\ttfamily typedef enum \mbox{\hyperlink{uart__test_8h_ad9bfe4b8061e001c3c717bff9b4edcce}{e\+Baud\+Rate}} \mbox{\hyperlink{uart__test_8h_ad9bfe4b8061e001c3c717bff9b4edcce}{e\+Baud\+Rate}}}
+
+\mbox{\Hypertarget{uart__test_8h_a645a7f61d1c7a0e67e183a70210b073b}\label{uart__test_8h_a645a7f61d1c7a0e67e183a70210b073b}} 
+\index{uart\_test.h@{uart\_test.h}!eKesmeByte@{eKesmeByte}}
+\index{eKesmeByte@{eKesmeByte}!uart\_test.h@{uart\_test.h}}
+\doxysubsubsection{\texorpdfstring{eKesmeByte}{eKesmeByte}}
+{\footnotesize\ttfamily typedef enum \mbox{\hyperlink{uart__test_8h_ad9e60a391c69e6cf2211cabf0a1dee76}{e\+Kesme\+Byte}} \mbox{\hyperlink{uart__test_8h_ad9e60a391c69e6cf2211cabf0a1dee76}{e\+Kesme\+Byte}}}
+
+\mbox{\Hypertarget{uart__test_8h_ab560a6363058b35e72b245370c7774c1}\label{uart__test_8h_ab560a6363058b35e72b245370c7774c1}} 
+\index{uart\_test.h@{uart\_test.h}!eParite@{eParite}}
+\index{eParite@{eParite}!uart\_test.h@{uart\_test.h}}
+\doxysubsubsection{\texorpdfstring{eParite}{eParite}}
+{\footnotesize\ttfamily typedef enum \mbox{\hyperlink{uart__test_8h_aa111cbfcc23289509f63bf49400a5bea}{e\+Parite}} \mbox{\hyperlink{uart__test_8h_aa111cbfcc23289509f63bf49400a5bea}{e\+Parite}}}
+
+\mbox{\Hypertarget{uart__test_8h_aa3c39958157f8fc789078ecc3ca05608}\label{uart__test_8h_aa3c39958157f8fc789078ecc3ca05608}} 
+\index{uart\_test.h@{uart\_test.h}!eStopBit@{eStopBit}}
+\index{eStopBit@{eStopBit}!uart\_test.h@{uart\_test.h}}
+\doxysubsubsection{\texorpdfstring{eStopBit}{eStopBit}}
+{\footnotesize\ttfamily typedef enum \mbox{\hyperlink{uart__test_8h_a649f052c5062e6fb250da6b72d8e71d3}{e\+Stop\+Bit}} \mbox{\hyperlink{uart__test_8h_a649f052c5062e6fb250da6b72d8e71d3}{e\+Stop\+Bit}}}
+
+\mbox{\Hypertarget{uart__test_8h_a61bcc9dcdd87be7e6376fd91f322a5fe}\label{uart__test_8h_a61bcc9dcdd87be7e6376fd91f322a5fe}} 
+\index{uart\_test.h@{uart\_test.h}!OkumaKesmesi@{OkumaKesmesi}}
+\index{OkumaKesmesi@{OkumaKesmesi}!uart\_test.h@{uart\_test.h}}
+\doxysubsubsection{\texorpdfstring{OkumaKesmesi}{OkumaKesmesi}}
+{\footnotesize\ttfamily typedef void($\ast$ Okuma\+Kesmesi) (U\+A\+R\+T\+\_\+\+Handle, void $\ast$buf, size\+\_\+t count)}
+
+
+
+\doxysubsection{EnÃ¼merasyon Tipi DokÃ¼mantasyonu}
+\mbox{\Hypertarget{uart__test_8h_ad9bfe4b8061e001c3c717bff9b4edcce}\label{uart__test_8h_ad9bfe4b8061e001c3c717bff9b4edcce}} 
+\index{uart\_test.h@{uart\_test.h}!eBaudRate@{eBaudRate}}
+\index{eBaudRate@{eBaudRate}!uart\_test.h@{uart\_test.h}}
+\doxysubsubsection{\texorpdfstring{eBaudRate}{eBaudRate}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{uart__test_8h_ad9bfe4b8061e001c3c717bff9b4edcce}{e\+Baud\+Rate}}}
+
+\begin{DoxyEnumFields}{EnÃ¼meratÃ¶r}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Baud\_2400@{Baud\_2400}!uart\_test.h@{uart\_test.h}}\index{uart\_test.h@{uart\_test.h}!Baud\_2400@{Baud\_2400}}}\mbox{\Hypertarget{uart__test_8h_ad9bfe4b8061e001c3c717bff9b4edcceadfe926cec30e5c96206830700d9e71d7}\label{uart__test_8h_ad9bfe4b8061e001c3c717bff9b4edcceadfe926cec30e5c96206830700d9e71d7}} 
+Baud\+\_\+2400&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Baud\_9600@{Baud\_9600}!uart\_test.h@{uart\_test.h}}\index{uart\_test.h@{uart\_test.h}!Baud\_9600@{Baud\_9600}}}\mbox{\Hypertarget{uart__test_8h_ad9bfe4b8061e001c3c717bff9b4edcceaa013dfa803db5c221cc506a4c3425be8}\label{uart__test_8h_ad9bfe4b8061e001c3c717bff9b4edcceaa013dfa803db5c221cc506a4c3425be8}} 
+Baud\+\_\+9600&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Baud\_19200@{Baud\_19200}!uart\_test.h@{uart\_test.h}}\index{uart\_test.h@{uart\_test.h}!Baud\_19200@{Baud\_19200}}}\mbox{\Hypertarget{uart__test_8h_ad9bfe4b8061e001c3c717bff9b4edccea2a41160a2cedcc6e82e0b15194e9f9e0}\label{uart__test_8h_ad9bfe4b8061e001c3c717bff9b4edccea2a41160a2cedcc6e82e0b15194e9f9e0}} 
+Baud\+\_\+19200&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Baud\_38400@{Baud\_38400}!uart\_test.h@{uart\_test.h}}\index{uart\_test.h@{uart\_test.h}!Baud\_38400@{Baud\_38400}}}\mbox{\Hypertarget{uart__test_8h_ad9bfe4b8061e001c3c717bff9b4edccea0c071daa88da9027bb91c27ddb5290a5}\label{uart__test_8h_ad9bfe4b8061e001c3c717bff9b4edccea0c071daa88da9027bb91c27ddb5290a5}} 
+Baud\+\_\+38400&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Baud\_57600@{Baud\_57600}!uart\_test.h@{uart\_test.h}}\index{uart\_test.h@{uart\_test.h}!Baud\_57600@{Baud\_57600}}}\mbox{\Hypertarget{uart__test_8h_ad9bfe4b8061e001c3c717bff9b4edccea59f322050e734c2af8c5f343e79033c1}\label{uart__test_8h_ad9bfe4b8061e001c3c717bff9b4edccea59f322050e734c2af8c5f343e79033c1}} 
+Baud\+\_\+57600&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Baud\_115200@{Baud\_115200}!uart\_test.h@{uart\_test.h}}\index{uart\_test.h@{uart\_test.h}!Baud\_115200@{Baud\_115200}}}\mbox{\Hypertarget{uart__test_8h_ad9bfe4b8061e001c3c717bff9b4edccea9a51214e4520f7c418b80cd3c347ff09}\label{uart__test_8h_ad9bfe4b8061e001c3c717bff9b4edccea9a51214e4520f7c418b80cd3c347ff09}} 
+Baud\+\_\+115200&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Baud\_921600@{Baud\_921600}!uart\_test.h@{uart\_test.h}}\index{uart\_test.h@{uart\_test.h}!Baud\_921600@{Baud\_921600}}}\mbox{\Hypertarget{uart__test_8h_ad9bfe4b8061e001c3c717bff9b4edccea4602205244bc78dc79e835a6294a266d}\label{uart__test_8h_ad9bfe4b8061e001c3c717bff9b4edccea4602205244bc78dc79e835a6294a266d}} 
+Baud\+\_\+921600&\\
+\hline
+
+\end{DoxyEnumFields}
+\mbox{\Hypertarget{uart__test_8h_ad9e60a391c69e6cf2211cabf0a1dee76}\label{uart__test_8h_ad9e60a391c69e6cf2211cabf0a1dee76}} 
+\index{uart\_test.h@{uart\_test.h}!eKesmeByte@{eKesmeByte}}
+\index{eKesmeByte@{eKesmeByte}!uart\_test.h@{uart\_test.h}}
+\doxysubsubsection{\texorpdfstring{eKesmeByte}{eKesmeByte}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{uart__test_8h_ad9e60a391c69e6cf2211cabf0a1dee76}{e\+Kesme\+Byte}}}
+
+\begin{DoxyEnumFields}{EnÃ¼meratÃ¶r}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Kesme\_1@{Kesme\_1}!uart\_test.h@{uart\_test.h}}\index{uart\_test.h@{uart\_test.h}!Kesme\_1@{Kesme\_1}}}\mbox{\Hypertarget{uart__test_8h_ad9e60a391c69e6cf2211cabf0a1dee76a7a0e265f3cb239777ffa88bce68892bf}\label{uart__test_8h_ad9e60a391c69e6cf2211cabf0a1dee76a7a0e265f3cb239777ffa88bce68892bf}} 
+Kesme\+\_\+1&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Kesme\_8@{Kesme\_8}!uart\_test.h@{uart\_test.h}}\index{uart\_test.h@{uart\_test.h}!Kesme\_8@{Kesme\_8}}}\mbox{\Hypertarget{uart__test_8h_ad9e60a391c69e6cf2211cabf0a1dee76a8a1bcbfa8e3ca5b03e94b8375e4df4a7}\label{uart__test_8h_ad9e60a391c69e6cf2211cabf0a1dee76a8a1bcbfa8e3ca5b03e94b8375e4df4a7}} 
+Kesme\+\_\+8&\\
+\hline
+
+\end{DoxyEnumFields}
+\mbox{\Hypertarget{uart__test_8h_aa111cbfcc23289509f63bf49400a5bea}\label{uart__test_8h_aa111cbfcc23289509f63bf49400a5bea}} 
+\index{uart\_test.h@{uart\_test.h}!eParite@{eParite}}
+\index{eParite@{eParite}!uart\_test.h@{uart\_test.h}}
+\doxysubsubsection{\texorpdfstring{eParite}{eParite}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{uart__test_8h_aa111cbfcc23289509f63bf49400a5bea}{e\+Parite}}}
+
+\begin{DoxyEnumFields}{EnÃ¼meratÃ¶r}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Parite\_NONE@{Parite\_NONE}!uart\_test.h@{uart\_test.h}}\index{uart\_test.h@{uart\_test.h}!Parite\_NONE@{Parite\_NONE}}}\mbox{\Hypertarget{uart__test_8h_aa111cbfcc23289509f63bf49400a5beaa20850f96285f56b28ef565c77b414cab}\label{uart__test_8h_aa111cbfcc23289509f63bf49400a5beaa20850f96285f56b28ef565c77b414cab}} 
+Parite\+\_\+\+N\+O\+NE&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Parite\_EVEN@{Parite\_EVEN}!uart\_test.h@{uart\_test.h}}\index{uart\_test.h@{uart\_test.h}!Parite\_EVEN@{Parite\_EVEN}}}\mbox{\Hypertarget{uart__test_8h_aa111cbfcc23289509f63bf49400a5beaa0da8d7ed126875d7a55b0d7a3cd2ffd8}\label{uart__test_8h_aa111cbfcc23289509f63bf49400a5beaa0da8d7ed126875d7a55b0d7a3cd2ffd8}} 
+Parite\+\_\+\+E\+V\+EN&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Parite\_ODD@{Parite\_ODD}!uart\_test.h@{uart\_test.h}}\index{uart\_test.h@{uart\_test.h}!Parite\_ODD@{Parite\_ODD}}}\mbox{\Hypertarget{uart__test_8h_aa111cbfcc23289509f63bf49400a5beaaf1fb6b713e777fd8a64e2a9ee8642594}\label{uart__test_8h_aa111cbfcc23289509f63bf49400a5beaaf1fb6b713e777fd8a64e2a9ee8642594}} 
+Parite\+\_\+\+O\+DD&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Parite\_ZERO@{Parite\_ZERO}!uart\_test.h@{uart\_test.h}}\index{uart\_test.h@{uart\_test.h}!Parite\_ZERO@{Parite\_ZERO}}}\mbox{\Hypertarget{uart__test_8h_aa111cbfcc23289509f63bf49400a5beaa7b99f64c7bdaaa5ea3d03612624930d4}\label{uart__test_8h_aa111cbfcc23289509f63bf49400a5beaa7b99f64c7bdaaa5ea3d03612624930d4}} 
+Parite\+\_\+\+Z\+E\+RO&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Parite\_ONE@{Parite\_ONE}!uart\_test.h@{uart\_test.h}}\index{uart\_test.h@{uart\_test.h}!Parite\_ONE@{Parite\_ONE}}}\mbox{\Hypertarget{uart__test_8h_aa111cbfcc23289509f63bf49400a5beaa9f053f69dd5790eb4ef325729b20e12a}\label{uart__test_8h_aa111cbfcc23289509f63bf49400a5beaa9f053f69dd5790eb4ef325729b20e12a}} 
+Parite\+\_\+\+O\+NE&\\
+\hline
+
+\end{DoxyEnumFields}
+\mbox{\Hypertarget{uart__test_8h_a649f052c5062e6fb250da6b72d8e71d3}\label{uart__test_8h_a649f052c5062e6fb250da6b72d8e71d3}} 
+\index{uart\_test.h@{uart\_test.h}!eStopBit@{eStopBit}}
+\index{eStopBit@{eStopBit}!uart\_test.h@{uart\_test.h}}
+\doxysubsubsection{\texorpdfstring{eStopBit}{eStopBit}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{uart__test_8h_a649f052c5062e6fb250da6b72d8e71d3}{e\+Stop\+Bit}}}
+
+\begin{DoxyEnumFields}{EnÃ¼meratÃ¶r}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Stop\_ONE@{Stop\_ONE}!uart\_test.h@{uart\_test.h}}\index{uart\_test.h@{uart\_test.h}!Stop\_ONE@{Stop\_ONE}}}\mbox{\Hypertarget{uart__test_8h_a649f052c5062e6fb250da6b72d8e71d3abc1aa3f50c3580361e7bce7ea7793fef}\label{uart__test_8h_a649f052c5062e6fb250da6b72d8e71d3abc1aa3f50c3580361e7bce7ea7793fef}} 
+Stop\+\_\+\+O\+NE&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Stop\_TWO@{Stop\_TWO}!uart\_test.h@{uart\_test.h}}\index{uart\_test.h@{uart\_test.h}!Stop\_TWO@{Stop\_TWO}}}\mbox{\Hypertarget{uart__test_8h_a649f052c5062e6fb250da6b72d8e71d3aa05a41487ef7e8c81bcb34b4f5fb9855}\label{uart__test_8h_a649f052c5062e6fb250da6b72d8e71d3aa05a41487ef7e8c81bcb34b4f5fb9855}} 
+Stop\+\_\+\+T\+WO&\\
+\hline
+
+\end{DoxyEnumFields}
+
+
+\doxysubsection{Fonksiyon DokÃ¼mantasyonu}
+\mbox{\Hypertarget{uart__test_8h_aac5e6807fa03f1eeffe7cde2e5036bdb}\label{uart__test_8h_aac5e6807fa03f1eeffe7cde2e5036bdb}} 
+\index{uart\_test.h@{uart\_test.h}!readCallback@{readCallback}}
+\index{readCallback@{readCallback}!uart\_test.h@{uart\_test.h}}
+\doxysubsubsection{\texorpdfstring{readCallback()}{readCallback()}}
+{\footnotesize\ttfamily void read\+Callback (\begin{DoxyParamCaption}\item[{U\+A\+R\+T\+\_\+\+Handle}]{handle,  }\item[{void $\ast$}]{pc\+Data,  }\item[{size\+\_\+t}]{num }\end{DoxyParamCaption})}
+
+readcallback fonksiyonu uartýn kesme fonksiyonudur. uart\+\_\+step\textquotesingle{}in çalýþmasý için semaphore buradan post edilir. U\+A\+R\+T\+\_\+\+Handle hangi uart objesinden donaným kesmesi bilgisi geleceðinin bilgisini taþýr. pc\+Data dizisi uarttan kesme geldiði anda kanaldaki verilerin yazýldýðý dizidir. num adlý deðiþkende ise gelen verilinin boyutu tutulmaktadýr. \mbox{\Hypertarget{uart__test_8h_a68a68055df8fd3001df3c84372013b1a}\label{uart__test_8h_a68a68055df8fd3001df3c84372013b1a}} 
+\index{uart\_test.h@{uart\_test.h}!UART\_Kurulum@{UART\_Kurulum}}
+\index{UART\_Kurulum@{UART\_Kurulum}!uart\_test.h@{uart\_test.h}}
+\doxysubsubsection{\texorpdfstring{UART\_Kurulum()}{UART\_Kurulum()}}
+{\footnotesize\ttfamily void U\+A\+R\+T\+\_\+\+Kurulum (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{uart__test_8h_ad9bfe4b8061e001c3c717bff9b4edcce}{e\+Baud\+Rate}}}]{Baud\+Rate,  }\item[{\mbox{\hyperlink{uart__test_8h_a61bcc9dcdd87be7e6376fd91f322a5fe}{Okuma\+Kesmesi}}}]{callback,  }\item[{\mbox{\hyperlink{uart__test_8h_aa111cbfcc23289509f63bf49400a5bea}{e\+Parite}}}]{Parite,  }\item[{\mbox{\hyperlink{uart__test_8h_a649f052c5062e6fb250da6b72d8e71d3}{e\+Stop\+Bit}}}]{Stop\+Bit }\end{DoxyParamCaption})}
+
+uart\+\_\+kurulum fonksiyonu uart konfigürasyonlarýný yapmak için oluþturulmuþ bir fonksiyondur.
+
+
+\begin{DoxyParams}{Parametreler}
+{\em Baud\+Rate} & e\+Baudrate adýnda enum tanýmlanmýþtýr. Baud\+\_\+9600 için 9600 deðeri atanýr. Baud\+\_\+19200 için 19200 deðeri atanýr. Baud\+\_\+38400 için 38400 deðeri atanýr. Baud\+\_\+57600 için 57600 deðeri atanýr. Baud\+\_\+115200 için 115200 deðeri atanýr.\\
+\hline
+{\em callback} & uart kesme fonksiyonunu bu fonksiyona argüman olarak (void)$\ast$f(U\+A\+R\+T\+\_\+\+Handle handle, void $\ast$pc\+Data, size\+\_\+t num) verilmelidir.\\
+\hline
+{\em Parite} & e\+Parite adýnda enum tanýmlanmýþtýr. Parite\+\_\+\+N\+O\+NE için parite biti olmamasý ayarlanýr. Parite\+\_\+\+E\+V\+EN için parite modu even olarak ayarlanýr. Parite\+\_\+\+O\+DD için parite modu odd olarak ayarlanýr. \\
+\hline
+{\em Stop\+Bit} & e\+Stop\+Bit adýnda enum tanýmlanmýþtýr.\\
+\hline
+\end{DoxyParams}
+Stop\+\_\+\+O\+NE için stop biti 1 olarak atanýr. Stop\+\_\+\+T\+WO için stop biti 2 olarak atanýr. \mbox{\Hypertarget{uart__test_8h_ae92ba3a475f1c2277ac9234b0b91cfaf}\label{uart__test_8h_ae92ba3a475f1c2277ac9234b0b91cfaf}} 
+\index{uart\_test.h@{uart\_test.h}!UART\_Step@{UART\_Step}}
+\index{UART\_Step@{UART\_Step}!uart\_test.h@{uart\_test.h}}
+\doxysubsubsection{\texorpdfstring{UART\_Step()}{UART\_Step()}}
+{\footnotesize\ttfamily void U\+A\+R\+T\+\_\+\+Step (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+uart\+\_\+step fonksiyonu uarttangelen verileri ringbuffera yazmak ve ringbuffer\textquotesingle{}dan uarta yazmak için oluþturulmuþ fonksiyondur. kullanýlacak diziler \char`\"{}unsigned char pc\+Buffer\mbox{[}128\mbox{]}, uart\+Buf\mbox{[}uart\+\_\+buffersize\mbox{]}, pc\+Data\mbox{[}$\,$\mbox{]},uart\+Data\mbox{[}128\mbox{]};\char`\"{} þeklinde tanýmlanýr. 
